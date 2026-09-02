@@ -72,8 +72,8 @@ export const Header = ({ data }: { data?: HeaderData }) => {
                       <Link 
                         key={subItem.id} 
                         href={subItem.url} 
-                        className={`block px-4 py-2 hover:bg-[#f8eef1] hover:text-[#861d43] transition-colors text-sm ${
-                          pathname === subItem.url ? 'text-[#861d43] bg-[#f8eef1]' : 'text-text-light'
+                        className={`block px-4 py-2 hover:bg-primary/10 hover:text-primary transition-colors text-sm ${
+                          pathname === subItem.url ? 'text-primary bg-primary/10' : 'text-text-light'
                         }`}
                       >
                         {subItem.label}
@@ -146,12 +146,12 @@ export const Header = ({ data }: { data?: HeaderData }) => {
 
                 {/* Mobile Submenu */}
                 {hasSubmenu && isExpanded && (
-                  <div className="pl-4 pb-3 pt-1 flex flex-col gap-2 border-l-2 border-[#f8eef1] ml-2 mt-1">
+                  <div className="pl-4 pb-3 pt-1 flex flex-col gap-2 border-l-2 border-primary/20 ml-2 mt-1">
                     {item.subLinks!.map(subItem => (
                       <Link 
                         key={subItem.id} 
                         href={subItem.url} 
-                        className={`text-base py-1 ${pathname === subItem.url ? 'text-[#861d43] font-semibold' : 'text-text-light'}`}
+                        className={`text-base py-1 ${pathname === subItem.url ? 'text-primary font-semibold' : 'text-text-light'}`}
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         {subItem.label}

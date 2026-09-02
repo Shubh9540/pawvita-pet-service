@@ -146,12 +146,64 @@
                 {
                   "id": "nav-about",
                   "label": "About Us",
-                  "url": "/about"
+                  "subLinks": [
+                    {
+                      "id": "nav-about-overview",
+                      "label": "Overview",
+                      "url": "/about"
+                    },
+                    {
+                      "id": "nav-about-mission",
+                      "label": "Mission & Vision",
+                      "url": "/mission-vision"
+                    },
+                    {
+                      "id": "nav-about-why",
+                      "label": "Why Choose Us",
+                      "url": "/why-choose-us"
+                    }
+                  ]
                 },
                 {
                   "id": "nav-services",
                   "label": "Services",
-                  "url": "/services"
+                  "subLinks": [
+                    {
+                      "id": "nav-services-all",
+                      "label": "All Services",
+                      "url": "/services"
+                    },
+                    {
+                      "id": "nav-services-1",
+                      "label": "Pet Health Checkups",
+                      "url": "/services/pet-health-checkups"
+                    },
+                    {
+                      "id": "nav-services-2",
+                      "label": "Grooming & Hygiene",
+                      "url": "/services/grooming-hygiene"
+                    },
+                    {
+                      "id": "nav-services-3",
+                      "label": "Diagnostics & Lab Testing",
+                      "url": "/services/diagnostics-lab-testing"
+                    },
+                    {
+                      "id": "nav-services-4",
+                      "label": "General Health Checkups",
+                      "url": "/services/general-health-checkups"
+                    },
+                    {
+                      "id": "nav-services-5",
+                      "label": "Emergency & After-Hours Care",
+                      "url": "/services/emergency-after-hours-care"
+                    },
+                    {
+                      "id": "nav-services-6",
+                      "label": "Veterinary Assistance",
+                      "url": "/services/veterinary-assistance"
+                    }
+                  ]
                 },
                 {
                   "id": "nav-team",
