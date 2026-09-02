@@ -1,0 +1,866 @@
+{
+  "common": {
+    "globalUI": {
+      "loading": "Loading...",
+      "notFound": "Not found"
+    }
+  },
+  "categories": {
+    "PawVita": {
+      "templateComponents": {
+        "template-1": {
+          "shared": {
+            "Topbar": "PawVitaTopBar1",
+            "Header": "PawVitaHeader1",
+            "Footer": "PawVitaFooter1"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "Hero",
+                  "component": "PawVitaHero1"
+                },
+                {
+                  "key": "AboutUs",
+                  "component": "PawVitaAboutUs1"
+                },
+                {
+                  "key": "WhyChooseUs",
+                  "component": "PawVitaWhyChooseUs1"
+                },
+                {
+                  "key": "Services",
+                  "component": "PawVitaServices1"
+                },
+                {
+                  "key": "OurValues",
+                  "component": "PawVitaOurValues1"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "PawVitaTestimonials1"
+                },
+                {
+                  "key": "CTA",
+                  "component": "PawVitaCTA1"
+                },
+                {
+                  "key": "Blogs",
+                  "component": "PawVitaBlogs1"
+                }
+              ]
+            },
+            "about": {
+              "components": [
+                {
+                  "key": "AboutUs",
+                  "component": "PawVitaAboutUs1"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "sections": {
+        "Header": {
+          "variants": {
+            "PawVitaHeader1": {
+              "image": "/main logo/logo.png",
+              "imageAlt": "PawVita Logo",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Services",
+                  "url": "/services"
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Team",
+                  "url": "/team"
+                },
+                {
+                  "id": "nav-blog",
+                  "label": "Blog",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nav-faqs",
+                  "label": "Faqs",
+                  "url": "/faqs"
+                },
+                {
+                  "id": "nav-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nav-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Book Appointment",
+                "url": "/book",
+                "icon": "FaRegCalendarAlt"
+              }
+            }
+          }
+        },
+        "Footer": {
+          "variants": {
+            "PawVitaFooter1": {
+              "contactItems": [
+                {
+                  "id": "fc-1",
+                  "icon": "FaPhoneAlt",
+                  "title": "Call Us",
+                  "subtitle": "+91 98765 43210",
+                  "description": "We are happy to help you!"
+                },
+                {
+                  "id": "fc-2",
+                  "icon": "FaEnvelope",
+                  "title": "Email Us",
+                  "subtitle": "hello@pawvita.com",
+                  "description": "We reply within 24 hours"
+                },
+                {
+                  "id": "fc-3",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Our Location",
+                  "subtitle": "123 Pet Care Avenue,",
+                  "description": "Andheri West, Mumbai, Maharashtra 400053"
+                }
+              ],
+              "columns": [
+                {
+                  "id": "fcol-1",
+                  "title": "Our Services",
+                  "links": [
+                    {
+                      "id": "fl-1-1",
+                      "label": "Pet Grooming",
+                      "url": "/services/grooming",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-2",
+                      "label": "Bath & Spa",
+                      "url": "/services/bath",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-3",
+                      "label": "Hair Trimming",
+                      "url": "/services/hair-trimming",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-4",
+                      "label": "Nail Cutting",
+                      "url": "/services/nail-cutting",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-5",
+                      "label": "Pet Dental Care",
+                      "url": "/services/dental",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-6",
+                      "label": "De-shedding",
+                      "url": "/services/deshedding",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-7",
+                      "label": "Flea & Tick Treatment",
+                      "url": "/services/flea-tick",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fl-1-8",
+                      "label": "Breed Specific Grooming",
+                      "url": "/services/breed-grooming",
+                      "icon": "FaPaw"
+                    }
+                  ]
+                },
+                {
+                  "id": "fcol-2",
+                  "title": "Useful Links",
+                  "links": [
+                    {
+                      "id": "fl-2-1",
+                      "label": "About Us",
+                      "url": "/about",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-2",
+                      "label": "Our Team",
+                      "url": "/team",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-3",
+                      "label": "Our Services",
+                      "url": "/services",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-4",
+                      "label": "Pricing / Packages",
+                      "url": "/pricing",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-5",
+                      "label": "Gallery",
+                      "url": "/gallery",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-6",
+                      "label": "Blog / News",
+                      "url": "/blog",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-7",
+                      "label": "FAQs",
+                      "url": "/faqs",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-2-8",
+                      "label": "Contact Us",
+                      "url": "/contact",
+                      "icon": "FaChevronRight"
+                    }
+                  ]
+                },
+                {
+                  "id": "fcol-3",
+                  "title": "Our Locations",
+                  "links": [
+                    {
+                      "id": "fl-3-1",
+                      "label": "Mumbai",
+                      "url": "#",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "fl-3-2",
+                      "label": "Delhi",
+                      "url": "#",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "fl-3-3",
+                      "label": "Bengaluru",
+                      "url": "#",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "fl-3-4",
+                      "label": "Pune",
+                      "url": "#",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "fl-3-5",
+                      "label": "Hyderabad",
+                      "url": "#",
+                      "icon": "FaMapMarkerAlt"
+                    },
+                    {
+                      "id": "fl-3-6",
+                      "label": "Ahmedabad",
+                      "url": "#",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ]
+                },
+                {
+                  "id": "fcol-4",
+                  "title": "Quick Links",
+                  "links": [
+                    {
+                      "id": "fl-4-1",
+                      "label": "Appointment",
+                      "url": "/book",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-4-2",
+                      "label": "Terms & Conditions",
+                      "url": "/terms",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-4-3",
+                      "label": "Privacy Policy",
+                      "url": "/privacy",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-4-4",
+                      "label": "Refund Policy",
+                      "url": "/refund",
+                      "icon": "FaChevronRight"
+                    },
+                    {
+                      "id": "fl-4-5",
+                      "label": "Careers",
+                      "url": "/careers",
+                      "icon": "FaChevronRight"
+                    }
+                  ]
+                }
+              ],
+              "socialLinks": [
+                {
+                  "id": "soc-1",
+                  "icon": "FaFacebookF",
+                  "url": "#"
+                },
+                {
+                  "id": "soc-2",
+                  "icon": "FaInstagram",
+                  "url": "#"
+                },
+                {
+                  "id": "soc-3",
+                  "icon": "FaYoutube",
+                  "url": "#"
+                },
+                {
+                  "id": "soc-4",
+                  "icon": "FaWhatsapp",
+                  "url": "#"
+                }
+              ],
+              "copyrightText": "© 2026 PawVita Pet Service. All Rights Reserved."
+            }
+          }
+        },
+        "TopBar": {
+          "variants": {
+            "PawVitaTopBar1": {}
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PawVitaHero1": {
+              "subtitle": "YOUR TRUSTED PARTNER IN PET WELLNESS",
+              "subtitleIcon": "FaPaw",
+              "title": "Happy pets,\nhealthy lives.",
+              "description": "Discover trusted care, expert guidance, and quality pet essentials designed to keep your furry friends healthy, happy, and full of love every day.",
+              "button": {
+                "text": "Book An Appointment",
+                "url": "/book",
+                "icon": "FaRegCalendarAlt"
+              },
+              "features": [
+                {
+                  "id": "feat-1",
+                  "icon": "FaHeart",
+                  "text": "Loving Care"
+                },
+                {
+                  "id": "feat-2",
+                  "icon": "FaShieldAlt",
+                  "text": "Expert Veterinarians"
+                },
+                {
+                  "id": "feat-3",
+                  "icon": "FaLeaf",
+                  "text": "Natural & Safe Products"
+                }
+              ],
+              "bgImage": "/banner/hero banner.webp"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PawVitaAboutUs1": {
+              "heading": {
+                "title": "ABOUT OUR CLINIC",
+                "icon": "FaPaw",
+                "variant": "simple"
+              },
+              "title": "Compassionate Care for <span class=\"text-[#0f7a6a]\">Every Paw.</span>",
+              "description": "At PawVita, we combine medical expertise with genuine compassion to keep your pets healthy and happy. From preventive care to advanced treatments, we're here for every stage of your pet's life.",
+              "features": [
+                {
+                  "id": "feature-1",
+                  "icon": "FaHeart",
+                  "title": "Compassionate & Skilled Team",
+                  "description": "Our veterinarians and support staff are passionate animal lovers dedicated to providing gentle, personalized care for every pet."
+                },
+                {
+                  "id": "feature-2",
+                  "icon": "FaPlusSquare",
+                  "title": "Advanced Care & Safe Environment",
+                  "description": "We use modern technology and follow the highest safety standards to ensure accurate diagnosis, effective treatment, and a stress-free experience."
+                }
+              ],
+              "button": {
+                "text": "More About Us",
+                "url": "/about",
+                "icon": "FaArrowRight"
+              },
+              "image": "/about/about-us-image.jpg",
+              "imageAlt": "PawVita Veterinarian with a Golden Retriever and a Tabby Cat",
+              "trustedBadge": {
+                "title": "Trusted by",
+                "count": "20K+",
+                "subtitle": "Happy Pet Parents",
+                "avatars": [
+                  "/about/author-1.jpg",
+                  "/about/author-2.jpg",
+                  "/about/author-3.jpg",
+                  "/about/author-4.jpg"
+                ],
+                "avatarAlt": "Happy Pet Parent"
+              },
+              "experienceBadge": {
+                "years": "15+",
+                "text": "Years of Compassionate Care",
+                "icon": "FaShieldAlt"
+              }
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "PawVitaServices1": {
+              "heading": {
+                "title": "OUR SERVICES",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Complete Grooming Care\nfor <span class=\"text-[#00695c]\">Your Furry Friends</span>",
+              "services": [
+                {
+                  "id": "srv-1",
+                  "image": "/service/grooming.jpg",
+                  "icon": "FaPaw",
+                  "title": "Professional Grooming",
+                  "titleCollapsed": "Professional\nGrooming",
+                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "features": [
+                    "Certified Groomers",
+                    "Premium Pet Products",
+                    "Hygienic & Safe Environment"
+                  ],
+                  "number": "01",
+                  "url": "/services/grooming"
+                },
+                {
+                  "id": "srv-2",
+                  "image": "/service/bath&blow.jpg",
+                  "icon": "FaBath",
+                  "title": "Bath & Blow Dry",
+                  "titleCollapsed": "Bath &\nBlow Dry",
+                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "features": [
+                    "Certified Groomers",
+                    "Premium Pet Products",
+                    "Hygienic & Safe Environment"
+                  ],
+                  "number": "02",
+                  "url": "/services/bath"
+                },
+                {
+                  "id": "srv-3",
+                  "image": "/service/hair&style.jpg",
+                  "icon": "FaCut",
+                  "title": "Hair Trimming & Styling",
+                  "titleCollapsed": "Hair\nTrimming &\nStyling",
+                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "features": [
+                    "Certified Groomers",
+                    "Premium Pet Products",
+                    "Hygienic & Safe Environment"
+                  ],
+                  "number": "03",
+                  "url": "/services/hair-trimming"
+                },
+                {
+                  "id": "srv-4",
+                  "image": "/service/nail.jpg",
+                  "icon": "FaMagic",
+                  "title": "Nail Trimming",
+                  "titleCollapsed": "Nail\nTrimming",
+                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "features": [
+                    "Certified Groomers",
+                    "Premium Pet Products",
+                    "Hygienic & Safe Environment"
+                  ],
+                  "number": "04",
+                  "url": "/services/nail-trimming"
+                },
+                {
+                  "id": "srv-5",
+                  "image": "/service/ear cleaning.jpg",
+                  "icon": "FaStethoscope",
+                  "title": "Ear Cleaning",
+                  "titleCollapsed": "Ear\nCleaning",
+                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "features": [
+                    "Certified Groomers",
+                    "Premium Pet Products",
+                    "Hygienic & Safe Environment"
+                  ],
+                  "number": "05",
+                  "url": "/services/ear-cleaning"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceAreas": {
+          "variants": {
+            "PawVitaServiceAreas1": {
+              "heading": {
+                "title": "OUR SERVICE AREAS",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Proudly Serving Pets Across\nMultiple Locations",
+              "bgImage": "",
+              "locations": [
+                {
+                  "id": "loc-1",
+                  "image": "https://picsum.photos/seed/Delhi/600/400",
+                  "title": "Delhi",
+                  "subtitle": "Delhi, India",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-2",
+                  "image": "https://picsum.photos/seed/Noida/600/400",
+                  "title": "Noida",
+                  "subtitle": "Noida, Uttar Pradesh",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-3",
+                  "image": "https://picsum.photos/seed/Gurugram/600/400",
+                  "title": "Gurugram",
+                  "subtitle": "Gurugram, Haryana",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-4",
+                  "image": "https://picsum.photos/seed/Ghaziabad/600/400",
+                  "title": "Ghaziabad",
+                  "subtitle": "Ghaziabad, Uttar Pradesh",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-5",
+                  "image": "https://picsum.photos/seed/Faridabad/600/400",
+                  "title": "Faridabad",
+                  "subtitle": "Faridabad, Haryana",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-6",
+                  "image": "https://picsum.photos/seed/Indirapuram/600/400",
+                  "title": "Indirapuram",
+                  "subtitle": "Indirapuram, Uttar Pradesh",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-7",
+                  "image": "https://picsum.photos/seed/Dwarka/600/400",
+                  "title": "Dwarka",
+                  "subtitle": "New Delhi",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-8",
+                  "image": "https://picsum.photos/seed/GreaterNoida/600/400",
+                  "title": "Greater Noida",
+                  "subtitle": "Uttar Pradesh",
+                  "icon": "FaMapMarkerAlt"
+                },
+                {
+                  "id": "loc-9",
+                  "image": "https://picsum.photos/seed/VasantKunj/600/400",
+                  "title": "Vasant Kunj",
+                  "subtitle": "South Delhi",
+                  "icon": "FaMapMarkerAlt"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "PawVitaWhyChooseUs1": {
+              "heading": {
+                "title": "WHY CHOOSE US",
+                "icon": "FaPaw",
+                "variant": "simple"
+              },
+              "title": "Why Choose <span class=\"text-[#00695c]\">Pet Grooming</span>",
+              "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+              "tabs": [
+                {
+                  "id": "tab-1",
+                  "title": "Professional Groomers",
+                  "description": "Our certified groomers treat every pet with care, patience, and love to ensure they look and feel their best after every grooming session.",
+                  "icon": "FaAward",
+                  "number": "01",
+                  "image": "/service/dog-bathtub.jpg"
+                },
+                {
+                  "id": "tab-2",
+                  "title": "Hygiene & Health First",
+                  "description": "Our certified groomers treat every pet with care, patience, and love to ensure they look and feel their best after every grooming session.",
+                  "icon": "FaHeart",
+                  "number": "02",
+                  "image": "/service/washing-dog.jpg"
+                },
+                {
+                  "id": "tab-3",
+                  "title": "Stress-Free Experience",
+                  "description": "Our certified groomers treat every pet with care, patience, and love to ensure they look and feel their best after every grooming session.",
+                  "icon": "FaCalendarAlt",
+                  "number": "03",
+                  "image": "/service/fluffy-cat.jpg"
+                }
+              ],
+              "gallery": [
+                "/service/bath&blow.jpg",
+                "/service/grooming.jpg",
+                "/service/hair&style.jpg",
+                "/service/nail.jpg"
+              ]
+            }
+          }
+        },
+        "Counter": {
+          "variants": {
+            "PawVitaCounter1": {
+              "items": [
+                {
+                  "id": "cnt-1",
+                  "icon": "FaPaw",
+                  "number": 2580,
+                  "suffix": "+",
+                  "label": "Pets Groomed"
+                },
+                {
+                  "id": "cnt-2",
+                  "icon": "FaHome",
+                  "number": 1430,
+                  "suffix": "+",
+                  "label": "Happy Pet Parents"
+                },
+                {
+                  "id": "cnt-3",
+                  "icon": "FaCalendarAlt",
+                  "number": 5120,
+                  "suffix": "+",
+                  "label": "Services Completed"
+                },
+                {
+                  "id": "cnt-4",
+                  "icon": "FaAward",
+                  "number": 8,
+                  "suffix": "+",
+                  "label": "Years of Experience"
+                }
+              ]
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "PawVitaTeam1": {
+              "heading": {
+                "title": "OUR TEAM",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Meet Our <span class=\"text-[#00695c]\">Grooming Experts</span>",
+              "description": "Our certified and passionate team provides loving care and professional grooming to keep your pets happy, healthy, and looking their best.",
+              "leftImage": "/team/left.jpg",
+              "badge": {
+                "title": "Pet Care Specialist",
+                "subtitle": "10+ Years Experience",
+                "icon": "FaCheckCircle"
+              },
+              "members": [
+                {
+                  "id": "team-1",
+                  "name": "Emily Johnson",
+                  "role": "Senior Pet Groomer",
+                  "image": "/team/team-1.png",
+                  "isActive": true
+                },
+                {
+                  "id": "team-2",
+                  "name": "Michael Smith",
+                  "role": "Pet Grooming Specialist",
+                  "image": "/team/team-2.png"
+                },
+                {
+                  "id": "team-3",
+                  "name": "Olivia Davis",
+                  "role": "Pet Care Technician",
+                  "image": "/team/team-3.png"
+                },
+                {
+                  "id": "team-4",
+                  "name": "David Brown",
+                  "role": "Grooming Expert",
+                  "image": "/team/team-4.png"
+                },
+                {
+                  "id": "team-5",
+                  "name": "Sophia Wilson",
+                  "role": "Pet Styling Specialist",
+                  "image": "/team/team-5.png"
+                },
+                {
+                  "id": "team-6",
+                  "name": "James Anderson",
+                  "role": "Pet Wellness Expert",
+                  "image": "/team/team-6.png"
+                }
+              ]
+            }
+          }
+        },
+        "Faqs": {
+          "variants": {
+            "PawVitaFaqs1": {
+              "heading": {
+                "title": "FAQS",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Frequently <span class=\"text-[#00695c]\">Asked Questions</span>",
+              "description": "Find answers to common questions about our pet grooming services, bookings, and care procedures.",
+              "leftImage": "/other/faq-h.webp",
+              "cards": [
+                {
+                  "id": "faq-card-1",
+                  "title": "Safe & Trusted Care",
+                  "description": "We use pet-safe products and follow hygienic grooming practices.",
+                  "icon": "FaShieldAlt"
+                },
+                {
+                  "id": "faq-card-2",
+                  "title": "Experienced Groomers",
+                  "description": "Our certified groomers ensure your pets look and feel their best.",
+                  "icon": "FaAward"
+                }
+              ],
+              "faqs": [
+                {
+                  "id": "faq-1",
+                  "question": "What is included in a pet grooming session?",
+                  "answer": "Our grooming session includes a thorough bath, coat brushing, nail trimming, ear cleaning, paw care, hair trimming or styling, and finishing with pet-safe products to keep your pet fresh and happy."
+                },
+                {
+                  "id": "faq-2",
+                  "question": "How often should I groom my pet?",
+                  "answer": "It depends on the breed, coat type, and lifestyle of your pet. Generally, professional grooming every 4-6 weeks is recommended to maintain optimal skin and coat health."
+                },
+                {
+                  "id": "faq-3",
+                  "question": "Is grooming safe for all pets?",
+                  "answer": "Yes, grooming is generally safe and beneficial for most pets. We adapt our techniques to accommodate different breeds, ages, and temperaments to ensure a safe and positive experience."
+                },
+                {
+                  "id": "faq-4",
+                  "question": "Do I need to stay with my pet during grooming?",
+                  "answer": "We usually recommend dropping off your pet to allow them to focus and build trust with the groomer. However, you are welcome to stay if your pet requires special attention or if you prefer."
+                },
+                {
+                  "id": "faq-5",
+                  "question": "What should I do before bringing my pet for grooming?",
+                  "answer": "Please ensure your pet has relieved themselves and had a light meal before the appointment. It's also helpful to walk them to release any excess energy."
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "PawVitaBlogs1": {
+              "heading": {
+                "title": "OUR BLOG",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Pet Care <span class=\"text-[#00695c]\">Tips & Stories</span>",
+              "description": "Helpful tips, grooming advice, and pet care stories to keep your furry friends happy, healthy, and looking their best.",
+              "featuredPost": {
+                "id": "blog-feat-1",
+                "image": "/blog/blog-1.jpg",
+                "date": "16 May 2025",
+                "title": "10 Essential Tips for a Happy & Healthy Pet",
+                "excerpt": "Simple tips to keep your furry friend active, healthy and full of joy every day.",
+                "url": "/blog/10-essential-tips"
+              },
+              "posts": [
+                {
+                  "id": "blog-2",
+                  "image": "/blog/blog-2.jpg",
+                  "date": "14 May 2025",
+                  "title": "How Often Should You Groom Your Pet?",
+                  "excerpt": "Discover the ideal grooming routine for dogs and cats to keep them clean, fresh and comfortable.",
+                  "url": "/blog/how-often-groom"
+                },
+                {
+                  "id": "blog-3",
+                  "image": "/blog/blog-3.jpg",
+                  "date": "12 May 2025",
+                  "title": "Best Foods for Your Pet's Strong Immunity",
+                  "excerpt": "Explore the best nutrition options that boost your pet's immunity and support overall well-being.",
+                  "url": "/blog/best-foods"
+                },
+                {
+                  "id": "blog-4",
+                  "image": "/blog/blog-4.jpg",
+                  "date": "10 May 2025",
+                  "title": "Signs Your Pet Might Need a Vet Visit",
+                  "excerpt": "Learn the key signs that indicate it's time to consult a vet and ensure your pet stays healthy.",
+                  "url": "/blog/signs-vet-visit"
+                }
+              ],
+              "viewAllButton": {
+                "text": "View All Blog Posts",
+                "url": "/blog",
+                "icon": "FaPaw"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
