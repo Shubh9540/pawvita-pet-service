@@ -132,7 +132,46 @@ export interface ServiceItem {
 export interface ServicesData {
   heading: SectionHeadingData;
   title: string;
+  description?: string;
   services: ServiceItem[];
+}
+
+export interface ServiceDetailFeatureCard {
+  icon: string;
+  title: string;
+  description?: string;
+  list: string[];
+}
+
+export interface ServiceDetailData {
+  id: string;
+  title: string;
+  icon?: string;
+  image: string;
+  
+  badge?: string;
+  mainHeading?: string;
+  description1?: string;
+  
+  subHeading1?: string;
+  description2?: string;
+  
+  subHeading2?: string;
+  description3?: string;
+  
+  featureCards?: ServiceDetailFeatureCard[];
+  
+  // Fallback for older simpler structure
+  description?: string;
+  features?: string[];
+}
+
+export interface ServiceDetailSidebarData {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonUrl: string;
+  icon: string;
 }
 
 export interface WhyChooseUsTab {
@@ -289,6 +328,10 @@ export interface PawVitaTemplateData {
       notFound: string;
     };
     aboutBreadcrumb?: BreadcrumbData;
+    missionVisionBreadcrumb?: BreadcrumbData;
+    whyChooseUsBreadcrumb?: BreadcrumbData;
+    servicesBreadcrumb?: BreadcrumbData;
+    serviceDetailBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
@@ -329,9 +372,24 @@ export interface PawVitaTemplateData {
             PawVitaAboutMission1: AboutMissionData;
           };
         };
+        AboutMissionLight?: {
+          variants: {
+            PawVitaAboutMissionLight1: AboutMissionData;
+          };
+        };
         Services?: {
           variants: {
             PawVitaServices1: ServicesData;
+            PawVitaServicesTabs1: ServicesData;
+            PawVitaServicesGrid1: ServicesData;
+          };
+        };
+        ServiceDetails?: {
+          variants: {
+            PawVitaServiceDetails1: {
+              items: ServiceDetailData[];
+              sidebar?: ServiceDetailSidebarData;
+            };
           };
         };
         WhyChooseUs?: {

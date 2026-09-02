@@ -7,8 +7,69 @@
     "aboutBreadcrumb": {
       "title": "About Us",
       "paths": [
-        { "label": "Home", "url": "/" },
-        { "label": "About Us" }
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "About Us"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "missionVisionBreadcrumb": {
+      "title": "Mission & Vision",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Mission & Vision"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "whyChooseUsBreadcrumb": {
+      "title": "Why Choose Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Why Choose Us"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Services",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "serviceDetailBreadcrumb": {
+      "title": "Service Detail",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services",
+          "url": "/services"
+        },
+        {
+          "label": "Service Detail"
+        }
       ],
       "bgImage": "/main logo/breadcrumb.webp"
     }
@@ -541,8 +602,414 @@
             }
           }
         },
+        "AboutMissionLight": {
+          "variants": {
+            "PawVitaAboutMissionLight1": {
+              "heading": {
+                "title": "OUR MISSION & VISION",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Our Purpose & <span class='text-[#0f9c9b]'>Future Goals</span>",
+              "subtitle": "Driven by love for animals, we aim to create a happier, healthier and more comfortable life for your pets.",
+              "items": [
+                {
+                  "id": "mission-1",
+                  "title": "Our Mission",
+                  "description": "To provide compassionate, professional and reliable pet care services that keep pets healthy, happy and well-groomed.",
+                  "image": "/mission/mission.png",
+                  "icon": "FaBullseye",
+                  "features": [
+                    "Ensure pet health & hygiene",
+                    "Offer love and care like family",
+                    "Create a stress-free pet experience"
+                  ]
+                },
+                {
+                  "id": "vision-1",
+                  "title": "Our Vision",
+                  "description": "To become a trusted and leading pet care brand that sets new standards in pet wellness, grooming and lifestyle care.",
+                  "image": "/mission/vision.png",
+                  "icon": "FaEye",
+                  "features": [
+                    "A healthier, happier pet community",
+                    "Innovative and caring pet services",
+                    "A lifelong bond between pets and parents"
+                  ]
+                }
+              ],
+              "bottomBanner": {
+                "icon": "FaHeart",
+                "title": "Happy Pets. Healthy Pets.",
+                "subtitle": "That's Our Promise."
+              }
+            }
+          }
+        },
+        "ServiceDetails": {
+          "variants": {
+            "PawVitaServiceDetails1": {
+              "sidebar": {
+                "title": "Need Help?",
+                "description": "Our experts are here for your pet's health and care.",
+                "buttonText": "Contact Us",
+                "buttonUrl": "/contact",
+                "icon": "FaPhoneAlt"
+              },
+              "items": [
+                {
+                  "id": "pet-health-checkups",
+                  "title": "Pet Health Checkups",
+                  "icon": "FaStethoscope",
+                  "image": "/service/ear cleaning.jpg",
+                  "badge": "Pet Health Checkups",
+                  "mainHeading": "Comprehensive Care For A Healthy & Happy Life",
+                  "description1": "Regular pet health checkups are essential to ensure your furry companion stays healthy, happy, and active. Our comprehensive wellness checkups help detect early signs of illness, monitor ongoing conditions, and provide preventive care tailored to your pet's age, breed, and lifestyle.",
+                  "subHeading1": "What We Examine In Health Checkup",
+                  "description2": "Our experienced veterinarians perform thorough examinations and provide personalized advice to support your pet's overall well-being and longevity.",
+                  "subHeading2": "What We Examine In Health Checkup",
+                  "description3": "We assess their physical condition, vital signs, internal organs, dental health, skin and coat quality, mobility, and overall behavior.",
+                  "featureCards": [
+                    {
+                      "icon": "FaStethoscope",
+                      "title": "Physical Examination",
+                      "description": "A head-to-tail check to assess your pet's body, skin, coat, eyes, ears, and dental health.",
+                      "list": [
+                        "Eyes, ears, nose, and teeth health",
+                        "Skin, coat, and fur quality check",
+                        "Hydration and body condition score",
+                        "Joint and muscle health"
+                      ]
+                    },
+                    {
+                      "icon": "FaHeartbeat",
+                      "title": "Vital Health Assessment",
+                      "description": "A complete evaluation of your pet's internal health and overall wellness.",
+                      "list": [
+                        "Heart rate and respiratory check",
+                        "Abdominal palpation and organ check",
+                        "Vaccination review and updates",
+                        "Parasite and infection screening"
+                      ]
+                    }
+                  ],
+                  "description": "Fallback description",
+                  "features": [
+                    "Fallback"
+                  ]
+                },
+                {
+                  "id": "grooming-hygiene",
+                  "title": "Grooming & Hygiene",
+                  "icon": "FaCut",
+                  "image": "/service/grooming.jpg",
+                  "badge": "Grooming & Hygiene",
+                  "mainHeading": "Professional Grooming Services",
+                  "description1": "Regular grooming is essential to your pet's health and well-being. Our professional grooming services ensure your pet looks great and feels comfortable.",
+                  "subHeading1": "What We Examine In Grooming",
+                  "description2": "Our experienced groomers perform thorough cleaning and provide personalized advice to support your pet's overall hygiene and appearance.",
+                  "subHeading2": "What We Do In Grooming",
+                  "description3": "We assess their coat condition, nail length, ear cleanliness, and overall skin health during the process.",
+                  "featureCards": [
+                    {
+                      "icon": "FaCut",
+                      "title": "Spa & Styling",
+                      "description": "Full grooming packages tailored to your pet's breed and coat type.",
+                      "list": [
+                        "Bathing & Blow drying",
+                        "Haircut & Styling",
+                        "Nail Trimming",
+                        "Ear Cleaning"
+                      ]
+                    },
+                    {
+                      "icon": "FaHeartbeat",
+                      "title": "Skin & Coat Care",
+                      "description": "A complete evaluation of your pet's external health and cleanliness.",
+                      "list": [
+                        "Deep cleansing shampoo",
+                        "Flea and tick treatment",
+                        "Conditioning treatment",
+                        "De-shedding therapy"
+                      ]
+                    }
+                  ],
+                  "description": "Fallback description",
+                  "features": [
+                    "Fallback"
+                  ]
+                },
+                {
+                  "id": "diagnostics-lab-testing",
+                  "title": "Diagnostics & Lab Testing",
+                  "icon": "FaFlask",
+                  "image": "/service/bath&blow.jpg",
+                  "badge": "Diagnostics & Lab Testing",
+                  "mainHeading": "Advanced Diagnostics",
+                  "description1": "We utilize state-of-the-art diagnostic equipment to provide accurate and timely results.",
+                  "subHeading1": "What We Examine In Diagnostics",
+                  "description2": "Our experienced technicians perform thorough testing and provide personalized advice to support your pet's overall well-being and health.",
+                  "subHeading2": "What We Do In Diagnostics",
+                  "description3": "We assess their blood work, internal organ function, and overall chemical balance.",
+                  "featureCards": [
+                    {
+                      "icon": "FaVial",
+                      "title": "Lab Tests",
+                      "description": "Comprehensive blood work and urinalysis.",
+                      "list": [
+                        "Complete Blood Count",
+                        "Organ Function Tests",
+                        "Parasite Screening",
+                        "Urinalysis"
+                      ]
+                    },
+                    {
+                      "icon": "FaHeartbeat",
+                      "title": "Imaging & Scanning",
+                      "description": "A complete evaluation of your pet's internal health through modern imaging.",
+                      "list": [
+                        "Digital X-Rays",
+                        "Ultrasound scans",
+                        "Endoscopy checks",
+                        "ECG and heart monitoring"
+                      ]
+                    }
+                  ],
+                  "description": "Fallback description",
+                  "features": [
+                    "Fallback"
+                  ]
+                },
+                {
+                  "id": "general-health-checkups",
+                  "title": "General Health Checkups",
+                  "icon": "FaClipboard",
+                  "image": "/service/washing-dog.jpg",
+                  "badge": "General Health Checkups",
+                  "mainHeading": "Routine Wellness Exams",
+                  "description1": "Preventative care is the best way to keep your pet healthy. We recommend annual exams for all pets.",
+                  "subHeading1": "What We Examine In Checkup",
+                  "description2": "Our experienced veterinarians perform thorough examinations and provide personalized advice to support your pet's overall well-being and longevity.",
+                  "subHeading2": "What We Examine In Health Checkup",
+                  "description3": "We assess their physical condition, vital signs, internal organs, dental health, skin and coat quality, mobility, and overall behavior.",
+                  "featureCards": [
+                    {
+                      "icon": "FaClipboardCheck",
+                      "title": "Annual Exams",
+                      "description": "Comprehensive physical exams and consultations.",
+                      "list": [
+                        "Physical Examination",
+                        "Vaccinations",
+                        "Nutritional Counseling",
+                        "Behavioral Advice"
+                      ]
+                    },
+                    {
+                      "icon": "FaHeartbeat",
+                      "title": "Vital Health Assessment",
+                      "description": "A complete evaluation of your pet's internal health and overall wellness.",
+                      "list": [
+                        "Heart rate and respiratory check",
+                        "Abdominal palpation and organ check",
+                        "Vaccination review and updates",
+                        "Parasite and infection screening"
+                      ]
+                    }
+                  ],
+                  "description": "Fallback description",
+                  "features": [
+                    "Fallback"
+                  ]
+                },
+                {
+                  "id": "emergency-after-hours-care",
+                  "title": "Emergency & After-Hours Care",
+                  "icon": "FaAmbulance",
+                  "image": "/service/dog-bathtub.jpg",
+                  "badge": "Emergency Care",
+                  "mainHeading": "Urgent Care When You Need It",
+                  "description1": "We are equipped to handle most medical emergencies during our regular business hours.",
+                  "subHeading1": "What We Examine In Emergency",
+                  "description2": "Our experienced veterinarians perform thorough emergency examinations and provide immediate medical attention to support your pet's recovery.",
+                  "subHeading2": "What We Do In Emergency",
+                  "description3": "We assess their physical condition, vital signs, internal organs, trauma levels, and overall stability.",
+                  "featureCards": [
+                    {
+                      "icon": "FaAmbulance",
+                      "title": "Urgent Care",
+                      "description": "Immediate medical attention for your pet.",
+                      "list": [
+                        "Trauma Management",
+                        "Toxin Ingestion",
+                        "Respiratory Distress",
+                        "Surgical Emergencies"
+                      ]
+                    },
+                    {
+                      "icon": "FaHeartbeat",
+                      "title": "Intensive Monitoring",
+                      "description": "A complete evaluation and continuous monitoring of your pet's critical health.",
+                      "list": [
+                        "24/7 heart rate monitoring",
+                        "Oxygen therapy support",
+                        "Intravenous fluid administration",
+                        "Pain management protocols"
+                      ]
+                    }
+                  ],
+                  "description": "Fallback description",
+                  "features": [
+                    "Fallback"
+                  ]
+                }
+              ]
+            }
+          }
+        },
         "Services": {
           "variants": {
+            "PawVitaServicesTabs1": {
+              "heading": {
+                "title": "OUR SERVICES",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Services We Provide",
+              "description": "Professional care and grooming services to keep your pets happy, healthy and looking their best.",
+              "services": [
+                {
+                  "id": "srv-tab-1",
+                  "image": "/service/grooming.jpg",
+                  "icon": "FaCut",
+                  "title": "Pet Grooming",
+                  "titleCollapsed": "Pet\nGrooming",
+                  "description": "Professional care and grooming services to keep your pets happy.",
+                  "features": [
+                    "Bathing",
+                    "Styling"
+                  ],
+                  "number": "01",
+                  "url": "/services/pet-health-checkups"
+                },
+                {
+                  "id": "srv-tab-2",
+                  "image": "/service/dog-bathtub.jpg",
+                  "icon": "FaHome",
+                  "title": "Pet Boarding",
+                  "titleCollapsed": "Pet\nBoarding",
+                  "description": "Safe and loving environment for your pet.",
+                  "features": [
+                    "Spacious",
+                    "Playtime"
+                  ],
+                  "number": "02",
+                  "url": "/services/grooming-hygiene"
+                },
+                {
+                  "id": "srv-tab-3",
+                  "image": "/service/fluffy-cat.jpg",
+                  "icon": "FaUserFriends",
+                  "title": "Pet Sitting",
+                  "titleCollapsed": "Pet\nSitting",
+                  "description": "In-home care for your relaxed pet.",
+                  "features": [
+                    "Feeding",
+                    "Play"
+                  ],
+                  "number": "03",
+                  "url": "/services/diagnostics-lab-testing"
+                },
+                {
+                  "id": "srv-tab-4",
+                  "image": "/service/washing-dog.jpg",
+                  "icon": "FaWalking",
+                  "title": "Dog Walking",
+                  "titleCollapsed": "Dog\nWalking",
+                  "description": "Active and healthy walks.",
+                  "features": [
+                    "GPS",
+                    "Exercise"
+                  ],
+                  "number": "04",
+                  "url": "/services/general-health-checkups"
+                }
+              ]
+            },
+            "PawVitaServicesGrid1": {
+              "heading": {
+                "title": "",
+                "icon": ""
+              },
+              "title": "",
+              "services": [
+                {
+                  "id": "grid-srv-1",
+                  "image": "/service/grooming.jpg",
+                  "icon": "FaCut",
+                  "title": "Pet Grooming",
+                  "titleCollapsed": "",
+                  "description": "Professional grooming to keep your pet clean, fresh and stylish.",
+                  "features": [],
+                  "number": "01",
+                  "url": "/services/pet-health-checkups"
+                },
+                {
+                  "id": "grid-srv-2",
+                  "image": "/service/dog-bathtub.jpg",
+                  "icon": "FaHome",
+                  "title": "Pet Boarding",
+                  "titleCollapsed": "",
+                  "description": "Safe and comfortable stay with loving care while you're away.",
+                  "features": [],
+                  "number": "02",
+                  "url": "/services/grooming-hygiene"
+                },
+                {
+                  "id": "grid-srv-3",
+                  "image": "/service/fluffy-cat.jpg",
+                  "icon": "FaUserFriends",
+                  "title": "Pet Sitting",
+                  "titleCollapsed": "",
+                  "description": "Personalized care and attention for your pet at your home.",
+                  "features": [],
+                  "number": "03",
+                  "url": "/services/diagnostics-lab-testing"
+                },
+                {
+                  "id": "grid-srv-4",
+                  "image": "/service/washing-dog.jpg",
+                  "icon": "FaWalking",
+                  "title": "Dog Walking",
+                  "titleCollapsed": "",
+                  "description": "Daily walks and exercise to keep your dog active and healthy.",
+                  "features": [],
+                  "number": "04",
+                  "url": "/services/general-health-checkups"
+                },
+                {
+                  "id": "grid-srv-5",
+                  "image": "/service/bath&blow.jpg",
+                  "icon": "FaPaw",
+                  "title": "Pet Daycare",
+                  "titleCollapsed": "",
+                  "description": "Fun, play and socialization in a safe and supervised environment.",
+                  "features": [],
+                  "number": "05",
+                  "url": "/services/emergency-after-hours-care"
+                },
+                {
+                  "id": "grid-srv-6",
+                  "image": "/service/ear cleaning.jpg",
+                  "icon": "FaStethoscope",
+                  "title": "Veterinary Assistance",
+                  "titleCollapsed": "",
+                  "description": "Professional guidance and support for your pet's health and wellness.",
+                  "features": [],
+                  "number": "06",
+                  "url": "/services/veterinary-assistance"
+                }
+              ]
+            },
             "PawVitaServices1": {
               "heading": {
                 "title": "OUR SERVICES",
