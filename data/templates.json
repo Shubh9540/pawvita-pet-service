@@ -861,6 +861,47 @@
                   "features": [
                     "Fallback"
                   ]
+                },
+                {
+                  "id": "veterinary-assistance",
+                  "title": "Veterinary Assistance",
+                  "icon": "FaStethoscope",
+                  "image": "/service/ear cleaning.jpg",
+                  "badge": "Veterinary Assistance",
+                  "mainHeading": "Professional Veterinary Assistance",
+                  "description1": "We provide professional guidance and support for your pet's health and wellness.",
+                  "subHeading1": "What We Examine",
+                  "description2": "Our experienced veterinarians perform thorough examinations and provide personalized advice.",
+                  "subHeading2": "What We Do",
+                  "description3": "We assess their physical condition, vital signs, and overall health to ensure they stay happy and active.",
+                  "featureCards": [
+                    {
+                      "icon": "FaStethoscope",
+                      "title": "Health Consultations",
+                      "description": "Expert advice for your pet's health and wellness.",
+                      "list": [
+                        "Nutritional guidance",
+                        "Behavioral advice",
+                        "Preventive care planning",
+                        "General health assessment"
+                      ]
+                    },
+                    {
+                      "icon": "FaHeartbeat",
+                      "title": "Wellness Checks",
+                      "description": "Routine wellness checks to ensure optimal health.",
+                      "list": [
+                        "Vital signs monitoring",
+                        "Physical examinations",
+                        "Weight management",
+                        "Vaccination reviews"
+                      ]
+                    }
+                  ],
+                  "description": "Fallback description",
+                  "features": [
+                    "Fallback"
+                  ]
                 }
               ]
             }
@@ -880,9 +921,9 @@
                 {
                   "id": "srv-tab-1",
                   "image": "/service/grooming.jpg",
-                  "icon": "FaCut",
-                  "title": "Pet Grooming",
-                  "titleCollapsed": "Pet\nGrooming",
+                  "icon": "FaStethoscope",
+                  "title": "Pet Health Checkups",
+                  "titleCollapsed": "Pet\nHealth\nCheckups",
                   "description": "Professional care and grooming services to keep your pets happy.",
                   "features": [
                     "Bathing",
@@ -894,9 +935,9 @@
                 {
                   "id": "srv-tab-2",
                   "image": "/service/dog-bathtub.jpg",
-                  "icon": "FaHome",
-                  "title": "Pet Boarding",
-                  "titleCollapsed": "Pet\nBoarding",
+                  "icon": "FaCut",
+                  "title": "Grooming & Hygiene",
+                  "titleCollapsed": "Grooming\n& Hygiene",
                   "description": "Safe and loving environment for your pet.",
                   "features": [
                     "Spacious",
@@ -908,9 +949,9 @@
                 {
                   "id": "srv-tab-3",
                   "image": "/service/fluffy-cat.jpg",
-                  "icon": "FaUserFriends",
-                  "title": "Pet Sitting",
-                  "titleCollapsed": "Pet\nSitting",
+                  "icon": "FaFlask",
+                  "title": "Diagnostics & Lab Testing",
+                  "titleCollapsed": "Diagnostics\n& Lab",
                   "description": "In-home care for your relaxed pet.",
                   "features": [
                     "Feeding",
@@ -922,9 +963,9 @@
                 {
                   "id": "srv-tab-4",
                   "image": "/service/washing-dog.jpg",
-                  "icon": "FaWalking",
-                  "title": "Dog Walking",
-                  "titleCollapsed": "Dog\nWalking",
+                  "icon": "FaClipboard",
+                  "title": "General Health Checkups",
+                  "titleCollapsed": "General\nHealth",
                   "description": "Active and healthy walks.",
                   "features": [
                     "GPS",
@@ -945,8 +986,8 @@
                 {
                   "id": "grid-srv-1",
                   "image": "/service/grooming.jpg",
-                  "icon": "FaCut",
-                  "title": "Pet Grooming",
+                  "icon": "FaStethoscope",
+                  "title": "Pet Health Checkups",
                   "titleCollapsed": "",
                   "description": "Professional grooming to keep your pet clean, fresh and stylish.",
                   "features": [],
@@ -956,8 +997,8 @@
                 {
                   "id": "grid-srv-2",
                   "image": "/service/dog-bathtub.jpg",
-                  "icon": "FaHome",
-                  "title": "Pet Boarding",
+                  "icon": "FaCut",
+                  "title": "Grooming & Hygiene",
                   "titleCollapsed": "",
                   "description": "Safe and comfortable stay with loving care while you're away.",
                   "features": [],
@@ -967,8 +1008,8 @@
                 {
                   "id": "grid-srv-3",
                   "image": "/service/fluffy-cat.jpg",
-                  "icon": "FaUserFriends",
-                  "title": "Pet Sitting",
+                  "icon": "FaFlask",
+                  "title": "Diagnostics & Lab Testing",
                   "titleCollapsed": "",
                   "description": "Personalized care and attention for your pet at your home.",
                   "features": [],
@@ -978,8 +1019,8 @@
                 {
                   "id": "grid-srv-4",
                   "image": "/service/washing-dog.jpg",
-                  "icon": "FaWalking",
-                  "title": "Dog Walking",
+                  "icon": "FaClipboard",
+                  "title": "General Health Checkups",
                   "titleCollapsed": "",
                   "description": "Daily walks and exercise to keep your dog active and healthy.",
                   "features": [],
@@ -989,8 +1030,8 @@
                 {
                   "id": "grid-srv-5",
                   "image": "/service/bath&blow.jpg",
-                  "icon": "FaPaw",
-                  "title": "Pet Daycare",
+                  "icon": "FaAmbulance",
+                  "title": "Emergency & After-Hours Care",
                   "titleCollapsed": "",
                   "description": "Fun, play and socialization in a safe and supervised environment.",
                   "features": [],
