@@ -3,6 +3,14 @@
     "globalUI": {
       "loading": "Loading...",
       "notFound": "Not found"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "paths": [
+        { "label": "Home", "url": "/" },
+        { "label": "About Us" }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
     }
   },
   "categories": {
@@ -443,6 +451,92 @@
                 "years": "15+",
                 "text": "Years of Compassionate Care",
                 "icon": "FaShieldAlt"
+              }
+            },
+            "PawVitaAboutUsPage": {
+              "heading": {
+                "title": "ABOUT OUR CLINIC",
+                "icon": "FaPaw",
+                "variant": "simple"
+              },
+              "title": "Compassionate Care for <span class=\"text-[#0f7a6a]\">Every Paw.</span>",
+              "description": "At PawVita, we combine medical expertise with genuine compassion to keep your pets healthy and happy. From preventive care to advanced treatments, we're here for every stage of your pet's life.",
+              "features": [
+                {
+                  "id": "feature-1",
+                  "icon": "FaHeart",
+                  "title": "Compassionate & Skilled Team",
+                  "description": "Our veterinarians and support staff are passionate animal lovers dedicated to providing gentle, personalized care for every pet."
+                },
+                {
+                  "id": "feature-2",
+                  "icon": "FaPlusSquare",
+                  "title": "Advanced Care & Safe Environment",
+                  "description": "We use modern technology and follow the highest safety standards to ensure accurate diagnosis, effective treatment, and a stress-free experience."
+                }
+              ],
+              "image": "/about/about-us-image.jpg",
+              "imageAlt": "PawVita Veterinarian with a Golden Retriever and a Tabby Cat",
+              "trustedBadge": {
+                "title": "Trusted by",
+                "count": "20K+",
+                "subtitle": "Happy Pet Parents",
+                "avatars": [
+                  "/about/author-1.jpg",
+                  "/about/author-2.jpg",
+                  "/about/author-3.jpg",
+                  "/about/author-4.jpg"
+                ],
+                "avatarAlt": "Happy Pet Parent"
+              },
+              "experienceBadge": {
+                "years": "15+",
+                "text": "Years of Compassionate Care",
+                "icon": "FaShieldAlt"
+              }
+            }
+          }
+        },
+        "AboutMission": {
+          "variants": {
+            "PawVitaAboutMission1": {
+              "heading": {
+                "title": "OUR MISSION & VISION",
+                "icon": "FaPaw",
+                "variant": "decorated"
+              },
+              "title": "Our Purpose & <span class='text-[#0f9c9b]'>Future Goals</span>",
+              "subtitle": "Driven by love for animals, we aim to create a happier, healthier and more comfortable life for your pets.",
+              "items": [
+                {
+                  "id": "mission-1",
+                  "title": "Our Mission",
+                  "description": "To provide compassionate, professional and reliable pet care services that keep pets healthy, happy and well-groomed.",
+                  "image": "/mission/mission.png",
+                  "icon": "FaBullseye",
+                  "features": [
+                    "Ensure pet health & hygiene",
+                    "Offer love and care like family",
+                    "Create a stress-free pet experience"
+                  ]
+                },
+                {
+                  "id": "vision-1",
+                  "title": "Our Vision",
+                  "description": "To become a trusted and leading pet care brand that sets new standards in pet wellness, grooming and lifestyle care.",
+                  "image": "/mission/vision.png",
+                  "icon": "FaEye",
+                  "features": [
+                    "A healthier, happier pet community",
+                    "Innovative and caring pet services",
+                    "A lifelong bond between pets and parents"
+                  ]
+                }
+              ],
+              "bottomBanner": {
+                "icon": "FaHeart",
+                "title": "Happy Pets. Healthy Pets.",
+                "subtitle": "That's Our Promise."
               }
             }
           }

@@ -261,19 +261,38 @@ export interface FooterData {
   }[];
 }
 
+export interface AboutMissionItem {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  icon: string;
+  features: string[];
+}
+
+export interface AboutMissionData {
+  heading: SectionHeadingData;
+  title: string;
+  subtitle: string;
+  items: AboutMissionItem[];
+  bottomBanner: {
+    icon: string;
+    title: string;
+    subtitle: string;
+  };
+}
+
 export interface PawVitaTemplateData {
   common: {
     globalUI: {
       loading: string;
       notFound: string;
     };
+    aboutBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
       templateComponents: any;
-      common?: {
-        Breadcrumb?: BreadcrumbData;
-      };
       sections: {
         TopBar?: {
           variants: {
@@ -303,6 +322,11 @@ export interface PawVitaTemplateData {
         AboutUs?: {
           variants: {
             PawVitaAboutUs1: AboutUsData;
+          };
+        };
+        AboutMission?: {
+          variants: {
+            PawVitaAboutMission1: AboutMissionData;
           };
         };
         Services?: {

@@ -95,13 +95,15 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
               ))}
             </div>
 
-            <Link 
-              href={data.button.url}
-              className="inline-flex items-center gap-3 bg-[#00695c] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#004d40] transition-colors"
-            >
-              {data.button.text}
-              {data.button.icon && renderIcon(data.button.icon)}
-            </Link>
+            {data.button && (
+              <Link 
+                href={data.button.url}
+                className="inline-flex items-center gap-3 bg-[#00695c] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#004d40] transition-colors"
+              >
+                {data.button.text}
+                {data.button.icon && renderIcon(data.button.icon)}
+              </Link>
+            )}
           </div>
         </div>
       </div>

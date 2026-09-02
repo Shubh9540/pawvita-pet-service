@@ -12,7 +12,7 @@ export const Breadcrumb = ({ data }: { data?: BreadcrumbData }) => {
       style={{ backgroundImage: `url('${data.bgImage}')` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#4a1727]/85"></div>
+      <div className="absolute inset-0 bg-[#00695c]/85"></div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center text-center">
@@ -20,25 +20,24 @@ export const Breadcrumb = ({ data }: { data?: BreadcrumbData }) => {
           {data.title}
         </h1>
 
-        <div className="flex items-center space-x-2 text-sm md:text-base font-medium">
+        <div className="flex items-center space-x-2 text-sm md:text-[15px] font-bold">
           {data.paths.map((path, index) => {
             const isLast = index === data.paths.length - 1;
 
             return (
               <React.Fragment key={path.label}>
                 {path.url ? (
-                  <Link href={path.url} className="flex items-center hover:text-[var(--color-accent)] transition-colors">
-                    {index === 0 && <FaHome className="mr-2" />}
+                  <Link href={path.url} className="flex items-center text-white hover:text-white/80 transition-colors">
                     {path.label}
                   </Link>
                 ) : (
-                  <span className="flex items-center text-[#f93766]">
+                  <span className="flex items-center text-white">
                     {path.label}
                   </span>
                 )}
 
                 {!isLast && (
-                  <FaChevronRight className="text-sm mx-1 text-white" />
+                  <FaChevronRight className="text-xs mx-1 text-white" />
                 )}
               </React.Fragment>
             );
