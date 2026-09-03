@@ -68,7 +68,8 @@ export const Services = ({ data }: { data?: ServicesData }) => {
                   <Image 
                     src={service.image} 
                     alt={service.title} 
-                    fill 
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 33vw"
                     className="object-cover" 
                   />
                   <div className={`absolute inset-0 bg-gradient-to-t from-[var(--color-primary)] via-[var(--color-primary)]/60 to-transparent transition-opacity duration-300 ${isActive ? 'opacity-0' : 'opacity-100'}`} />

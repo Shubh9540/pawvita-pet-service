@@ -16,6 +16,11 @@
   --color-bg-alt: #f4f9f9;
 }
 
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+}
+
 body {
   font-family: var(--font-primary);
   color: var(--color-text);

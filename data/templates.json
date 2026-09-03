@@ -197,6 +197,127 @@
         }
       ],
       "bgImage": "/banner/ban1.jpg"
+    },
+    "partnersBreadcrumb": {
+      "title": "Partners",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Partners"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "blogBreadcrumb": {
+      "title": "Our Blog",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Blog"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Details",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "label": "Blog Details"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "privacyPolicyBreadcrumb": {
+      "title": "Privacy Policy",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Privacy Policy"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "termsConditionsBreadcrumb": {
+      "title": "Terms & Conditions",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Terms & Conditions"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "disclaimerBreadcrumb": {
+      "title": "Disclaimer",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Disclaimer"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "cookiePolicyBreadcrumb": {
+      "title": "Cookie Policy",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Cookie Policy"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "sitemapBreadcrumb": {
+      "title": "Sitemap",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Sitemap"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Contact Us"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
     }
   },
   "categories": {
@@ -279,13 +400,38 @@
                     },
                     {
                       "id": "nav-about-mission",
-                      "label": "Mission & Vision",
+                      "label": "Mission Vision",
                       "url": "/mission-vision"
                     },
                     {
                       "id": "nav-about-why",
                       "label": "Why Choose Us",
                       "url": "/why-choose-us"
+                    },
+                    {
+                      "id": "nav-about-partners",
+                      "label": "Partners",
+                      "url": "/partners"
+                    },
+                    {
+                      "id": "nav-about-gallery",
+                      "label": "Gallery",
+                      "url": "/gallery"
+                    },
+                    {
+                      "id": "nav-about-pricing",
+                      "label": "Pricing / Packages",
+                      "url": "/pricing"
+                    },
+                    {
+                      "id": "nav-about-testimonials",
+                      "label": "Testimonials",
+                      "url": "/testimonials"
+                    },
+                    {
+                      "id": "nav-about-faq",
+                      "label": "FAQ",
+                      "url": "/faq"
                     }
                   ]
                 },
@@ -295,76 +441,229 @@
                   "subLinks": [
                     {
                       "id": "nav-services-all",
-                      "label": "All Services",
+                      "label": "Our Services",
                       "url": "/services"
                     },
                     {
-                      "id": "nav-services-1",
+                      "id": "nav-service-grid-srv-1",
                       "label": "Pet Health Checkups",
                       "url": "/services/pet-health-checkups"
                     },
                     {
-                      "id": "nav-services-2",
+                      "id": "nav-service-grid-srv-2",
                       "label": "Grooming & Hygiene",
                       "url": "/services/grooming-hygiene"
                     },
                     {
-                      "id": "nav-services-3",
+                      "id": "nav-service-grid-srv-3",
                       "label": "Diagnostics & Lab Testing",
                       "url": "/services/diagnostics-lab-testing"
                     },
                     {
-                      "id": "nav-services-4",
+                      "id": "nav-service-grid-srv-4",
                       "label": "General Health Checkups",
                       "url": "/services/general-health-checkups"
                     },
                     {
-                      "id": "nav-services-5",
+                      "id": "nav-service-grid-srv-5",
                       "label": "Emergency & After-Hours Care",
                       "url": "/services/emergency-after-hours-care"
                     },
                     {
-                      "id": "nav-services-6",
+                      "id": "nav-service-grid-srv-6",
                       "label": "Veterinary Assistance",
                       "url": "/services/veterinary-assistance"
                     }
                   ]
                 },
                 {
-                  "id": "nav-team",
-                  "label": "Team",
-                  "url": "/team"
-                },
-                {
-                  "id": "nav-blog",
-                  "label": "Blog",
-                  "url": "/blog"
-                },
-                {
-                  "id": "nav-faqs",
-                  "label": "Faqs",
-                  "url": "/faqs"
-                },
-                {
-                  "id": "nav-gallery",
-                  "label": "Gallery",
-                  "url": "/gallery"
-                },
-                {
                   "id": "nav-locations",
                   "label": "Locations",
-                  "url": "/locations"
+                  "subLinks": [
+                    {
+                      "id": "nav-locations-all",
+                      "label": "Our Locations",
+                      "url": "/locations"
+                    },
+                    {
+                      "id": "nav-location-delhi",
+                      "label": "Pet Care Services in Delhi",
+                      "url": "/locations/delhi"
+                    },
+                    {
+                      "id": "nav-location-noida",
+                      "label": "Pet Care Services in Noida",
+                      "url": "/locations/noida"
+                    },
+                    {
+                      "id": "nav-location-gurugram",
+                      "label": "Pet Care Services in Gurugram",
+                      "url": "/locations/gurugram"
+                    },
+                    {
+                      "id": "nav-location-ghaziabad",
+                      "label": "Pet Care Services in Ghaziabad",
+                      "url": "/locations/ghaziabad"
+                    },
+                    {
+                      "id": "nav-location-faridabad",
+                      "label": "Pet Care Services in Faridabad",
+                      "url": "/locations/faridabad"
+                    },
+                    {
+                      "id": "nav-location-indirapuram",
+                      "label": "Pet Care Services in Indirapuram",
+                      "url": "/locations/indirapuram"
+                    },
+                    {
+                      "id": "nav-location-lucknow",
+                      "label": "Pet Care Services in Lucknow",
+                      "url": "/locations/lucknow"
+                    },
+                    {
+                      "id": "nav-location-kanpur",
+                      "label": "Pet Care Services in Kanpur",
+                      "url": "/locations/kanpur"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-blogs",
+                  "label": "Blogs",
+                  "subLinks": [
+                    {
+                      "id": "nav-blogs-all",
+                      "label": "Our Blogs",
+                      "url": "/blogs"
+                    },
+                    {
+                      "id": "nav-blog-how-to-keep-your-dog-cool",
+                      "label": "How to Keep Your Dog Cool in Summer",
+                      "url": "/blog/how-to-keep-your-dog-cool"
+                    },
+                    {
+                      "id": "nav-blog-cat-grooming-101",
+                      "label": "Cat Grooming 101: Easy Tips at Home",
+                      "url": "/blog/cat-grooming-101"
+                    },
+                    {
+                      "id": "nav-blog-best-foods-healthy-happy-pet",
+                      "label": "Best Foods for a Healthy and Happy Pet",
+                      "url": "/blog/best-foods-healthy-happy-pet"
+                    },
+                    {
+                      "id": "nav-blog-puppy-training-basics",
+                      "label": "Puppy Training Basics Every Owner Should Know",
+                      "url": "/blog/puppy-training-basics"
+                    },
+                    {
+                      "id": "nav-blog-how-often-bath-pet",
+                      "label": "How Often Should You Bath Your Pet?",
+                      "url": "/blog/how-often-bath-pet"
+                    },
+                    {
+                      "id": "nav-blog-signs-pet-might-be-stressed",
+                      "label": "Signs Your Pet Might Be Stressed",
+                      "url": "/blog/signs-pet-might-be-stressed"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Team",
+                  "subLinks": [
+                    {
+                      "id": "nav-team-all",
+                      "label": "Our Team",
+                      "url": "/team"
+                    },
+                    {
+                      "id": "nav-team-team-1",
+                      "label": "Emily Johnson",
+                      "url": "/team/team-1"
+                    },
+                    {
+                      "id": "nav-team-team-2",
+                      "label": "Michael Smith",
+                      "url": "/team/team-2"
+                    },
+                    {
+                      "id": "nav-team-team-3",
+                      "label": "Olivia Davis",
+                      "url": "/team/team-3"
+                    },
+                    {
+                      "id": "nav-team-team-4",
+                      "label": "David Brown",
+                      "url": "/team/team-4"
+                    },
+                    {
+                      "id": "nav-team-team-5",
+                      "label": "Sophia Wilson",
+                      "url": "/team/team-5"
+                    },
+                    {
+                      "id": "nav-team-team-6",
+                      "label": "James Anderson",
+                      "url": "/team/team-6"
+                    },
+                    {
+                      "id": "nav-team-team-7",
+                      "label": "Isabella Martinez",
+                      "url": "/team/team-7"
+                    },
+                    {
+                      "id": "nav-team-team-8",
+                      "label": "Daniel Thomas",
+                      "url": "/team/team-8"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-other",
+                  "label": "Other Pages",
+                  "subLinks": [
+                    {
+                      "id": "nav-other-privacy",
+                      "label": "Privacy Policy",
+                      "url": "/legal/privacy-policy"
+                    },
+                    {
+                      "id": "nav-other-terms",
+                      "label": "Terms & Conditions",
+                      "url": "/legal/terms-conditions"
+                    },
+                    {
+                      "id": "nav-other-disclaimer",
+                      "label": "Disclaimer",
+                      "url": "/legal/disclaimer"
+                    },
+                    {
+                      "id": "nav-other-cookie",
+                      "label": "Cookie Policy",
+                      "url": "/legal/cookie-policy"
+                    },
+                    {
+                      "id": "nav-other-sitemap",
+                      "label": "Sitemap",
+                      "url": "/sitemap"
+                    },
+                    {
+                      "id": "nav-other-404",
+                      "label": "404 Not Found",
+                      "url": "/not-found"
+                    }
+                  ]
                 },
                 {
                   "id": "nav-contact",
-                  "label": "Contact Us",
+                  "label": "Contact",
                   "url": "/contact"
                 }
               ],
               "contactButton": {
                 "text": "Book Appointment",
-                "url": "/book-appointment",
-                "icon": "FaRegCalendarAlt"
+                "url": "/book-appointment"
               }
             }
           }
@@ -397,188 +696,152 @@
               ],
               "columns": [
                 {
-                  "id": "fcol-1",
-                  "title": "Our Services",
-                  "links": [
-                    {
-                      "id": "fl-1-1",
-                      "label": "Pet Grooming",
-                      "url": "/services/grooming",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-2",
-                      "label": "Bath & Spa",
-                      "url": "/services/bath",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-3",
-                      "label": "Hair Trimming",
-                      "url": "/services/hair-trimming",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-4",
-                      "label": "Nail Cutting",
-                      "url": "/services/nail-cutting",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-5",
-                      "label": "Pet Dental Care",
-                      "url": "/services/dental",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-6",
-                      "label": "De-shedding",
-                      "url": "/services/deshedding",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-7",
-                      "label": "Flea & Tick Treatment",
-                      "url": "/services/flea-tick",
-                      "icon": "FaPaw"
-                    },
-                    {
-                      "id": "fl-1-8",
-                      "label": "Breed Specific Grooming",
-                      "url": "/services/breed-grooming",
-                      "icon": "FaPaw"
-                    }
-                  ]
-                },
-                {
-                  "id": "fcol-2",
+                  "id": "foot-col-2",
                   "title": "Useful Links",
                   "links": [
                     {
-                      "id": "fl-2-1",
+                      "id": "ul-home",
+                      "label": "Home",
+                      "url": "/"
+                    },
+                    {
+                      "id": "ul-about",
                       "label": "About Us",
-                      "url": "/about",
-                      "icon": "FaChevronRight"
+                      "url": "/about"
                     },
                     {
-                      "id": "fl-2-2",
-                      "label": "Our Team",
-                      "url": "/team",
-                      "icon": "FaChevronRight"
+                      "id": "ul-services",
+                      "label": "Our Service",
+                      "url": "/services"
                     },
                     {
-                      "id": "fl-2-3",
-                      "label": "Our Services",
-                      "url": "/services",
-                      "icon": "FaChevronRight"
-                    },
-                    {
-                      "id": "fl-2-4",
-                      "label": "Pricing / Packages",
-                      "url": "/pricing",
-                      "icon": "FaChevronRight"
-                    },
-                    {
-                      "id": "fl-2-5",
+                      "id": "ul-gallery",
                       "label": "Gallery",
-                      "url": "/gallery",
-                      "icon": "FaChevronRight"
+                      "url": "/gallery"
                     },
                     {
-                      "id": "fl-2-6",
-                      "label": "Blog / News",
-                      "url": "/blog",
-                      "icon": "FaChevronRight"
+                      "id": "ul-blog",
+                      "label": "Blog",
+                      "url": "/blogs"
                     },
                     {
-                      "id": "fl-2-7",
-                      "label": "FAQs",
-                      "url": "/faqs",
-                      "icon": "FaChevronRight"
-                    },
-                    {
-                      "id": "fl-2-8",
-                      "label": "Contact Us",
-                      "url": "/contact",
-                      "icon": "FaChevronRight"
+                      "id": "ul-faq",
+                      "label": "Faq",
+                      "url": "/faq"
                     }
                   ]
                 },
                 {
-                  "id": "fcol-3",
+                  "id": "foot-col-1",
                   "title": "Our Locations",
                   "links": [
                     {
-                      "id": "fl-3-1",
-                      "label": "Mumbai",
-                      "url": "#",
-                      "icon": "FaMapMarkerAlt"
+                      "id": "loc-delhi",
+                      "label": "Pet Care Services in Delhi",
+                      "url": "/locations/delhi"
                     },
                     {
-                      "id": "fl-3-2",
-                      "label": "Delhi",
-                      "url": "#",
-                      "icon": "FaMapMarkerAlt"
+                      "id": "loc-noida",
+                      "label": "Pet Care Services in Noida",
+                      "url": "/locations/noida"
                     },
                     {
-                      "id": "fl-3-3",
-                      "label": "Bengaluru",
-                      "url": "#",
-                      "icon": "FaMapMarkerAlt"
+                      "id": "loc-gurugram",
+                      "label": "Pet Care Services in Gurugram",
+                      "url": "/locations/gurugram"
                     },
                     {
-                      "id": "fl-3-4",
-                      "label": "Pune",
-                      "url": "#",
-                      "icon": "FaMapMarkerAlt"
+                      "id": "loc-ghaziabad",
+                      "label": "Pet Care Services in Ghaziabad",
+                      "url": "/locations/ghaziabad"
                     },
                     {
-                      "id": "fl-3-5",
-                      "label": "Hyderabad",
-                      "url": "#",
-                      "icon": "FaMapMarkerAlt"
+                      "id": "loc-faridabad",
+                      "label": "Pet Care Services in Faridabad",
+                      "url": "/locations/faridabad"
                     },
                     {
-                      "id": "fl-3-6",
-                      "label": "Ahmedabad",
-                      "url": "#",
-                      "icon": "FaMapMarkerAlt"
+                      "id": "loc-indirapuram",
+                      "label": "Pet Care Services in Indirapuram",
+                      "url": "/locations/indirapuram"
                     }
                   ]
                 },
                 {
-                  "id": "fcol-4",
+                  "id": "foot-col-3",
+                  "title": "Our Services",
+                  "links": [
+                    {
+                      "id": "fc1-0",
+                      "label": "Pet Health Checkups",
+                      "url": "/services/grid-srv-1",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fc1-1",
+                      "label": "Grooming & Hygiene",
+                      "url": "/services/grid-srv-2",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fc1-2",
+                      "label": "Diagnostics & Lab Testing",
+                      "url": "/services/grid-srv-3",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fc1-3",
+                      "label": "General Health Checkups",
+                      "url": "/services/grid-srv-4",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fc1-4",
+                      "label": "Emergency & After-Hours Care",
+                      "url": "/services/grid-srv-5",
+                      "icon": "FaPaw"
+                    },
+                    {
+                      "id": "fc1-5",
+                      "label": "Veterinary Assistance",
+                      "url": "/services/grid-srv-6",
+                      "icon": "FaPaw"
+                    }
+                  ]
+                },
+                {
+                  "id": "foot-col-4",
                   "title": "Quick Links",
                   "links": [
                     {
-                      "id": "fl-4-1",
+                      "id": "ql-appointment",
                       "label": "Appointment",
-                      "url": "/book",
-                      "icon": "FaChevronRight"
+                      "url": "/book-appointment"
                     },
                     {
-                      "id": "fl-4-2",
+                      "id": "ql-terms",
                       "label": "Terms & Conditions",
-                      "url": "/terms",
-                      "icon": "FaChevronRight"
+                      "url": "/legal/terms-conditions"
                     },
                     {
-                      "id": "fl-4-3",
+                      "id": "ql-privacy",
                       "label": "Privacy Policy",
-                      "url": "/privacy",
-                      "icon": "FaChevronRight"
+                      "url": "/legal/privacy-policy"
                     },
                     {
-                      "id": "fl-4-4",
-                      "label": "Refund Policy",
-                      "url": "/refund",
-                      "icon": "FaChevronRight"
+                      "id": "ql-disclaimer",
+                      "label": "Disclaimer",
+                      "url": "/legal/disclaimer"
                     },
                     {
-                      "id": "fl-4-5",
-                      "label": "Careers",
-                      "url": "/careers",
-                      "icon": "FaChevronRight"
+                      "id": "ql-contact",
+                      "label": "Contact Us",
+                      "url": "/contact"
+                    },
+                    {
+                      "id": "ql-sitemap",
+                      "label": "Site Map",
+                      "url": "/sitemap"
                     }
                   ]
                 }
@@ -1101,60 +1364,94 @@
               "description": "Professional care and grooming services to keep your pets happy, healthy and looking their best.",
               "services": [
                 {
-                  "id": "srv-tab-1",
+                  "id": "grid-srv-1",
                   "image": "/service/grooming.jpg",
                   "icon": "FaStethoscope",
                   "title": "Pet Health Checkups",
-                  "titleCollapsed": "Pet\nHealth\nCheckups",
-                  "description": "Professional care and grooming services to keep your pets happy.",
+                  "titleCollapsed": "",
+                  "description": "Comprehensive checkups to ensure your pet's long-term health and vitality. Our expert vets provide thorough examinations.",
                   "features": [
-                    "Bathing",
-                    "Styling"
+                    "Comprehensive health exams",
+                    "Vaccination updates",
+                    "Nutritional counseling"
                   ],
                   "number": "01",
                   "url": "/services/pet-health-checkups"
                 },
                 {
-                  "id": "srv-tab-2",
+                  "id": "grid-srv-2",
                   "image": "/service/dog-bathtub.jpg",
                   "icon": "FaCut",
                   "title": "Grooming & Hygiene",
-                  "titleCollapsed": "Grooming\n& Hygiene",
-                  "description": "Safe and loving environment for your pet.",
+                  "titleCollapsed": "",
+                  "description": "Keep your pet looking and feeling their best with our premium grooming and hygiene services in a relaxed environment.",
                   "features": [
-                    "Spacious",
-                    "Playtime"
+                    "Bathing and blow drying",
+                    "Nail trimming and ear cleaning",
+                    "Breed-specific haircuts"
                   ],
                   "number": "02",
                   "url": "/services/grooming-hygiene"
                 },
                 {
-                  "id": "srv-tab-3",
+                  "id": "grid-srv-3",
                   "image": "/service/fluffy-cat.jpg",
                   "icon": "FaFlask",
                   "title": "Diagnostics & Lab Testing",
-                  "titleCollapsed": "Diagnostics\n& Lab",
-                  "description": "In-home care for your relaxed pet.",
+                  "titleCollapsed": "",
+                  "description": "State-of-the-art diagnostic equipment to quickly and accurately identify any underlying health issues in your pet.",
                   "features": [
-                    "Feeding",
-                    "Play"
+                    "In-house blood analysis",
+                    "Digital X-rays & Ultrasounds",
+                    "Quick and accurate results"
                   ],
                   "number": "03",
                   "url": "/services/diagnostics-lab-testing"
                 },
                 {
-                  "id": "srv-tab-4",
+                  "id": "grid-srv-4",
                   "image": "/service/washing-dog.jpg",
                   "icon": "FaClipboard",
                   "title": "General Health Checkups",
-                  "titleCollapsed": "General\nHealth",
-                  "description": "Active and healthy walks.",
+                  "titleCollapsed": "",
+                  "description": "Routine wellness exams that focus on preventative care, keeping your furry friend active, healthy, and happy.",
                   "features": [
-                    "GPS",
-                    "Exercise"
+                    "Routine physical exams",
+                    "Preventative health care",
+                    "Weight management plans"
                   ],
                   "number": "04",
                   "url": "/services/general-health-checkups"
+                },
+                {
+                  "id": "grid-srv-5",
+                  "image": "/service/bath&blow.jpg",
+                  "icon": "FaAmbulance",
+                  "title": "Emergency & After-Hours Care",
+                  "titleCollapsed": "",
+                  "description": "Round-the-clock emergency services because we know accidents and sudden illnesses don't wait for business hours.",
+                  "features": [
+                    "24/7 on-call veterinarian",
+                    "Trauma and critical care",
+                    "Immediate medical attention"
+                  ],
+                  "number": "05",
+                  "url": "/services/emergency-after-hours-care"
+                },
+                {
+                  "id": "grid-srv-6",
+                  "image": "/service/ear cleaning.jpg",
+                  "icon": "FaStethoscope",
+                  "title": "Veterinary Assistance",
+                  "titleCollapsed": "",
+                  "description": "Professional guidance and hands-on medical support for your pet's recovery, chronic conditions, and daily wellness.",
+                  "features": [
+                    "Post-surgery recovery support",
+                    "Medication administration",
+                    "Compassionate daily care"
+                  ],
+                  "number": "06",
+                  "url": "/services/veterinary-assistance"
                 }
               ]
             },
@@ -1171,8 +1468,12 @@
                   "icon": "FaStethoscope",
                   "title": "Pet Health Checkups",
                   "titleCollapsed": "",
-                  "description": "Professional grooming to keep your pet clean, fresh and stylish.",
-                  "features": [],
+                  "description": "Comprehensive checkups to ensure your pet's long-term health and vitality. Our expert vets provide thorough examinations.",
+                  "features": [
+                    "Comprehensive health exams",
+                    "Vaccination updates",
+                    "Nutritional counseling"
+                  ],
                   "number": "01",
                   "url": "/services/pet-health-checkups"
                 },
@@ -1182,8 +1483,12 @@
                   "icon": "FaCut",
                   "title": "Grooming & Hygiene",
                   "titleCollapsed": "",
-                  "description": "Safe and comfortable stay with loving care while you're away.",
-                  "features": [],
+                  "description": "Keep your pet looking and feeling their best with our premium grooming and hygiene services in a relaxed environment.",
+                  "features": [
+                    "Bathing and blow drying",
+                    "Nail trimming and ear cleaning",
+                    "Breed-specific haircuts"
+                  ],
                   "number": "02",
                   "url": "/services/grooming-hygiene"
                 },
@@ -1193,8 +1498,12 @@
                   "icon": "FaFlask",
                   "title": "Diagnostics & Lab Testing",
                   "titleCollapsed": "",
-                  "description": "Personalized care and attention for your pet at your home.",
-                  "features": [],
+                  "description": "State-of-the-art diagnostic equipment to quickly and accurately identify any underlying health issues in your pet.",
+                  "features": [
+                    "In-house blood analysis",
+                    "Digital X-rays & Ultrasounds",
+                    "Quick and accurate results"
+                  ],
                   "number": "03",
                   "url": "/services/diagnostics-lab-testing"
                 },
@@ -1204,8 +1513,12 @@
                   "icon": "FaClipboard",
                   "title": "General Health Checkups",
                   "titleCollapsed": "",
-                  "description": "Daily walks and exercise to keep your dog active and healthy.",
-                  "features": [],
+                  "description": "Routine wellness exams that focus on preventative care, keeping your furry friend active, healthy, and happy.",
+                  "features": [
+                    "Routine physical exams",
+                    "Preventative health care",
+                    "Weight management plans"
+                  ],
                   "number": "04",
                   "url": "/services/general-health-checkups"
                 },
@@ -1215,8 +1528,12 @@
                   "icon": "FaAmbulance",
                   "title": "Emergency & After-Hours Care",
                   "titleCollapsed": "",
-                  "description": "Fun, play and socialization in a safe and supervised environment.",
-                  "features": [],
+                  "description": "Round-the-clock emergency services because we know accidents and sudden illnesses don't wait for business hours.",
+                  "features": [
+                    "24/7 on-call veterinarian",
+                    "Trauma and critical care",
+                    "Immediate medical attention"
+                  ],
                   "number": "05",
                   "url": "/services/emergency-after-hours-care"
                 },
@@ -1226,8 +1543,12 @@
                   "icon": "FaStethoscope",
                   "title": "Veterinary Assistance",
                   "titleCollapsed": "",
-                  "description": "Professional guidance and support for your pet's health and wellness.",
-                  "features": [],
+                  "description": "Professional guidance and hands-on medical support for your pet's recovery, chronic conditions, and daily wellness.",
+                  "features": [
+                    "Post-surgery recovery support",
+                    "Medication administration",
+                    "Compassionate daily care"
+                  ],
                   "number": "06",
                   "url": "/services/veterinary-assistance"
                 }
@@ -1242,79 +1563,94 @@
               "title": "Complete Grooming Care\nfor <span class=\"text-[#00695c]\">Your Furry Friends</span>",
               "services": [
                 {
-                  "id": "srv-1",
+                  "id": "grid-srv-1",
                   "image": "/service/grooming.jpg",
-                  "icon": "FaPaw",
-                  "title": "Professional Grooming",
-                  "titleCollapsed": "Professional\nGrooming",
-                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "icon": "FaStethoscope",
+                  "title": "Pet Health Checkups",
+                  "titleCollapsed": "",
+                  "description": "Comprehensive checkups to ensure your pet's long-term health and vitality. Our expert vets provide thorough examinations.",
                   "features": [
-                    "Certified Groomers",
-                    "Premium Pet Products",
-                    "Hygienic & Safe Environment"
+                    "Comprehensive health exams",
+                    "Vaccination updates",
+                    "Nutritional counseling"
                   ],
                   "number": "01",
-                  "url": "/services/grooming"
+                  "url": "/services/pet-health-checkups"
                 },
                 {
-                  "id": "srv-2",
-                  "image": "/service/bath&blow.jpg",
-                  "icon": "FaBath",
-                  "title": "Bath & Blow Dry",
-                  "titleCollapsed": "Bath &\nBlow Dry",
-                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "id": "grid-srv-2",
+                  "image": "/service/dog-bathtub.jpg",
+                  "icon": "FaCut",
+                  "title": "Grooming & Hygiene",
+                  "titleCollapsed": "",
+                  "description": "Keep your pet looking and feeling their best with our premium grooming and hygiene services in a relaxed environment.",
                   "features": [
-                    "Certified Groomers",
-                    "Premium Pet Products",
-                    "Hygienic & Safe Environment"
+                    "Bathing and blow drying",
+                    "Nail trimming and ear cleaning",
+                    "Breed-specific haircuts"
                   ],
                   "number": "02",
-                  "url": "/services/bath"
+                  "url": "/services/grooming-hygiene"
                 },
                 {
-                  "id": "srv-3",
-                  "image": "/service/hair&style.jpg",
-                  "icon": "FaCut",
-                  "title": "Hair Trimming & Styling",
-                  "titleCollapsed": "Hair\nTrimming &\nStyling",
-                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "id": "grid-srv-3",
+                  "image": "/service/fluffy-cat.jpg",
+                  "icon": "FaFlask",
+                  "title": "Diagnostics & Lab Testing",
+                  "titleCollapsed": "",
+                  "description": "State-of-the-art diagnostic equipment to quickly and accurately identify any underlying health issues in your pet.",
                   "features": [
-                    "Certified Groomers",
-                    "Premium Pet Products",
-                    "Hygienic & Safe Environment"
+                    "In-house blood analysis",
+                    "Digital X-rays & Ultrasounds",
+                    "Quick and accurate results"
                   ],
                   "number": "03",
-                  "url": "/services/hair-trimming"
+                  "url": "/services/diagnostics-lab-testing"
                 },
                 {
-                  "id": "srv-4",
-                  "image": "/service/nail.jpg",
-                  "icon": "FaMagic",
-                  "title": "Nail Trimming",
-                  "titleCollapsed": "Nail\nTrimming",
-                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "id": "grid-srv-4",
+                  "image": "/service/washing-dog.jpg",
+                  "icon": "FaClipboard",
+                  "title": "General Health Checkups",
+                  "titleCollapsed": "",
+                  "description": "Routine wellness exams that focus on preventative care, keeping your furry friend active, healthy, and happy.",
                   "features": [
-                    "Certified Groomers",
-                    "Premium Pet Products",
-                    "Hygienic & Safe Environment"
+                    "Routine physical exams",
+                    "Preventative health care",
+                    "Weight management plans"
                   ],
                   "number": "04",
-                  "url": "/services/nail-trimming"
+                  "url": "/services/general-health-checkups"
                 },
                 {
-                  "id": "srv-5",
-                  "image": "/service/ear cleaning.jpg",
-                  "icon": "FaStethoscope",
-                  "title": "Ear Cleaning",
-                  "titleCollapsed": "Ear\nCleaning",
-                  "description": "Our professional grooming services ensure your pet looks great and feels comfortable. We use safe products and expert techniques for the best care.",
+                  "id": "grid-srv-5",
+                  "image": "/service/bath&blow.jpg",
+                  "icon": "FaAmbulance",
+                  "title": "Emergency & After-Hours Care",
+                  "titleCollapsed": "",
+                  "description": "Round-the-clock emergency services because we know accidents and sudden illnesses don't wait for business hours.",
                   "features": [
-                    "Certified Groomers",
-                    "Premium Pet Products",
-                    "Hygienic & Safe Environment"
+                    "24/7 on-call veterinarian",
+                    "Trauma and critical care",
+                    "Immediate medical attention"
                   ],
                   "number": "05",
-                  "url": "/services/ear-cleaning"
+                  "url": "/services/emergency-after-hours-care"
+                },
+                {
+                  "id": "grid-srv-6",
+                  "image": "/service/ear cleaning.jpg",
+                  "icon": "FaStethoscope",
+                  "title": "Veterinary Assistance",
+                  "titleCollapsed": "",
+                  "description": "Professional guidance and hands-on medical support for your pet's recovery, chronic conditions, and daily wellness.",
+                  "features": [
+                    "Post-surgery recovery support",
+                    "Medication administration",
+                    "Compassionate daily care"
+                  ],
+                  "number": "06",
+                  "url": "/services/veterinary-assistance"
                 }
               ]
             }
@@ -3503,6 +3839,824 @@
                   "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
                 }
               ]
+            }
+          }
+        },
+        "Partners": {
+          "variants": {
+            "PawVitaPartners1": {
+              "headingIcon": "FaPaw",
+              "headingTitle": "OUR PARTNERS",
+              "title": "Our Partners",
+              "description": "We are proud to collaborate with trusted brands and organizations who share our love for pets and commitment to their well-being.",
+              "items": [
+                {
+                  "id": "partner-1",
+                  "image": "/partner/petco.webp",
+                  "alt": "petco"
+                },
+                {
+                  "id": "partner-2",
+                  "image": "/partner/royal chain.webp",
+                  "alt": "royal chain"
+                },
+                {
+                  "id": "partner-3",
+                  "image": "/partner/banfield.webp",
+                  "alt": "banfield"
+                },
+                {
+                  "id": "partner-4",
+                  "image": "/partner/petsmart.webp",
+                  "alt": "petsmart"
+                },
+                {
+                  "id": "partner-5",
+                  "image": "/partner/earthbath.webp",
+                  "alt": "earthbath"
+                },
+                {
+                  "id": "partner-6",
+                  "image": "/partner/nylabone.webp",
+                  "alt": "nylabone"
+                },
+                {
+                  "id": "partner-7",
+                  "image": "/partner/wag hotels.webp",
+                  "alt": "wag hotels"
+                },
+                {
+                  "id": "partner-8",
+                  "image": "/partner/bark.webp",
+                  "alt": "bark"
+                },
+                {
+                  "id": "partner-9",
+                  "image": "/partner/hills.webp",
+                  "alt": "hills"
+                },
+                {
+                  "id": "partner-10",
+                  "image": "/partner/zoetis.webp",
+                  "alt": "zoetis"
+                },
+                {
+                  "id": "partner-11",
+                  "image": "/partner/merck.webp",
+                  "alt": "merck"
+                },
+                {
+                  "id": "partner-12",
+                  "image": "/partner/vetiq.webp",
+                  "alt": "vetiq"
+                },
+                {
+                  "id": "partner-13",
+                  "image": "/partner/tidy cats.webp",
+                  "alt": "tidy cats"
+                },
+                {
+                  "id": "partner-14",
+                  "image": "/partner/frontline.webp",
+                  "alt": "frontline"
+                },
+                {
+                  "id": "partner-15",
+                  "image": "/partner/greenies.webp",
+                  "alt": "greenies"
+                },
+                {
+                  "id": "partner-16",
+                  "image": "/partner/bayer.webp",
+                  "alt": "bayer"
+                }
+              ]
+            }
+          }
+        },
+        "BlogsList": {
+          "variants": {
+            "PawVitaBlogsList1": {
+              "headingIcon": "FaPaw",
+              "headingTitle": "OUR BLOG",
+              "title": "Pet Care Tips & Stories",
+              "description": "Helpful tips, grooming advice, and heartwarming stories to keep your furry friends happy, healthy, and well cared for.",
+              "items": [
+                {
+                  "id": "how-to-keep-your-dog-cool",
+                  "title": "How to Keep Your Dog Cool in Summer",
+                  "date": "18 May 2025",
+                  "excerpt": "Practical tips to help your dog stay safe, hydrated, and comfortable during hot weather.",
+                  "image": "/gallery/g1.jpg",
+                  "url": "/blog/how-to-keep-your-dog-cool"
+                },
+                {
+                  "id": "cat-grooming-101",
+                  "title": "Cat Grooming 101: Easy Tips at Home",
+                  "date": "16 May 2025",
+                  "excerpt": "Simple grooming tips to keep your cat's coat healthy, shiny, and tangle-free at home.",
+                  "image": "/gallery/g2.jpg",
+                  "url": "/blog/cat-grooming-101"
+                },
+                {
+                  "id": "best-foods-healthy-happy-pet",
+                  "title": "Best Foods for a Healthy and Happy Pet",
+                  "date": "14 May 2025",
+                  "excerpt": "Discover nutritious food options that support your pet's growth, energy, and overall well-being.",
+                  "image": "/gallery/g3.jpg",
+                  "url": "/blog/best-foods-healthy-happy-pet"
+                },
+                {
+                  "id": "puppy-training-basics",
+                  "title": "Puppy Training Basics Every Owner Should Know",
+                  "date": "12 May 2025",
+                  "excerpt": "Essential training tips to build good habits and a strong bond with your puppy from the start.",
+                  "image": "/gallery/g4.jpg",
+                  "url": "/blog/puppy-training-basics"
+                },
+                {
+                  "id": "how-often-bath-pet",
+                  "title": "How Often Should You Bath Your Pet?",
+                  "date": "10 May 2025",
+                  "excerpt": "Find out the right bathing frequency for dogs and cats based on coat type and lifestyle.",
+                  "image": "/gallery/g5.jpg",
+                  "url": "/blog/how-often-bath-pet"
+                },
+                {
+                  "id": "signs-pet-might-be-stressed",
+                  "title": "Signs Your Pet Might Be Stressed",
+                  "date": "08 May 2025",
+                  "excerpt": "Learn how to identify stress in pets and simple ways to help them feel safe and relaxed.",
+                  "image": "/gallery/g6.jpg",
+                  "url": "/blog/signs-pet-might-be-stressed"
+                }
+              ]
+            }
+          }
+        },
+        "BlogDetails": {
+          "variants": {
+            "PawVitaBlogDetail_how-to-keep-your-dog-cool": {
+              "date": "18 May 2025",
+              "title": "Create Stress-Free Vet Experience for Anxious Pets",
+              "tags": [
+                "Pet Care Tips",
+                "Vet Visit"
+              ],
+              "readTime": "5 min read",
+              "heroImage": "/gallery/g1.jpg",
+              "contentTop": [
+                "Veterinary visits can be overwhelming for pets, triggering anxiety through unfamiliar smells, sounds, and handling. Creating a calmer experience benefits both your pet's emotional wellbeing and allows for more accurate examinations, as stressed animals may have elevated vital signs or become difficult to assess.",
+                "Keep your own emotions calm, as pets pick up on human stress remarkably well. Avoid overly sympathetic tones or excessive reassurance, which can actually reinforce fearful behavior. Instead, maintain a confident, matter-of-fact demeanor. Bring high-value treats your pet doesn't normally receive, and ask if you can feed them throughout the visit to create positive associations. A favorite toy or blanket carrying familiar scents can provide comfort."
+              ],
+              "blockquote": {
+                "text": "A stressed pet isn't just uncomfortable; they're harder to examine accurately, as fear can elevate heart rate, blood pressure, and mask symptoms. Your veterinarian should be your partner in reducing anxiety — don't hesitate to discuss fear-free handling options or anti-anxiety medications."
+              },
+              "middleHeading": "Why It Matters",
+              "middleContent": [
+                "Desensitization training makes a significant difference over time. Regularly handle your pet's paws, ears, and mouth at home while rewarding calm behavior. This makes actual examinations less jarring. Consider scheduling non-appointment visits where you simply stop by the clinic for treats and friendly interactions with staff. For severely anxious pets, discuss anti-anxiety medications with your veterinarian.",
+                "Designing for simplicity and clarity means creating experiences that feel effortless and intuitive. Every element — from layout to navigation — should guide users naturally, eliminating confusion and complexity. When design communicates clearly, users engage with confidence, satisfaction, and trust, resulting in stronger digital experiences."
+              ],
+              "features": [
+                {
+                  "icon": "FaUsers",
+                  "title": "Early socialization and positive conditioning",
+                  "description": "are the most effective long-term solutions for veterinary anxiety."
+                },
+                {
+                  "icon": "FaBone",
+                  "title": "High-value treats during the visit",
+                  "description": "create positive associations and can distract from stressful procedures."
+                },
+                {
+                  "icon": "FaShieldAlt",
+                  "title": "Fear-free certified practices",
+                  "description": "use scientifically-backed techniques to minimize stress and trauma."
+                },
+                {
+                  "icon": "FaCapsules",
+                  "title": "Pre-visit medications prescribed by your vet",
+                  "description": "can significantly reduce anxiety for severely stressed pets."
+                }
+              ],
+              "contentBottom": [
+                "Pre-visit pharmaceuticals can make the difference between a traumatic experience and a manageable one. Some pets benefit from supplements like calming chews or prescription medications given an hour before appointments. The veterinarian may use calming pheromone sprays, gentle handling techniques, or even \"happy visits\" where pets simply come in for treats and affection without any procedures."
+              ]
+            },
+            "PawVitaBlogDetail_cat-grooming-101": {
+              "date": "16 May 2025",
+              "title": "Cat Grooming 101: Easy Tips at Home",
+              "tags": [
+                "Pet Care Tips",
+                "Vet Visit"
+              ],
+              "readTime": "5 min read",
+              "heroImage": "/gallery/g2.jpg",
+              "contentTop": [
+                "Veterinary visits can be overwhelming for pets, triggering anxiety through unfamiliar smells, sounds, and handling. Creating a calmer experience benefits both your pet's emotional wellbeing and allows for more accurate examinations, as stressed animals may have elevated vital signs or become difficult to assess.",
+                "Keep your own emotions calm, as pets pick up on human stress remarkably well. Avoid overly sympathetic tones or excessive reassurance, which can actually reinforce fearful behavior. Instead, maintain a confident, matter-of-fact demeanor. Bring high-value treats your pet doesn't normally receive, and ask if you can feed them throughout the visit to create positive associations. A favorite toy or blanket carrying familiar scents can provide comfort."
+              ],
+              "blockquote": {
+                "text": "A stressed pet isn't just uncomfortable; they're harder to examine accurately, as fear can elevate heart rate, blood pressure, and mask symptoms. Your veterinarian should be your partner in reducing anxiety — don't hesitate to discuss fear-free handling options or anti-anxiety medications."
+              },
+              "middleHeading": "Why It Matters",
+              "middleContent": [
+                "Desensitization training makes a significant difference over time. Regularly handle your pet's paws, ears, and mouth at home while rewarding calm behavior. This makes actual examinations less jarring. Consider scheduling non-appointment visits where you simply stop by the clinic for treats and friendly interactions with staff. For severely anxious pets, discuss anti-anxiety medications with your veterinarian.",
+                "Designing for simplicity and clarity means creating experiences that feel effortless and intuitive. Every element — from layout to navigation — should guide users naturally, eliminating confusion and complexity. When design communicates clearly, users engage with confidence, satisfaction, and trust, resulting in stronger digital experiences."
+              ],
+              "features": [
+                {
+                  "icon": "FaUsers",
+                  "title": "Early socialization and positive conditioning",
+                  "description": "are the most effective long-term solutions for veterinary anxiety."
+                },
+                {
+                  "icon": "FaBone",
+                  "title": "High-value treats during the visit",
+                  "description": "create positive associations and can distract from stressful procedures."
+                },
+                {
+                  "icon": "FaShieldAlt",
+                  "title": "Fear-free certified practices",
+                  "description": "use scientifically-backed techniques to minimize stress and trauma."
+                },
+                {
+                  "icon": "FaCapsules",
+                  "title": "Pre-visit medications prescribed by your vet",
+                  "description": "can significantly reduce anxiety for severely stressed pets."
+                }
+              ],
+              "contentBottom": [
+                "Pre-visit pharmaceuticals can make the difference between a traumatic experience and a manageable one. Some pets benefit from supplements like calming chews or prescription medications given an hour before appointments. The veterinarian may use calming pheromone sprays, gentle handling techniques, or even \"happy visits\" where pets simply come in for treats and affection without any procedures."
+              ]
+            },
+            "PawVitaBlogDetail_best-foods-healthy-happy-pet": {
+              "date": "14 May 2025",
+              "title": "Best Foods for a Healthy and Happy Pet",
+              "tags": [
+                "Pet Care Tips",
+                "Vet Visit"
+              ],
+              "readTime": "5 min read",
+              "heroImage": "/gallery/g3.jpg",
+              "contentTop": [
+                "Veterinary visits can be overwhelming for pets, triggering anxiety through unfamiliar smells, sounds, and handling. Creating a calmer experience benefits both your pet's emotional wellbeing and allows for more accurate examinations, as stressed animals may have elevated vital signs or become difficult to assess.",
+                "Keep your own emotions calm, as pets pick up on human stress remarkably well. Avoid overly sympathetic tones or excessive reassurance, which can actually reinforce fearful behavior. Instead, maintain a confident, matter-of-fact demeanor. Bring high-value treats your pet doesn't normally receive, and ask if you can feed them throughout the visit to create positive associations. A favorite toy or blanket carrying familiar scents can provide comfort."
+              ],
+              "blockquote": {
+                "text": "A stressed pet isn't just uncomfortable; they're harder to examine accurately, as fear can elevate heart rate, blood pressure, and mask symptoms. Your veterinarian should be your partner in reducing anxiety — don't hesitate to discuss fear-free handling options or anti-anxiety medications."
+              },
+              "middleHeading": "Why It Matters",
+              "middleContent": [
+                "Desensitization training makes a significant difference over time. Regularly handle your pet's paws, ears, and mouth at home while rewarding calm behavior. This makes actual examinations less jarring. Consider scheduling non-appointment visits where you simply stop by the clinic for treats and friendly interactions with staff. For severely anxious pets, discuss anti-anxiety medications with your veterinarian.",
+                "Designing for simplicity and clarity means creating experiences that feel effortless and intuitive. Every element — from layout to navigation — should guide users naturally, eliminating confusion and complexity. When design communicates clearly, users engage with confidence, satisfaction, and trust, resulting in stronger digital experiences."
+              ],
+              "features": [
+                {
+                  "icon": "FaUsers",
+                  "title": "Early socialization and positive conditioning",
+                  "description": "are the most effective long-term solutions for veterinary anxiety."
+                },
+                {
+                  "icon": "FaBone",
+                  "title": "High-value treats during the visit",
+                  "description": "create positive associations and can distract from stressful procedures."
+                },
+                {
+                  "icon": "FaShieldAlt",
+                  "title": "Fear-free certified practices",
+                  "description": "use scientifically-backed techniques to minimize stress and trauma."
+                },
+                {
+                  "icon": "FaCapsules",
+                  "title": "Pre-visit medications prescribed by your vet",
+                  "description": "can significantly reduce anxiety for severely stressed pets."
+                }
+              ],
+              "contentBottom": [
+                "Pre-visit pharmaceuticals can make the difference between a traumatic experience and a manageable one. Some pets benefit from supplements like calming chews or prescription medications given an hour before appointments. The veterinarian may use calming pheromone sprays, gentle handling techniques, or even \"happy visits\" where pets simply come in for treats and affection without any procedures."
+              ]
+            },
+            "PawVitaBlogDetail_puppy-training-basics": {
+              "date": "12 May 2025",
+              "title": "Puppy Training Basics Every Owner Should Know",
+              "tags": [
+                "Pet Care Tips",
+                "Vet Visit"
+              ],
+              "readTime": "5 min read",
+              "heroImage": "/gallery/g4.jpg",
+              "contentTop": [
+                "Veterinary visits can be overwhelming for pets, triggering anxiety through unfamiliar smells, sounds, and handling. Creating a calmer experience benefits both your pet's emotional wellbeing and allows for more accurate examinations, as stressed animals may have elevated vital signs or become difficult to assess.",
+                "Keep your own emotions calm, as pets pick up on human stress remarkably well. Avoid overly sympathetic tones or excessive reassurance, which can actually reinforce fearful behavior. Instead, maintain a confident, matter-of-fact demeanor. Bring high-value treats your pet doesn't normally receive, and ask if you can feed them throughout the visit to create positive associations. A favorite toy or blanket carrying familiar scents can provide comfort."
+              ],
+              "blockquote": {
+                "text": "A stressed pet isn't just uncomfortable; they're harder to examine accurately, as fear can elevate heart rate, blood pressure, and mask symptoms. Your veterinarian should be your partner in reducing anxiety — don't hesitate to discuss fear-free handling options or anti-anxiety medications."
+              },
+              "middleHeading": "Why It Matters",
+              "middleContent": [
+                "Desensitization training makes a significant difference over time. Regularly handle your pet's paws, ears, and mouth at home while rewarding calm behavior. This makes actual examinations less jarring. Consider scheduling non-appointment visits where you simply stop by the clinic for treats and friendly interactions with staff. For severely anxious pets, discuss anti-anxiety medications with your veterinarian.",
+                "Designing for simplicity and clarity means creating experiences that feel effortless and intuitive. Every element — from layout to navigation — should guide users naturally, eliminating confusion and complexity. When design communicates clearly, users engage with confidence, satisfaction, and trust, resulting in stronger digital experiences."
+              ],
+              "features": [
+                {
+                  "icon": "FaUsers",
+                  "title": "Early socialization and positive conditioning",
+                  "description": "are the most effective long-term solutions for veterinary anxiety."
+                },
+                {
+                  "icon": "FaBone",
+                  "title": "High-value treats during the visit",
+                  "description": "create positive associations and can distract from stressful procedures."
+                },
+                {
+                  "icon": "FaShieldAlt",
+                  "title": "Fear-free certified practices",
+                  "description": "use scientifically-backed techniques to minimize stress and trauma."
+                },
+                {
+                  "icon": "FaCapsules",
+                  "title": "Pre-visit medications prescribed by your vet",
+                  "description": "can significantly reduce anxiety for severely stressed pets."
+                }
+              ],
+              "contentBottom": [
+                "Pre-visit pharmaceuticals can make the difference between a traumatic experience and a manageable one. Some pets benefit from supplements like calming chews or prescription medications given an hour before appointments. The veterinarian may use calming pheromone sprays, gentle handling techniques, or even \"happy visits\" where pets simply come in for treats and affection without any procedures."
+              ]
+            },
+            "PawVitaBlogDetail_how-often-bath-pet": {
+              "date": "10 May 2025",
+              "title": "How Often Should You Bath Your Pet?",
+              "tags": [
+                "Pet Care Tips",
+                "Vet Visit"
+              ],
+              "readTime": "5 min read",
+              "heroImage": "/gallery/g5.jpg",
+              "contentTop": [
+                "Veterinary visits can be overwhelming for pets, triggering anxiety through unfamiliar smells, sounds, and handling. Creating a calmer experience benefits both your pet's emotional wellbeing and allows for more accurate examinations, as stressed animals may have elevated vital signs or become difficult to assess.",
+                "Keep your own emotions calm, as pets pick up on human stress remarkably well. Avoid overly sympathetic tones or excessive reassurance, which can actually reinforce fearful behavior. Instead, maintain a confident, matter-of-fact demeanor. Bring high-value treats your pet doesn't normally receive, and ask if you can feed them throughout the visit to create positive associations. A favorite toy or blanket carrying familiar scents can provide comfort."
+              ],
+              "blockquote": {
+                "text": "A stressed pet isn't just uncomfortable; they're harder to examine accurately, as fear can elevate heart rate, blood pressure, and mask symptoms. Your veterinarian should be your partner in reducing anxiety — don't hesitate to discuss fear-free handling options or anti-anxiety medications."
+              },
+              "middleHeading": "Why It Matters",
+              "middleContent": [
+                "Desensitization training makes a significant difference over time. Regularly handle your pet's paws, ears, and mouth at home while rewarding calm behavior. This makes actual examinations less jarring. Consider scheduling non-appointment visits where you simply stop by the clinic for treats and friendly interactions with staff. For severely anxious pets, discuss anti-anxiety medications with your veterinarian.",
+                "Designing for simplicity and clarity means creating experiences that feel effortless and intuitive. Every element — from layout to navigation — should guide users naturally, eliminating confusion and complexity. When design communicates clearly, users engage with confidence, satisfaction, and trust, resulting in stronger digital experiences."
+              ],
+              "features": [
+                {
+                  "icon": "FaUsers",
+                  "title": "Early socialization and positive conditioning",
+                  "description": "are the most effective long-term solutions for veterinary anxiety."
+                },
+                {
+                  "icon": "FaBone",
+                  "title": "High-value treats during the visit",
+                  "description": "create positive associations and can distract from stressful procedures."
+                },
+                {
+                  "icon": "FaShieldAlt",
+                  "title": "Fear-free certified practices",
+                  "description": "use scientifically-backed techniques to minimize stress and trauma."
+                },
+                {
+                  "icon": "FaCapsules",
+                  "title": "Pre-visit medications prescribed by your vet",
+                  "description": "can significantly reduce anxiety for severely stressed pets."
+                }
+              ],
+              "contentBottom": [
+                "Pre-visit pharmaceuticals can make the difference between a traumatic experience and a manageable one. Some pets benefit from supplements like calming chews or prescription medications given an hour before appointments. The veterinarian may use calming pheromone sprays, gentle handling techniques, or even \"happy visits\" where pets simply come in for treats and affection without any procedures."
+              ]
+            },
+            "PawVitaBlogDetail_signs-pet-might-be-stressed": {
+              "date": "08 May 2025",
+              "title": "Signs Your Pet Might Be Stressed",
+              "tags": [
+                "Pet Care Tips",
+                "Vet Visit"
+              ],
+              "readTime": "5 min read",
+              "heroImage": "/gallery/g6.jpg",
+              "contentTop": [
+                "Veterinary visits can be overwhelming for pets, triggering anxiety through unfamiliar smells, sounds, and handling. Creating a calmer experience benefits both your pet's emotional wellbeing and allows for more accurate examinations, as stressed animals may have elevated vital signs or become difficult to assess.",
+                "Keep your own emotions calm, as pets pick up on human stress remarkably well. Avoid overly sympathetic tones or excessive reassurance, which can actually reinforce fearful behavior. Instead, maintain a confident, matter-of-fact demeanor. Bring high-value treats your pet doesn't normally receive, and ask if you can feed them throughout the visit to create positive associations. A favorite toy or blanket carrying familiar scents can provide comfort."
+              ],
+              "blockquote": {
+                "text": "A stressed pet isn't just uncomfortable; they're harder to examine accurately, as fear can elevate heart rate, blood pressure, and mask symptoms. Your veterinarian should be your partner in reducing anxiety — don't hesitate to discuss fear-free handling options or anti-anxiety medications."
+              },
+              "middleHeading": "Why It Matters",
+              "middleContent": [
+                "Desensitization training makes a significant difference over time. Regularly handle your pet's paws, ears, and mouth at home while rewarding calm behavior. This makes actual examinations less jarring. Consider scheduling non-appointment visits where you simply stop by the clinic for treats and friendly interactions with staff. For severely anxious pets, discuss anti-anxiety medications with your veterinarian.",
+                "Designing for simplicity and clarity means creating experiences that feel effortless and intuitive. Every element — from layout to navigation — should guide users naturally, eliminating confusion and complexity. When design communicates clearly, users engage with confidence, satisfaction, and trust, resulting in stronger digital experiences."
+              ],
+              "features": [
+                {
+                  "icon": "FaUsers",
+                  "title": "Early socialization and positive conditioning",
+                  "description": "are the most effective long-term solutions for veterinary anxiety."
+                },
+                {
+                  "icon": "FaBone",
+                  "title": "High-value treats during the visit",
+                  "description": "create positive associations and can distract from stressful procedures."
+                },
+                {
+                  "icon": "FaShieldAlt",
+                  "title": "Fear-free certified practices",
+                  "description": "use scientifically-backed techniques to minimize stress and trauma."
+                },
+                {
+                  "icon": "FaCapsules",
+                  "title": "Pre-visit medications prescribed by your vet",
+                  "description": "can significantly reduce anxiety for severely stressed pets."
+                }
+              ],
+              "contentBottom": [
+                "Pre-visit pharmaceuticals can make the difference between a traumatic experience and a manageable one. Some pets benefit from supplements like calming chews or prescription medications given an hour before appointments. The veterinarian may use calming pheromone sprays, gentle handling techniques, or even \"happy visits\" where pets simply come in for treats and affection without any procedures."
+              ]
+            }
+          }
+        },
+        "Legal": {
+          "variants": {
+            "PrivacyPolicy": {
+              "title": "Privacy Policy",
+              "introText": "At PawVita, we value your trust and are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you use our website and services.",
+              "sections": [
+                {
+                  "title": "1. Information We Collect",
+                  "content": "We collect information that you provide directly to us, such as your name, email address, phone number, address, and details related to your pet when you book a service, contact us, or subscribe to our newsletter. We may also collect non-personal information such as browser type, device information, and usage data to improve our services."
+                },
+                {
+                  "title": "2. How We Use Your Information",
+                  "content": "We use the information we collect to provide, operate, and maintain our services, process your bookings, communicate with you, send you updates and offers, and improve your overall experience with PawVita."
+                },
+                {
+                  "title": "3. Information Sharing",
+                  "content": "We do not sell or rent your personal information. We may share your data with trusted service providers who assist us in operating our website and services, under strict confidentiality agreements. We may also disclose information if required by law or to protect our rights."
+                },
+                {
+                  "title": "4. Data Security",
+                  "content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction."
+                },
+                {
+                  "title": "5. Your Rights & Choices",
+                  "content": "You have the right to access, update, or delete your personal information. You can opt out of marketing communications at any time by following the unsubscribe link in our emails or contacting us directly."
+                },
+                {
+                  "title": "6. Cookies & Tracking",
+                  "content": "We use cookies and similar tracking technologies to enhance your browsing experience, analyze website traffic, and understand user preferences. You can set your browser to refuse cookies, but some features may not function properly."
+                },
+                {
+                  "title": "7. Third-Party Services",
+                  "content": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those sites. Please review their privacy policies before providing any information."
+                },
+                {
+                  "title": "8. Children's Privacy",
+                  "content": "Our services are not intended for children under 13. We do not knowingly collect personal information from children. If we learn that we have collected such information, we will delete it promptly."
+                },
+                {
+                  "title": "9. Changes to This Policy",
+                  "content": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated effective date. We encourage you to review this policy periodically."
+                },
+                {
+                  "title": "10. Contact Us",
+                  "content": "If you have any questions or concerns about this Privacy Policy, please contact us."
+                }
+              ]
+            },
+            "TermsConditions": {
+              "title": "Terms & Conditions",
+              "introText": "Welcome to PawVita. By accessing or using our website and services, you agree to be bound by these Terms & Conditions. Please read them carefully before making any bookings.",
+              "sections": [
+                {
+                  "title": "1. Acceptance of Terms",
+                  "content": "By using PawVita's services, you accept and agree to these Terms. If you do not agree with any part of these Terms, you must not use our services."
+                },
+                {
+                  "title": "2. Service Bookings & Cancellations",
+                  "content": "All bookings are subject to availability. You must provide accurate information regarding your pet's health and behavior. Cancellations must be made at least 24 hours in advance to avoid a cancellation fee."
+                },
+                {
+                  "title": "3. Pet Health & Safety Requirements",
+                  "content": "All pets must be up-to-date on vaccinations before using our grooming, boarding, or veterinary services. We reserve the right to refuse service to any pet that shows signs of aggression or illness that may compromise the safety of our staff and other pets."
+                },
+                {
+                  "title": "4. Liability & Indemnification",
+                  "content": "While we take the utmost care of your pets, PawVita shall not be held liable for any pre-existing conditions or unforeseen accidents. You agree to indemnify and hold PawVita harmless against any claims arising from your pet's behavior."
+                },
+                {
+                  "title": "5. Intellectual Property",
+                  "content": "All content, logos, and materials on this website are the intellectual property of PawVita and may not be used, reproduced, or distributed without our prior written consent."
+                },
+                {
+                  "title": "6. Governing Law",
+                  "content": "These Terms shall be governed by and construed in accordance with the laws of our jurisdiction. Any disputes arising from these Terms will be subject to the exclusive jurisdiction of the local courts."
+                }
+              ]
+            },
+            "Disclaimer": {
+              "title": "Disclaimer",
+              "introText": "The information provided by PawVita on this website is for general informational purposes only. All information is provided in good faith, however, we make no representation or warranty of any kind.",
+              "sections": [
+                {
+                  "title": "1. Medical Disclaimer",
+                  "content": "The content on our website and blog is not intended to be a substitute for professional veterinary advice, diagnosis, or treatment. Always seek the advice of your veterinarian with any questions you may have regarding your pet's medical condition."
+                },
+                {
+                  "title": "2. No Professional Relationship",
+                  "content": "Your use of this website does not create a veterinary-client-patient relationship. Such a relationship is only established after an in-person examination and consultation."
+                },
+                {
+                  "title": "3. External Links Disclaimer",
+                  "content": "The Site may contain links to other websites or content belonging to or originating from third parties. Such external links are not investigated, monitored, or checked for accuracy by us."
+                },
+                {
+                  "title": "4. Errors & Omissions",
+                  "content": "While we strive to keep the information up to date and correct, we make no representations or warranties of any kind about the completeness, accuracy, reliability, or availability of the website or the information, products, or services contained on it."
+                }
+              ]
+            },
+            "CookiePolicy": {
+              "title": "Cookie Policy",
+              "introText": "PawVita uses cookies to improve your experience on our website. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their usage.",
+              "sections": [
+                {
+                  "title": "1. What Are Cookies?",
+                  "content": "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to the owners of the site."
+                },
+                {
+                  "title": "2. How We Use Cookies",
+                  "content": "We use cookies to understand how you interact with our website, to remember your preferences, to facilitate secure logins, and to provide relevant advertisements. Cookies help us analyze web traffic and improve our site to better meet customer needs."
+                },
+                {
+                  "title": "3. Types of Cookies We Use",
+                  "content": "We use strictly necessary cookies (required for the website to function), performance cookies (to analyze how visitors use the site), functional cookies (to remember your choices), and targeting cookies (for relevant advertising)."
+                },
+                {
+                  "title": "4. Managing Cookies",
+                  "content": "You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website."
+                },
+                {
+                  "title": "5. Updates to This Policy",
+                  "content": "We may update our Cookie Policy from time to time. Any changes will be posted here. Please check back regularly to stay informed about our use of cookies."
+                }
+              ]
+            }
+          }
+        },
+        "NotFound": {
+          "variants": {
+            "PawVitaNotFound1": {
+              "title": "Oops! Page Not Found",
+              "description": "Looks like your furry friend wandered off!\nThe page you're looking for doesn't exist or has been moved.",
+              "buttonText": "Back to Home",
+              "buttonUrl": "/",
+              "image": "/mission/1.png"
+            }
+          }
+        },
+        "Sitemap": {
+          "variants": {
+            "PawVitaSitemap1": {
+              "title": "Explore All Pages",
+              "categories": [
+                {
+                  "title": "Firm & Information",
+                  "icon": "FaRegFileAlt",
+                  "links": [
+                    {
+                      "label": "Home",
+                      "url": "/"
+                    },
+                    {
+                      "label": "About Us",
+                      "url": "/about"
+                    },
+                    {
+                      "label": "Mission & Vision",
+                      "url": "/mission-vision"
+                    },
+                    {
+                      "label": "Why Choose Us",
+                      "url": "/why-choose-us"
+                    }
+                  ]
+                },
+                {
+                  "title": "Our Services",
+                  "icon": "FaRegCalendarAlt",
+                  "links": [
+                    {
+                      "label": "Our Services",
+                      "url": "/services"
+                    },
+                    {
+                      "label": "Service Areas / Locations",
+                      "url": "/locations"
+                    }
+                  ]
+                },
+                {
+                  "title": "People & Team",
+                  "icon": "FaUserFriends",
+                  "links": [
+                    {
+                      "label": "Our Team",
+                      "url": "/team"
+                    }
+                  ]
+                },
+                {
+                  "title": "Pricing & Packages",
+                  "icon": "FaTags",
+                  "links": [
+                    {
+                      "label": "Pricing / Packages",
+                      "url": "/pricing"
+                    }
+                  ]
+                },
+                {
+                  "title": "Appointments",
+                  "icon": "FaMapMarkerAlt",
+                  "links": [
+                    {
+                      "label": "Appointment",
+                      "url": "/book-appointment"
+                    }
+                  ]
+                },
+                {
+                  "title": "Gallery & Reviews",
+                  "icon": "FaImages",
+                  "links": [
+                    {
+                      "label": "Gallery",
+                      "url": "/gallery"
+                    },
+                    {
+                      "label": "Testimonials",
+                      "url": "/testimonials"
+                    }
+                  ]
+                },
+                {
+                  "title": "Help & Support",
+                  "icon": "FaRegQuestionCircle",
+                  "links": [
+                    {
+                      "label": "FAQs",
+                      "url": "/faqs"
+                    }
+                  ]
+                },
+                {
+                  "title": "Partners",
+                  "icon": "FaHandshake",
+                  "links": [
+                    {
+                      "label": "Partners",
+                      "url": "/partners"
+                    }
+                  ]
+                },
+                {
+                  "title": "News & Updates",
+                  "icon": "FaRegNewspaper",
+                  "links": [
+                    {
+                      "label": "Blog",
+                      "url": "/blog"
+                    }
+                  ]
+                },
+                {
+                  "title": "Policies",
+                  "icon": "FaShieldAlt",
+                  "links": [
+                    {
+                      "label": "Privacy Policy",
+                      "url": "/privacy-policy"
+                    },
+                    {
+                      "label": "Terms & Conditions",
+                      "url": "/terms-conditions"
+                    },
+                    {
+                      "label": "Disclaimer",
+                      "url": "/disclaimer"
+                    },
+                    {
+                      "label": "Cookie Policy",
+                      "url": "/cookie-policy"
+                    }
+                  ]
+                },
+                {
+                  "title": "Other Pages",
+                  "icon": "FaExclamationCircle",
+                  "links": [
+                    {
+                      "label": "404 Page",
+                      "url": "/404"
+                    },
+                    {
+                      "label": "Sitemap",
+                      "url": "/sitemap"
+                    }
+                  ]
+                },
+                {
+                  "title": "Contact",
+                  "icon": "FaMapMarkerAlt",
+                  "links": [
+                    {
+                      "label": "Contact Us",
+                      "url": "/contact"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "PawVitaContact1": {
+              "headingIcon": "FaPaw",
+              "headingTitle": "CONTACT US",
+              "title": "We'd Love To Hear From <span class=\"text-[#00c9a7]\">You!</span>",
+              "description": "Have a question, need assistance, or want to book a service?\nOur friendly team is here to help you and your pet.",
+              "leftTitle": "Get In Touch",
+              "leftDescription": "We are always happy to help you with your pet care needs. Reach out to us using the information below.",
+              "contactCards": [
+                {
+                  "id": "contact-location",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Our Location",
+                  "details": [
+                    "123 Pet Care Avenue,",
+                    "Andheri West, Mumbai,",
+                    "Maharashtra 400053"
+                  ],
+                  "bgColorClass": "bg-[#e7f5f4]",
+                  "iconColorClass": "text-[#00695c]"
+                },
+                {
+                  "id": "contact-phone",
+                  "icon": "FaPhoneAlt",
+                  "title": "Call Us",
+                  "details": [
+                    "+012 (345) 678 99",
+                    "+12345678 478 58"
+                  ],
+                  "bgColorClass": "bg-[#fff4ed]",
+                  "iconColorClass": "text-[#c45a19]"
+                },
+                {
+                  "id": "contact-email",
+                  "icon": "FaEnvelope",
+                  "title": "Email Us",
+                  "details": [
+                    "info@pawvitapetcare.com",
+                    "awshpetcare@gmail.com"
+                  ],
+                  "bgColorClass": "bg-[#fcf5e9]",
+                  "iconColorClass": "text-[#c49250]"
+                }
+              ],
+              "businessHoursTitle": "Business Hours",
+              "businessHours": [
+                {
+                  "id": "bh-1",
+                  "day": "Monday - Friday",
+                  "hours": "9:00 AM - 6:00 PM"
+                },
+                {
+                  "id": "bh-2",
+                  "day": "Saturday",
+                  "hours": "10:00 AM - 4:00 PM"
+                },
+                {
+                  "id": "bh-3",
+                  "day": "Sunday",
+                  "hours": "Closed"
+                }
+              ],
+              "rightTitle": "Send Us A Message",
+              "rightDescription": "Fill out the form below and we'll get back to you as soon as possible.",
+              "formPlaceholders": {
+                "name": "Full Name",
+                "phone": "Phone Number",
+                "email": "Email Address",
+                "message": "Your Message"
+              },
+              "buttonText": "Send Message",
+              "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30154.21832049008!2d72.80806495!3d19.1328405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b610c31278fd%3A0xc665181bc7e4c!2sAndheri%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1689255283995!5m2!1sen!2sin"
             }
           }
         }

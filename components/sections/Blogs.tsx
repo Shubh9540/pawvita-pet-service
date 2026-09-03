@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BlogsData } from '@/types/templates.types';
+import { PawMark } from '@/components/ui/PawMark';
 import { FaPaw, FaArrowRight, FaCalendarAlt } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
@@ -20,6 +21,10 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
 
   return (
     <section className="py-16 lg:py-24 bg-[#fafafa] relative overflow-hidden">
+      {/* Background Decorators */}
+      <PawMark className="top-24 left-10 text-9xl rotate-12 opacity-[0.03]" />
+      <PawMark className="bottom-20 right-10 text-8xl -rotate-12 opacity-[0.03]" />
+      
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-[1300px] relative z-10">
         
         {/* Heading Section */}
@@ -55,7 +60,8 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
             <Image 
               src={data.featuredPost.image} 
               alt={data.featuredPost.title} 
-              fill 
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
             {/* Gradient Overlay */}
@@ -91,7 +97,7 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
           {/* Right - Post List */}
           <div className="w-full lg:w-7/12 flex flex-col gap-6 justify-between">
             {data.posts.map((post) => (
-              <div key={post.id} className="bg-white rounded-[2rem] p-4 lg:p-5 flex flex-col sm:flex-row items-center gap-6 shadow-sm hover:shadow-md border border-gray-100 group transition-all duration-300">
+              <div key={post.id} className="bg-white rounded-[2rem] p-4 lg:p-5 flex flex-col sm:flex-row items-center gap-6 shadow-sm hover:shadow-md border border-gray-100 group transition-colors transition-transform transition-shadow duration-300 transform-gpu">
                 
                 {/* Text Content */}
                 <div className="flex-1 order-2 sm:order-1 flex flex-col gap-3 py-2 pl-2 lg:pl-4">
@@ -122,7 +128,8 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
                   <Image 
                     src={post.image} 
                     alt={post.title} 
-                    fill 
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 260px, 260px"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>

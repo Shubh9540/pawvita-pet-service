@@ -13,6 +13,8 @@ import { Faqs } from '@/components/sections/Faqs';
 import { Blogs } from '@/components/sections/Blogs';
 import { Footer } from '@/components/common/Footer';
 
+import { TopBar } from '@/components/common/TopBar';
+
 export const dynamic = 'force-dynamic';
 
 export default function Home() {

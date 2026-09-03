@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { FaqsData } from '@/types/templates.types';
+import { PawMark } from '@/components/ui/PawMark';
 import { FaPaw, FaShieldAlt, FaAward, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
@@ -24,6 +25,10 @@ export const Faqs = ({ data }: { data?: FaqsData }) => {
 
   return (
     <section className="py-10 lg:py-20 bg-[#fafafa] relative overflow-hidden">
+      {/* Background Decorators */}
+      <PawMark className="top-10 left-10 text-9xl rotate-12 opacity-[0.03]" />
+      <PawMark className="bottom-20 right-10 text-8xl -rotate-12 opacity-[0.03]" />
+      
       <div className="w-full max-w-6xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
         {/* Heading Section */}
         <div className="text-center mb-10 lg:mb-16">
@@ -67,7 +72,7 @@ export const Faqs = ({ data }: { data?: FaqsData }) => {
             </div>
             
             {/* Floating Cards */}
-            <div className="absolute bottom-0 md:bottom-4 -left-4 md:-left-8 lg:-left-16 xl:-left-24 bg-white p-5 rounded-2xl shadow-[0_15px_40px_rgba(0,0,0,0.08)] flex flex-col gap-5 z-20 w-[90%] max-w-[280px]">
+            <div className="absolute bottom-0 md:bottom-4 -left-4 md:-left-8 lg:-left-16 xl:-left-24 bg-white p-5 rounded-2xl shadow-[0_15px_40px_rgba(0,0,0,0.08)] flex flex-col gap-5 z-20 w-[90%] max-w-[280px] transform-gpu">
               {data.cards?.map((card) => (
                 <div key={card.id} className="flex items-start gap-4">
                   <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#00695c] text-white flex items-center justify-center flex-shrink-0 text-lg md:text-xl">

@@ -56,7 +56,8 @@ export const Team = ({ data }: { data?: TeamData }) => {
               <Image 
                 src={data.leftImage} 
                 alt="Grooming dog" 
-                fill 
+                fill
+                sizes="(max-width: 1024px) 100vw, 33vw"
                 className="object-cover"
               />
               
@@ -91,7 +92,7 @@ export const Team = ({ data }: { data?: TeamData }) => {
                 <Link 
                   href={`/team/${member.id}`}
                   key={member.id} 
-                  className="group flex flex-col items-center justify-center text-center p-8 rounded-[32px] transition-all duration-300 bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-2 hover:bg-primary cursor-pointer"
+                  className="group flex flex-col items-center justify-center text-center p-8 rounded-[32px] transition-colors transition-transform transition-shadow duration-300 bg-white border border-gray-100 shadow-sm hover:shadow-lg hover:-translate-y-2 hover:bg-primary cursor-pointer transform-gpu"
                 >
                   
                   {/* Photo */}
@@ -99,7 +100,8 @@ export const Team = ({ data }: { data?: TeamData }) => {
                     <Image 
                       src={member.image} 
                       alt={member.name} 
-                      fill 
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover"
                     />
                   </div>

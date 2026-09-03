@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const resolvedParams = await params;
   const id = resolvedParams.id;
   
-  const templateData: PawVitaTemplateData = rawData;
+  const templateData: PawVitaTemplateData = rawData as PawVitaTemplateData;
   const teamDetails = templateData?.categories?.PawVita?.sections?.TeamDetails?.variants?.PawVitaTeamDetails1?.items;
   
   const member = teamDetails?.find((item) => item.id === id);
@@ -35,7 +35,7 @@ export default async function TeamMemberPage({ params }: { params: Promise<{ id:
   const resolvedParams = await params;
   const id = resolvedParams.id;
   
-  const templateData: PawVitaTemplateData = rawData;
+  const templateData: PawVitaTemplateData = rawData as PawVitaTemplateData;
   const commonData = templateData?.common;
   const sections = templateData?.categories?.PawVita?.sections;
 

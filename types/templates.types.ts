@@ -528,6 +528,131 @@ export interface GalleryVideosData {
   items: GalleryVideoItem[];
 }
 
+export interface PartnerItem {
+  id: string;
+  image: string;
+  alt: string;
+}
+
+export interface PartnersData {
+  headingIcon: string;
+  headingTitle: string;
+  title: string;
+  description: string;
+  items: PartnerItem[];
+}
+
+export interface BlogListItem {
+  id: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  image: string;
+  url: string;
+}
+
+export interface BlogsListData {
+  headingIcon: string;
+  headingTitle: string;
+  title: string;
+  description: string;
+  items: BlogListItem[];
+}
+
+export interface BlogDetailFeature {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface BlogDetailData {
+  date: string;
+  title: string;
+  tags: string[];
+  readTime: string;
+  heroImage: string;
+  contentTop: string[];
+  blockquote: {
+    text: string;
+  };
+  middleHeading: string;
+  middleContent: string[];
+  features: BlogDetailFeature[];
+  contentBottom: string[];
+}
+
+export interface LegalSection {
+  title: string;
+  content: string;
+}
+
+export interface LegalPageData {
+  title: string;
+  introText: string;
+  sections: LegalSection[];
+}
+
+export interface NotFoundData {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonUrl: string;
+  image: string;
+}
+
+export interface SitemapLink {
+  label: string;
+  url: string;
+}
+
+export interface SitemapCategory {
+  title: string;
+  icon: string;
+  links: SitemapLink[];
+}
+
+export interface SitemapData {
+  title: string;
+  categories: SitemapCategory[];
+}
+
+export interface ContactCard {
+  id: string;
+  icon: string;
+  title: string;
+  details: string[];
+  bgColorClass?: string;
+  iconColorClass?: string;
+}
+
+export interface BusinessHour {
+  id: string;
+  day: string;
+  hours: string;
+}
+
+export interface ContactData {
+  headingIcon?: string;
+  headingTitle?: string;
+  title: string;
+  description: string;
+  leftTitle: string;
+  leftDescription: string;
+  contactCards: ContactCard[];
+  businessHoursTitle: string;
+  businessHours: BusinessHour[];
+  rightTitle: string;
+  rightDescription: string;
+  formPlaceholders: {
+    name: string;
+    phone: string;
+    email: string;
+    message: string;
+  };
+  buttonText: string;
+  mapEmbedUrl: string;
+}
+
 export interface PawVitaTemplateData {
   common: {
     globalUI: {
@@ -547,6 +672,15 @@ export interface PawVitaTemplateData {
     faqsBreadcrumb?: BreadcrumbData;
     testimonialsBreadcrumb?: BreadcrumbData;
     galleryBreadcrumb?: BreadcrumbData;
+    partnersBreadcrumb?: BreadcrumbData;
+    blogBreadcrumb?: BreadcrumbData;
+    blogDetailBreadcrumb?: BreadcrumbData;
+    privacyPolicyBreadcrumb?: BreadcrumbData;
+    termsConditionsBreadcrumb?: BreadcrumbData;
+    disclaimerBreadcrumb?: BreadcrumbData;
+    cookiePolicyBreadcrumb?: BreadcrumbData;
+    sitemapBreadcrumb?: BreadcrumbData;
+    contactBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
@@ -637,6 +771,37 @@ export interface PawVitaTemplateData {
         GalleryVideos?: {
           variants: {
             PawVitaGalleryVideos1?: GalleryVideosData;
+          };
+        };
+        Partners?: {
+          variants: {
+            PawVitaPartners1?: PartnersData;
+          };
+        };
+        BlogsList?: {
+          variants: {
+            PawVitaBlogsList1?: BlogsListData;
+          };
+        };
+        BlogDetails?: {
+          variants: Record<string, BlogDetailData>;
+        };
+        Legal?: {
+          variants: Record<string, LegalPageData>;
+        };
+        NotFound?: {
+          variants: {
+            PawVitaNotFound1: NotFoundData;
+          };
+        };
+        Sitemap?: {
+          variants: {
+            PawVitaSitemap1: SitemapData;
+          };
+        };
+        Contact?: {
+          variants: {
+            PawVitaContact1: ContactData;
           };
         };
         Counter?: {

@@ -3,10 +3,10 @@
 import React from 'react';
 import Link from 'next/link';
 import { FooterData } from '@/types/templates.types';
-import { 
-  FaInstagram, 
-  FaFacebookF, 
-  FaYoutube, 
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaYoutube,
   FaWhatsapp,
   FaPhoneAlt,
   FaMapMarkerAlt,
@@ -37,12 +37,21 @@ export const Footer = ({ data }: { data?: FooterData }) => {
   if (!data) return null;
 
   return (
-    <footer className="bg-[#0b131a] text-white pt-16 pb-8 border-t-[8px] border-[#00695c]">
-      <div className="w-full max-w-screen-2xl mx-auto px-4 lg:px-8 xl:px-12">
-        
+    <footer
+      className="relative bg-[#0b131a] text-white pt-16 pb-8 border-t-[8px] border-[#00695c] bg-cover bg-no-repeat z-0"
+      style={{
+        backgroundImage: 'url("/main logo/footer-bg.png")',
+        backgroundPosition: 'center 20%'
+      }}
+    >
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-[#0b131a]/85 -z-10"></div>
+
+      <div className="w-full max-w-screen-2xl mx-auto px-4 lg:px-8 xl:px-12 relative z-10">
+
         {/* Main Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-6">
-          
+
           {/* Col 1: Contact Info */}
           <div className="flex flex-col">
             {data.contactItems.map((item, index) => (
@@ -53,7 +62,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                 <div>
                   <h4 className="text-white font-bold text-lg mb-1">{item.title}</h4>
                   <div className="text-[#00c9a7] font-semibold text-[15px] mb-1">{item.subtitle}</div>
-                  <div className="text-[#8c9ba5] text-[13px] leading-tight">{item.description}</div>
+                  <div className="text-white text-[13px] leading-tight">{item.description}</div>
                 </div>
               </div>
             ))}
@@ -66,11 +75,11 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                 {col.title}
                 <span className="w-8 h-[2px] bg-[#00c9a7] mt-2"></span>
               </h3>
-              
+
               <ul className="flex flex-col gap-3">
                 {col.links.map((link) => (
                   <li key={link.id}>
-                    <Link href={link.url} className="text-[#8c9ba5] hover:text-[#00c9a7] flex items-center gap-2 transition-colors text-[13px]">
+                    <Link href={link.url} className="text-white hover:text-[#00c9a7] flex items-center gap-2 transition-colors text-[15px]">
                       {link.icon && <span className="text-[#00c9a7] text-[10px]">{renderIcon(link.icon)}</span>}
                       {link.label}
                     </Link>
@@ -87,9 +96,9 @@ export const Footer = ({ data }: { data?: FooterData }) => {
 
         {/* Bottom Bar Row */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          
+
           {/* Copyright Text */}
-          <div className="text-[#8c9ba5] text-sm flex items-center flex-wrap gap-2 justify-center md:justify-start">
+          <div className="text-white text-sm flex items-center flex-wrap gap-2 justify-center md:justify-start">
             {data.copyrightText} <span className="text-white/20">|</span> Powered by <Link href="#" className="text-[#00c9a7] hover:underline">Lestow</Link>
           </div>
 
