@@ -1,5 +1,6 @@
 'use client';
 import React, { useRef, useState, useEffect } from 'react';
+import Link from 'next/link';
 import { ServiceAreasData } from '@/types/templates.types';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { PawMark } from '@/components/ui/PawMark';
@@ -39,16 +40,37 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
   const scrollLeft = () => {
     if (containerRef.current) {
       const cardWidth = containerRef.current.children[0]?.clientWidth || 0;
-      containerRef.current.scrollBy({ left: -(cardWidth + 24), behavior: 'smooth' });
+      const gap = 24;
+      if (containerRef.current.scrollLeft <= 10) {
+        containerRef.current.scrollTo({ left: containerRef.current.scrollWidth, behavior: 'smooth' });
+      } else {
+        containerRef.current.scrollBy({ left: -(cardWidth + gap), behavior: 'smooth' });
+      }
     }
   };
 
   const scrollRight = () => {
     if (containerRef.current) {
       const cardWidth = containerRef.current.children[0]?.clientWidth || 0;
-      containerRef.current.scrollBy({ left: cardWidth + 24, behavior: 'smooth' });
+      const gap = 24;
+      const maxScroll = containerRef.current.scrollWidth - containerRef.current.clientWidth;
+      
+      if (containerRef.current.scrollLeft >= maxScroll - 10) {
+        containerRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        containerRef.current.scrollBy({ left: cardWidth + gap, behavior: 'smooth' });
+      }
     }
   };
+
+  // Auto-play infinite loop
+  useEffect(() => {
+    const interval = setInterval(() => {
+      scrollRight();
+    }, 3000); // Scroll every 3 seconds
+
+    return () => clearInterval(interval);
+  }, []);
 
   const scrollToDot = (index: number) => {
     if (containerRef.current) {
@@ -103,9 +125,10 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {data.locations.map((loc) => (
-              <div 
+              <Link 
+                href={`/locations/${loc.id}`}
                 key={loc.id} 
-                className="w-[85vw] sm:w-64 md:w-56 lg:w-[calc(16.666%-1.25rem)] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex-shrink-0 snap-center border border-gray-100"
+                className="w-[85vw] sm:w-64 md:w-56 lg:w-[calc(16.666%-1.25rem)] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex-shrink-0 snap-center border border-gray-100 flex flex-col block"
               >
                 {/* Card Image */}
                 <div className="w-full h-56 md:h-48 lg:h-60 relative">
@@ -116,14 +139,14 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
                   />
                 </div>
                 {/* Card Content */}
-                <div className="p-4 lg:p-5">
+                <div className="p-4 lg:p-5 flex-1 flex flex-col justify-center">
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{loc.title}</h3>
                   <div className="flex items-center gap-2 text-primary text-sm font-medium">
                     {renderIcon(loc.icon)}
                     <span className="text-gray-600 font-normal">{loc.subtitle}</span>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

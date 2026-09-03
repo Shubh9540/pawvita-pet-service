@@ -115,6 +115,23 @@
         }
       ],
       "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "locationDetailBreadcrumb": {
+      "title": "Service Location",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Service Areas",
+          "url": "/locations"
+        },
+        {
+          "label": "Location"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
     }
   },
   "categories": {
@@ -267,6 +284,11 @@
                   "id": "nav-gallery",
                   "label": "Gallery",
                   "url": "/gallery"
+                },
+                {
+                  "id": "nav-locations",
+                  "label": "Locations",
+                  "url": "/locations"
                 },
                 {
                   "id": "nav-contact",
@@ -1245,66 +1267,59 @@
               "bgImage": "",
               "locations": [
                 {
-                  "id": "loc-1",
-                  "image": "https://picsum.photos/seed/Delhi/600/400",
+                  "id": "delhi",
+                  "image": "/location/delhi.jpg",
                   "title": "Delhi",
                   "subtitle": "Delhi, India",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-2",
-                  "image": "https://picsum.photos/seed/Noida/600/400",
+                  "id": "noida",
+                  "image": "/location/noida.jpg",
                   "title": "Noida",
                   "subtitle": "Noida, Uttar Pradesh",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-3",
-                  "image": "https://picsum.photos/seed/Gurugram/600/400",
+                  "id": "gurugram",
+                  "image": "/location/gurugram.jpg",
                   "title": "Gurugram",
                   "subtitle": "Gurugram, Haryana",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-4",
-                  "image": "https://picsum.photos/seed/Ghaziabad/600/400",
+                  "id": "ghaziabad",
+                  "image": "/location/ghaziabad.jpg",
                   "title": "Ghaziabad",
                   "subtitle": "Ghaziabad, Uttar Pradesh",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-5",
-                  "image": "https://picsum.photos/seed/Faridabad/600/400",
+                  "id": "faridabad",
+                  "image": "/location/fardiabad.jpg",
                   "title": "Faridabad",
                   "subtitle": "Faridabad, Haryana",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-6",
-                  "image": "https://picsum.photos/seed/Indirapuram/600/400",
+                  "id": "indirapuram",
+                  "image": "/location/indirapuram.jpg",
                   "title": "Indirapuram",
                   "subtitle": "Indirapuram, Uttar Pradesh",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-7",
-                  "image": "https://picsum.photos/seed/Dwarka/600/400",
-                  "title": "Dwarka",
-                  "subtitle": "New Delhi",
+                  "id": "lucknow",
+                  "image": "/location/lucknow.jpg",
+                  "title": "Lucknow",
+                  "subtitle": "Lucknow, Uttar Pradesh",
                   "icon": "FaMapMarkerAlt"
                 },
                 {
-                  "id": "loc-8",
-                  "image": "https://picsum.photos/seed/GreaterNoida/600/400",
-                  "title": "Greater Noida",
-                  "subtitle": "Uttar Pradesh",
-                  "icon": "FaMapMarkerAlt"
-                },
-                {
-                  "id": "loc-9",
-                  "image": "https://picsum.photos/seed/VasantKunj/600/400",
-                  "title": "Vasant Kunj",
-                  "subtitle": "South Delhi",
+                  "id": "kanpur",
+                  "image": "/location/kanpur.jpg",
+                  "title": "Kanpur",
+                  "subtitle": "Kanpur, Uttar Pradesh",
                   "icon": "FaMapMarkerAlt"
                 }
               ]
@@ -2656,6 +2671,470 @@
                       "included": true
                     }
                   ]
+                }
+              ]
+            }
+          }
+        },
+        "LocationDetails": {
+          "variants": {
+            "PawVitaLocationDetails1": {
+              "items": [
+                {
+                  "id": "delhi",
+                  "image": "/location/delhi.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Delhi",
+                  "subtitle": "Delhi, India",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Delhi. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Delhi are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Delhi is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Delhi."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Delhi center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "noida",
+                  "image": "/location/noida.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Noida",
+                  "subtitle": "Noida, Uttar Pradesh",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Noida. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Noida are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Noida is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Noida."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Noida center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "gurugram",
+                  "image": "/location/gurugram.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Gurugram",
+                  "subtitle": "Gurugram, Haryana",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Gurugram. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Gurugram are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Gurugram is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Gurugram."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Gurugram center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "ghaziabad",
+                  "image": "/location/ghaziabad.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Ghaziabad",
+                  "subtitle": "Ghaziabad, Uttar Pradesh",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Ghaziabad. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Ghaziabad are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Ghaziabad is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Ghaziabad."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Ghaziabad center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "faridabad",
+                  "image": "/location/fardiabad.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Faridabad",
+                  "subtitle": "Faridabad, Haryana",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Faridabad. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Faridabad are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Faridabad is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Faridabad."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Faridabad center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "indirapuram",
+                  "image": "/location/indirapuram.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Indirapuram",
+                  "subtitle": "Indirapuram, Uttar Pradesh",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Indirapuram. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Indirapuram are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Indirapuram is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Indirapuram."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Indirapuram center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "lucknow",
+                  "image": "/location/lucknow.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Lucknow",
+                  "subtitle": "Lucknow, Uttar Pradesh",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Lucknow. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Lucknow are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Lucknow is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Lucknow."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Lucknow center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
+                },
+                {
+                  "id": "kanpur",
+                  "image": "/location/kanpur.jpg",
+                  "heading": {
+                    "title": "OUR SERVICE LOCATION",
+                    "icon": "FaPaw"
+                  },
+                  "title": "Pet Care Services in Kanpur",
+                  "subtitle": "Kanpur, Uttar Pradesh",
+                  "subtitleIcon": "FaMapMarkerAlt",
+                  "description": [
+                    "We are proud to provide trusted and professional pet care services across Kanpur. From grooming to health checkups, we ensure your furry companions receive the best care, right in your neighborhood.",
+                    "Our state-of-the-art facilities in Kanpur are equipped with the latest medical equipment and staffed by experienced veterinarians who treat your pets as their own."
+                  ],
+                  "overview": {
+                    "title": "Pet Overview",
+                    "icon": "FaPaw",
+                    "description": [
+                      "Kanpur is a city that truly loves its pets. With a growing community of pet parents, we are dedicated to offering high-quality pet care services that keep your furry friends healthy, happy, and full of life.",
+                      "Our expert team, modern facilities, and compassionate approach make us the preferred choice for pet care in Kanpur."
+                    ],
+                    "image": "/service/dog-bathtub.jpg"
+                  },
+                  "stats": [
+                    {
+                      "id": "stat-1",
+                      "title": "Happy Pet Parents",
+                      "value": "10K+",
+                      "icon": "FaUsers"
+                    },
+                    {
+                      "id": "stat-2",
+                      "title": "Pets Treated",
+                      "value": "25K+",
+                      "icon": "FaHospital"
+                    },
+                    {
+                      "id": "stat-3",
+                      "title": "Years of Trust",
+                      "value": "8+",
+                      "icon": "FaCertificate"
+                    },
+                    {
+                      "id": "stat-4",
+                      "title": "Expert Care",
+                      "value": "24/7",
+                      "icon": "FaUserMd"
+                    }
+                  ],
+                  "cta": {
+                    "title": "Give Your Pet The Best Care",
+                    "description": "Visit our Kanpur center or book an appointment today.",
+                    "buttonText": "Book Appointment →",
+                    "buttonUrl": "/contact",
+                    "image": "/service/grooming.jpg"
+                  }
                 }
               ]
             }

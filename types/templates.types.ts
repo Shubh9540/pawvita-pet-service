@@ -55,6 +55,35 @@ export interface LocationItem {
   icon: string;
 }
 
+export interface LocationDetailItem {
+  id: string;
+  image: string;
+  heading: SectionHeadingData;
+  title: string;
+  subtitle: string;
+  subtitleIcon: string;
+  description: string[];
+  overview: {
+    title: string;
+    icon: string;
+    description: string[];
+    image: string;
+  };
+  stats: {
+    id: string;
+    title: string;
+    value: string;
+    icon: string;
+  }[];
+  cta: {
+    title: string;
+    description: string;
+    buttonText: string;
+    buttonUrl: string;
+    image: string;
+  };
+}
+
 export interface ServiceAreasData {
   heading: SectionHeadingData;
   title: string;
@@ -426,6 +455,7 @@ export interface PawVitaTemplateData {
     teamBreadcrumb?: BreadcrumbData;
     teamDetailBreadcrumb?: BreadcrumbData;
     pricingBreadcrumb?: BreadcrumbData;
+    locationDetailBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
@@ -483,6 +513,13 @@ export interface PawVitaTemplateData {
             PawVitaServiceDetails1: {
               items: ServiceDetailData[];
               sidebar?: ServiceDetailSidebarData;
+            };
+          };
+        };
+        LocationDetails?: {
+          variants: {
+            PawVitaLocationDetails1: {
+              items: LocationDetailItem[];
             };
           };
         };
