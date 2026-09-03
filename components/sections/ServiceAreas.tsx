@@ -121,14 +121,14 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
           {/* Scrollable Cards Container */}
           <div 
             ref={containerRef}
-            className="flex w-full overflow-x-auto gap-4 lg:gap-5 snap-x snap-mandatory hide-scrollbar pb-8 pt-4 px-2"
+            className="flex w-full overflow-x-auto gap-4 lg:gap-5 snap-x snap-mandatory pb-8 pt-4 px-2"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {data.locations.map((loc) => (
               <Link 
                 href={`/locations/${loc.id}`}
                 key={loc.id} 
-                className="w-[85vw] sm:w-64 md:w-56 lg:w-[calc(16.666%-1.25rem)] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex-shrink-0 snap-center border border-gray-100 flex flex-col block"
+                className="w-[85vw] sm:w-64 md:w-56 lg:w-[calc(16.666%-1.25rem)] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex-shrink-0 snap-start border border-gray-100 flex flex-col"
               >
                 {/* Card Image */}
                 <div className="w-full h-56 md:h-48 lg:h-60 relative">
