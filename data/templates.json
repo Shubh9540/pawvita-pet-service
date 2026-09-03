@@ -534,7 +534,7 @@
                     {
                       "id": "nav-blogs-all",
                       "label": "Our Blogs",
-                      "url": "/blogs"
+                      "url": "/blog"
                     },
                     {
                       "id": "nav-blog-how-to-keep-your-dog-cool",
@@ -626,22 +626,22 @@
                     {
                       "id": "nav-other-privacy",
                       "label": "Privacy Policy",
-                      "url": "/legal/privacy-policy"
+                      "url": "/privacy-policy"
                     },
                     {
                       "id": "nav-other-terms",
                       "label": "Terms & Conditions",
-                      "url": "/legal/terms-conditions"
+                      "url": "/terms-conditions"
                     },
                     {
                       "id": "nav-other-disclaimer",
                       "label": "Disclaimer",
-                      "url": "/legal/disclaimer"
+                      "url": "/disclaimer"
                     },
                     {
                       "id": "nav-other-cookie",
                       "label": "Cookie Policy",
-                      "url": "/legal/cookie-policy"
+                      "url": "/cookie-policy"
                     },
                     {
                       "id": "nav-other-sitemap",
@@ -651,7 +651,7 @@
                     {
                       "id": "nav-other-404",
                       "label": "404 Not Found",
-                      "url": "/not-found"
+                      "url": "/404"
                     }
                   ]
                 },
@@ -722,7 +722,7 @@
                     {
                       "id": "ul-blog",
                       "label": "Blog",
-                      "url": "/blogs"
+                      "url": "/blog"
                     },
                     {
                       "id": "ul-faq",
@@ -821,17 +821,17 @@
                     {
                       "id": "ql-terms",
                       "label": "Terms & Conditions",
-                      "url": "/legal/terms-conditions"
+                      "url": "/terms-conditions"
                     },
                     {
                       "id": "ql-privacy",
                       "label": "Privacy Policy",
-                      "url": "/legal/privacy-policy"
+                      "url": "/privacy-policy"
                     },
                     {
                       "id": "ql-disclaimer",
                       "label": "Disclaimer",
-                      "url": "/legal/disclaimer"
+                      "url": "/disclaimer"
                     },
                     {
                       "id": "ql-contact",

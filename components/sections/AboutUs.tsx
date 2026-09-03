@@ -30,6 +30,7 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
                 src={data.image} 
                 alt={data.imageAlt} 
                 fill 
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
                 className="object-cover rounded-3xl"
               />
             </div>
@@ -39,7 +40,7 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
               <div className="flex -space-x-2 mb-2 lg:mb-3 justify-center">
                 {data.trustedBadge.avatars.map((avatar, idx) => (
                   <div key={idx} className="w-6 h-6 lg:w-8 lg:h-8 rounded-full border-2 border-[#00695c] overflow-hidden relative">
-                    <Image src={avatar} alt={`${data.trustedBadge.avatarAlt} ${idx + 1}`} fill className="object-cover" />
+                    <Image src={avatar} alt={`${data.trustedBadge.avatarAlt} ${idx + 1}`} fill sizes="(max-width: 1024px) 24px, 32px" className="object-cover" />
                   </div>
                 ))}
               </div>

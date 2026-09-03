@@ -66,7 +66,7 @@ export const WhyChooseUs = ({ data }: { data?: WhyChooseUsData }) => {
                       <div className={`hidden sm:block w-36 h-28 rounded-xl overflow-hidden relative transition-all duration-500 origin-top-right ${
                         isActive ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
                       }`}>
-                        <Image src={tab.image} alt={tab.title} fill className="object-cover" />
+                        <Image src={tab.image} alt={tab.title} fill sizes="144px" className="object-cover" />
                       </div>
                     </div>
 
@@ -97,7 +97,7 @@ export const WhyChooseUs = ({ data }: { data?: WhyChooseUsData }) => {
                               </p>
                               {/* Mobile Image (visible when active on mobile) */}
                               <div className="block sm:hidden w-full h-32 mt-3 rounded-xl overflow-hidden relative">
-                                <Image src={tab.image} alt={tab.title} fill className="object-cover" />
+                                <Image src={tab.image} alt={tab.title} fill sizes="(max-width: 640px) 100vw, 0px" className="object-cover" />
                               </div>
                             </div>
                           </div>
@@ -129,22 +129,22 @@ export const WhyChooseUs = ({ data }: { data?: WhyChooseUsData }) => {
           <div className="relative z-10 w-full h-[320px] sm:h-[450px] lg:h-[500px] max-w-[500px] mx-auto">
             {/* Top Left (Portrait) */}
             <div className="absolute top-[15%] left-[5%] w-[35%] h-[40%] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-4 border-white z-10 hover:scale-105 transition-transform duration-300">
-              <Image src={data.gallery[0]} alt="Gallery 1" fill className="object-cover" />
+              <Image src={data.gallery[0]} alt="Gallery 1" fill sizes="(max-width: 1024px) 50vw, 33vw" className="object-cover" />
             </div>
             
             {/* Top Right (Large Portrait) */}
             <div className="absolute top-[0%] right-[5%] w-[50%] h-[55%] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-4 border-white z-10 hover:scale-105 transition-transform duration-300">
-              <Image src={data.gallery[1]} alt="Gallery 2" fill className="object-cover" />
+              <Image src={data.gallery[1]} alt="Gallery 2" fill sizes="(max-width: 1024px) 50vw, 33vw" className="object-cover" />
             </div>
             
             {/* Bottom Left (Wide Landscape) */}
             <div className="absolute bottom-[5%] left-[0%] w-[60%] h-[35%] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-4 border-white z-20 hover:scale-105 transition-transform duration-300">
-              <Image src={data.gallery[2]} alt="Gallery 3" fill className="object-cover" />
+              <Image src={data.gallery[2]} alt="Gallery 3" fill sizes="(max-width: 1024px) 50vw, 33vw" className="object-cover" />
             </div>
             
             {/* Bottom Right (Small Square) */}
             <div className="absolute bottom-[15%] right-[10%] w-[28%] h-[28%] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-4 border-white z-10 hover:scale-105 transition-transform duration-300">
-              <Image src={data.gallery[3]} alt="Gallery 4" fill className="object-cover" />
+              <Image src={data.gallery[3]} alt="Gallery 4" fill sizes="(max-width: 1024px) 50vw, 33vw" className="object-cover" />
             </div>
           </div>
         </div>

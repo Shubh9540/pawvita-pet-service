@@ -9,7 +9,7 @@ const renderIcon = (iconName: string, isCardIcon = false) => {
     const size = isCardIcon ? 70 : 20;
     return (
       <div className={`relative ${isCardIcon ? 'w-32 h-32' : 'w-5 h-5'}`}>
-        <Image src={iconName} alt="Icon" fill className="object-contain" />
+        <Image src={iconName} alt="Icon" fill sizes="48px" className="object-contain" />
       </div>
     );
   }
