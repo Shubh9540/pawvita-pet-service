@@ -30,7 +30,7 @@ export interface FeatureItem {
 export interface SectionHeadingData {
   title: string;
   icon?: string;
-  variant?: 'simple' | 'decorated';
+  variant?: string;
 }
 
 export interface HeroData {
@@ -208,6 +208,7 @@ export interface TeamMember {
   name: string;
   role: string;
   image: string;
+  shortDescription?: string;
   isActive?: boolean;
 }
 
@@ -222,6 +223,65 @@ export interface TeamData {
     icon: string;
   };
   members: TeamMember[];
+}
+
+export interface TeamGridData {
+  heading: SectionHeadingData;
+  title: string;
+  description?: string;
+  members: TeamMember[];
+}
+
+export interface TeamDetailExperience {
+  id: string;
+  role: string;
+  company: string;
+  duration: string;
+  description: string;
+}
+
+export interface TeamDetailEducation {
+  id: string;
+  degree: string;
+  institution: string;
+  icon?: string;
+}
+
+export interface TeamDetailData {
+  id: string;
+  name: string;
+  role: string;
+  image: string;
+  
+  // Left Sidebar
+  socialLinks?: {
+    platform: string;
+    url: string;
+    icon: string;
+  }[];
+  contactCard?: {
+    title: string;
+    description: string;
+    buttonText: string;
+    buttonUrl: string;
+    icon: string;
+  };
+  expertise?: string[];
+  whyChooseUs?: {
+    title: string;
+    description: string;
+    icon: string;
+  };
+
+  // Right Content
+  about?: {
+    titlePrefix: string;
+    titleName: string;
+    description: string[];
+  };
+  professionalSkills?: string[];
+  experience?: TeamDetailExperience[];
+  education?: TeamDetailEducation[];
 }
 
 export interface FaqItem {
@@ -332,6 +392,8 @@ export interface PawVitaTemplateData {
     whyChooseUsBreadcrumb?: BreadcrumbData;
     servicesBreadcrumb?: BreadcrumbData;
     serviceDetailBreadcrumb?: BreadcrumbData;
+    teamBreadcrumb?: BreadcrumbData;
+    teamDetailBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
@@ -405,6 +467,18 @@ export interface PawVitaTemplateData {
         Team?: {
           variants: {
             PawVitaTeam1: TeamData;
+          };
+        };
+        TeamGrid?: {
+          variants: {
+            PawVitaTeamGrid1: TeamGridData;
+          };
+        };
+        TeamDetails?: {
+          variants: {
+            PawVitaTeamDetails1: {
+              items: TeamDetailData[];
+            };
           };
         };
         Faqs?: {
