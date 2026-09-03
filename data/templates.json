@@ -102,6 +102,19 @@
         }
       ],
       "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "pricingBreadcrumb": {
+      "title": "Pricing & Packages",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Pricing & Packages"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
     }
   },
   "categories": {
@@ -1723,7 +1736,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-2",
@@ -1822,7 +1839,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-3",
@@ -1921,7 +1942,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-4",
@@ -2020,7 +2045,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-5",
@@ -2119,7 +2148,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-6",
@@ -2218,7 +2251,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-7",
@@ -2317,7 +2354,11 @@
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
                     }
-                  ]
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
                 },
                 {
                   "id": "team-8",
@@ -2415,6 +2456,204 @@
                       "degree": "Pet First Aid & CPR Certified",
                       "institution": "Pet Care Health Academy",
                       "icon": "FaAward"
+                    }
+                  ],
+                  "expertiseTitle": "Areas of Expertise",
+                  "skillsTitle": "Professional Skills",
+                  "experienceTitle": "Experience",
+                  "educationTitle": "Education & Certification"
+                }
+              ]
+            }
+          }
+        },
+        "Pricing": {
+          "variants": {
+            "PawVitaPricing1": {
+              "heading": {
+                "title": "PRICING & PACKAGES",
+                "icon": "FaPaw",
+                "variant": "simple"
+              },
+              "title": "Simple, Transparent & Affordable <br/><span class='text-[#00695c]'>Pricing For Every Pet</span>",
+              "description": "Choose the perfect grooming or care package for your furry friend. No hidden charges, just lots of love and the best care.",
+              "topFeatures": [
+                {
+                  "id": "pf-1",
+                  "icon": "FaSearchDollar",
+                  "text": "No Hidden Charges"
+                },
+                {
+                  "id": "pf-2",
+                  "icon": "FaPaw",
+                  "text": "Professional Care"
+                },
+                {
+                  "id": "pf-3",
+                  "icon": "FaShoppingBag",
+                  "text": "Premium Products"
+                },
+                {
+                  "id": "pf-4",
+                  "icon": "FaHeart",
+                  "text": "Happy Pets Guarantee"
+                }
+              ],
+              "cards": [
+                {
+                  "id": "card-1",
+                  "title": "Basic Care",
+                  "subtitle": "Essential care for your pet",
+                  "price": "$29",
+                  "period": "/ Per Session",
+                  "icon": "/other/p1.png",
+                  "isPopular": false,
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/book",
+                  "features": [
+                    {
+                      "text": "Bath & Shampoo",
+                      "included": true
+                    },
+                    {
+                      "text": "Nail Trimming",
+                      "included": true
+                    },
+                    {
+                      "text": "Ear Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Basic Brushing",
+                      "included": true
+                    },
+                    {
+                      "text": "Teeth Cleaning",
+                      "included": false
+                    }
+                  ]
+                },
+                {
+                  "id": "card-2",
+                  "title": "Premium Care",
+                  "subtitle": "Complete grooming experience",
+                  "price": "$59",
+                  "period": "/ Per Session",
+                  "icon": "/other/p2.png",
+                  "isPopular": true,
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/book",
+                  "features": [
+                    {
+                      "text": "Bath & Shampoo",
+                      "included": true
+                    },
+                    {
+                      "text": "Nail Trimming",
+                      "included": true
+                    },
+                    {
+                      "text": "Ear Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Haircut & Styling",
+                      "included": true
+                    },
+                    {
+                      "text": "Teeth Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Perfume & Deodorizing",
+                      "included": true
+                    }
+                  ],
+                  "badgeText": "Most Popular"
+                },
+                {
+                  "id": "card-3",
+                  "title": "Deluxe Care",
+                  "subtitle": "Luxury care for your pet",
+                  "price": "$89",
+                  "period": "/ Per Session",
+                  "icon": "/other/p3.png",
+                  "isPopular": false,
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/book",
+                  "features": [
+                    {
+                      "text": "Bath & Shampoo",
+                      "included": true
+                    },
+                    {
+                      "text": "Nail Trimming",
+                      "included": true
+                    },
+                    {
+                      "text": "Ear Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Haircut & Styling",
+                      "included": true
+                    },
+                    {
+                      "text": "Teeth Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Perfume & Deodorizing",
+                      "included": true
+                    },
+                    {
+                      "text": "Paw Massage",
+                      "included": true
+                    }
+                  ]
+                },
+                {
+                  "id": "card-4",
+                  "title": "Full Care Plan",
+                  "subtitle": "All-in-one care package",
+                  "price": "$129",
+                  "period": "/ Per Session",
+                  "icon": "/other/p4.png",
+                  "isPopular": false,
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/book",
+                  "features": [
+                    {
+                      "text": "Bath & Shampoo",
+                      "included": true
+                    },
+                    {
+                      "text": "Nail Trimming",
+                      "included": true
+                    },
+                    {
+                      "text": "Ear Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Haircut & Styling",
+                      "included": true
+                    },
+                    {
+                      "text": "Teeth Cleaning",
+                      "included": true
+                    },
+                    {
+                      "text": "Perfume & Deodorizing",
+                      "included": true
+                    },
+                    {
+                      "text": "Paw Massage",
+                      "included": true
+                    },
+                    {
+                      "text": "Skincare Treatment",
+                      "included": true
                     }
                   ]
                 }

@@ -160,7 +160,7 @@ export const TeamDetailContent = ({ data }: { data?: TeamDetailData }) => {
             {/* Professional Skills */}
             {data.professionalSkills && data.professionalSkills.length > 0 && (
               <div className="mb-12">
-                <h4 className="text-2xl font-bold text-[#051024] mb-2">Professional Skills</h4>
+                <h4 className="text-2xl font-bold text-[#051024] mb-2">{data.skillsTitle || 'Professional Skills'}</h4>
                 <div className="w-12 h-[3px] bg-[#00695c] mb-8"></div>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
@@ -179,7 +179,7 @@ export const TeamDetailContent = ({ data }: { data?: TeamDetailData }) => {
             {/* Experience */}
             {Array.isArray(data.experience) && data.experience.length > 0 && (
               <div className="mb-12">
-                <h4 className="text-2xl font-bold text-[#051024] mb-2">Experience</h4>
+                <h4 className="text-2xl font-bold text-[#051024] mb-2">{data.experienceTitle || 'Experience'}</h4>
                 <div className="w-12 h-[3px] bg-[#00695c] mb-10"></div>
                 
                 <div className="space-y-10">
@@ -216,7 +216,7 @@ export const TeamDetailContent = ({ data }: { data?: TeamDetailData }) => {
             {/* Education & Certification */}
             {data.education && data.education.length > 0 && (
               <div>
-                <h4 className="text-2xl font-bold text-[#051024] mb-2">Education & Certification</h4>
+                <h4 className="text-2xl font-bold text-[#051024] mb-2">{data.educationTitle || 'Education & Certification'}</h4>
                 <div className="w-12 h-[3px] bg-[#00695c] mb-8"></div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

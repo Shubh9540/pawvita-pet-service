@@ -266,6 +266,7 @@ export interface TeamDetailData {
     buttonUrl: string;
     icon: string;
   };
+  expertiseTitle?: string;
   expertise?: string[];
   whyChooseUs?: {
     title: string;
@@ -279,9 +280,39 @@ export interface TeamDetailData {
     titleName: string;
     description: string[];
   };
+  skillsTitle?: string;
   professionalSkills?: string[];
+  experienceTitle?: string;
   experience?: TeamDetailExperience[];
+  educationTitle?: string;
   education?: TeamDetailEducation[];
+}
+
+export interface PricingFeature {
+  text: string;
+  included: boolean;
+}
+
+export interface PricingCardItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  price: string;
+  period: string;
+  icon: string;
+  isPopular: boolean;
+  badgeText?: string;
+  features: PricingFeature[];
+  buttonText: string;
+  buttonUrl: string;
+}
+
+export interface PricingData {
+  heading: SectionHeadingData;
+  title: string;
+  description: string;
+  topFeatures: FeatureItem[];
+  cards: PricingCardItem[];
 }
 
 export interface FaqItem {
@@ -394,6 +425,7 @@ export interface PawVitaTemplateData {
     serviceDetailBreadcrumb?: BreadcrumbData;
     teamBreadcrumb?: BreadcrumbData;
     teamDetailBreadcrumb?: BreadcrumbData;
+    pricingBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
@@ -479,6 +511,11 @@ export interface PawVitaTemplateData {
             PawVitaTeamDetails1: {
               items: TeamDetailData[];
             };
+          };
+        };
+        Pricing?: {
+          variants: {
+            PawVitaPricing1: PricingData;
           };
         };
         Faqs?: {
