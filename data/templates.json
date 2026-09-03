@@ -132,6 +132,71 @@
         }
       ],
       "bgImage": "/banner/ban1.jpg"
+    },
+    "bookAppointmentBreadcrumb": {
+      "title": "Book Appointment",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Book Appointment"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "faqBreadcrumb": {
+      "title": "Frequently Asked Questions",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "FAQ"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "faqsBreadcrumb": {
+      "title": "Frequently Asked Questions",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "FAQs"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "testimonialsBreadcrumb": {
+      "title": "Testimonials",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Testimonials"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
+    },
+    "galleryBreadcrumb": {
+      "title": "Gallery",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Gallery"
+        }
+      ],
+      "bgImage": "/banner/ban1.jpg"
     }
   },
   "categories": {
@@ -298,7 +363,7 @@
               ],
               "contactButton": {
                 "text": "Book Appointment",
-                "url": "/book",
+                "url": "/book-appointment",
                 "icon": "FaRegCalendarAlt"
               }
             }
@@ -2524,7 +2589,7 @@
                   "icon": "/other/p1.png",
                   "isPopular": false,
                   "buttonText": "Book Now",
-                  "buttonUrl": "/book",
+                  "buttonUrl": "/book-appointment",
                   "features": [
                     {
                       "text": "Bath & Shampoo",
@@ -2557,7 +2622,7 @@
                   "icon": "/other/p2.png",
                   "isPopular": true,
                   "buttonText": "Book Now",
-                  "buttonUrl": "/book",
+                  "buttonUrl": "/book-appointment",
                   "features": [
                     {
                       "text": "Bath & Shampoo",
@@ -2595,7 +2660,7 @@
                   "icon": "/other/p3.png",
                   "isPopular": false,
                   "buttonText": "Book Now",
-                  "buttonUrl": "/book",
+                  "buttonUrl": "/book-appointment",
                   "features": [
                     {
                       "text": "Bath & Shampoo",
@@ -2636,7 +2701,7 @@
                   "icon": "/other/p4.png",
                   "isPopular": false,
                   "buttonText": "Book Now",
-                  "buttonUrl": "/book",
+                  "buttonUrl": "/book-appointment",
                   "features": [
                     {
                       "text": "Bath & Shampoo",
@@ -3135,6 +3200,307 @@
                     "buttonUrl": "/contact",
                     "image": "/service/grooming.jpg"
                   }
+                }
+              ]
+            }
+          }
+        },
+        "BookAppointment": {
+          "variants": {
+            "PawVitaBookAppointment1": {
+              "leftSide": {
+                "image": "/about/about-us-image.jpg",
+                "boxTitle": "24/7 Emergency Veterinary Care for Your Pets",
+                "boxDescription": "Booking an appointment with our clinic is quick, simple, and stress-free. Whether your pet needs a routine checkup, vaccination, grooming, or urgent medical attention.",
+                "features": [
+                  {
+                    "id": "lf-1",
+                    "icon": "FaRegClock",
+                    "title": "Quick Response Team",
+                    "subtitle": "Always Ready"
+                  },
+                  {
+                    "id": "lf-2",
+                    "icon": "FaStethoscope",
+                    "title": "Advanced Diagnostic",
+                    "subtitle": "Fast Treatment"
+                  },
+                  {
+                    "id": "lf-3",
+                    "icon": "FaHeadset",
+                    "title": "Immediate Help for",
+                    "subtitle": "Critical Pets"
+                  },
+                  {
+                    "id": "lf-4",
+                    "icon": "FaUserMd",
+                    "title": "Round-the-Clock",
+                    "subtitle": "Expert Care"
+                  }
+                ]
+              },
+              "rightSide": {
+                "headingIcon": "FaPaw",
+                "headingTitle": "OUR APPOINTMENT",
+                "title": "Schedule your pet's visit in minutes today",
+                "description": "Booking an appointment with our clinic is quick, simple & stress-free Whether your pet needs a routine checkup vaccination grooming or urgent medical attention.",
+                "form": {
+                  "namePlaceholder": "Full Name",
+                  "emailPlaceholder": "Email Address",
+                  "phonePlaceholder": "Phone Number",
+                  "servicePlaceholder": "Select a Service",
+                  "services": [
+                    "Pet Health Checkups",
+                    "Grooming & Hygiene",
+                    "Diagnostics & Lab Testing",
+                    "Emergency & After-Hours Care"
+                  ],
+                  "datePlaceholder": "Select Date",
+                  "timePlaceholder": "Select Time",
+                  "messagePlaceholder": "Message",
+                  "submitButton": "Send Message →"
+                }
+              },
+              "bottomBanner": [
+                {
+                  "id": "bb-1",
+                  "icon": "FaShieldAlt",
+                  "title": "Trusted & Safe Care",
+                  "description": "Your pet's safety and health are always our top priority."
+                },
+                {
+                  "id": "bb-2",
+                  "icon": "FaUserMd",
+                  "title": "Experienced Veterinarians",
+                  "description": "Our experts provide the best care with compassion."
+                },
+                {
+                  "id": "bb-3",
+                  "icon": "FaClipboardCheck",
+                  "title": "Easy & Convenient Booking",
+                  "description": "Book appointments in just a few clicks, anytime, anywhere."
+                },
+                {
+                  "id": "bb-4",
+                  "icon": "FaHeart",
+                  "title": "Happy Pets, Happy You",
+                  "description": "We are dedicated to keeping your pets healthy and happy."
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "PawVitaTestimonials1": {
+              "headingIcon": "FaPaw",
+              "headingTitle": "OUR TESTIMONIALS",
+              "title": "What Pet Parents Say About PawVita",
+              "description": "We're proud to be a part of so many happy pet journeys. Here's what our wonderful pet parents have to say about us.",
+              "items": [
+                {
+                  "id": "test-1",
+                  "quote": "PawVita has been a lifesaver for my Bruno! The grooming service is excellent and the staff is so caring and patient.",
+                  "rating": 5,
+                  "userName": "Neha Sharma",
+                  "petName": "Bruno",
+                  "userImage": "/team/team-1.png"
+                },
+                {
+                  "id": "test-2",
+                  "quote": "I trust PawVita for all of my Luna's health needs. Their doctors are professional, knowledgeable and truly love animals.",
+                  "rating": 5,
+                  "userName": "Rohit Verma",
+                  "petName": "Luna",
+                  "userImage": "/team/team-2.png"
+                },
+                {
+                  "id": "test-3",
+                  "quote": "The pet boarding experience was amazing. Regular updates and so much love & care. Highly recommended!",
+                  "rating": 5,
+                  "userName": "Anjali Mehta",
+                  "petName": "Coco",
+                  "userImage": "/team/team-3.png"
+                },
+                {
+                  "id": "test-4",
+                  "quote": "From booking to service everything is smooth and convenient. My cat Mimi always comes back happy and clean.",
+                  "rating": 5,
+                  "userName": "Pooja Iyer",
+                  "petName": "Mimi",
+                  "userImage": "/team/team-4.png"
+                },
+                {
+                  "id": "test-5",
+                  "quote": "Great experience with vet consultation. They explained everything so well and made us feel comfortable.",
+                  "rating": 5,
+                  "userName": "Arjun Nair",
+                  "petName": "Buddy",
+                  "userImage": "/team/team-5.png"
+                },
+                {
+                  "id": "test-6",
+                  "quote": "PawVita's team is friendly, caring and always ready to help. Couldn't ask for a better place for my pet!",
+                  "rating": 5,
+                  "userName": "Megha Kapoor",
+                  "petName": "Tommy",
+                  "userImage": "/team/team-6.png"
+                }
+              ]
+            }
+          }
+        },
+        "GalleryImages": {
+          "variants": {
+            "PawVitaGalleryImages1": {
+              "headingIcon": "FaPaw",
+              "headingTitle": "OUR GALLERY",
+              "title": "Gallery Photos",
+              "description": "Happy pets, happy moments. Explore our gallery of joyful tails, friendly faces, and caring hands.",
+              "items": [
+                {
+                  "id": "gal-1",
+                  "image": "/gallery/g1.jpg",
+                  "alt": "PawVita Gallery Image 1"
+                },
+                {
+                  "id": "gal-2",
+                  "image": "/gallery/g2.jpg",
+                  "alt": "PawVita Gallery Image 2"
+                },
+                {
+                  "id": "gal-3",
+                  "image": "/gallery/g3.jpg",
+                  "alt": "PawVita Gallery Image 3"
+                },
+                {
+                  "id": "gal-4",
+                  "image": "/gallery/g4.jpg",
+                  "alt": "PawVita Gallery Image 4"
+                },
+                {
+                  "id": "gal-5",
+                  "image": "/gallery/g5.jpg",
+                  "alt": "PawVita Gallery Image 5"
+                },
+                {
+                  "id": "gal-6",
+                  "image": "/gallery/g6.jpg",
+                  "alt": "PawVita Gallery Image 6"
+                },
+                {
+                  "id": "gal-7",
+                  "image": "/gallery/g7.jpg",
+                  "alt": "PawVita Gallery Image 7"
+                },
+                {
+                  "id": "gal-8",
+                  "image": "/gallery/g8.jpg",
+                  "alt": "PawVita Gallery Image 8"
+                },
+                {
+                  "id": "gal-9",
+                  "image": "/gallery/g9.jpg",
+                  "alt": "PawVita Gallery Image 9"
+                },
+                {
+                  "id": "gal-10",
+                  "image": "/gallery/g10.jpg",
+                  "alt": "PawVita Gallery Image 10"
+                },
+                {
+                  "id": "gal-11",
+                  "image": "/gallery/g11.jpg",
+                  "alt": "PawVita Gallery Image 11"
+                },
+                {
+                  "id": "gal-12",
+                  "image": "/gallery/g12.jpg",
+                  "alt": "PawVita Gallery Image 12"
+                }
+              ]
+            }
+          }
+        },
+        "GalleryVideos": {
+          "variants": {
+            "PawVitaGalleryVideos1": {
+              "headingIcon": "FaPaw",
+              "headingTitle": "OUR VIDEO GALLERY",
+              "title": "Video Gallery",
+              "description": "Watch heartwarming moments, expert care tips, and fun adventures from our furry friends and our care team.",
+              "items": [
+                {
+                  "id": "vid-1",
+                  "thumbnail": "/gallery/g1.jpg",
+                  "title": "Relaxing Bath Time",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-2",
+                  "thumbnail": "/gallery/g2.jpg",
+                  "title": "Vet Care & Checkup",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-3",
+                  "thumbnail": "/gallery/g3.jpg",
+                  "title": "Fun in the Park",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-4",
+                  "thumbnail": "/gallery/g4.jpg",
+                  "title": "Grooming Session",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-5",
+                  "thumbnail": "/gallery/g5.jpg",
+                  "title": "Puppy Cuddle Moments",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-6",
+                  "thumbnail": "/gallery/g6.jpg",
+                  "title": "Training & Obedience",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-7",
+                  "thumbnail": "/gallery/g7.jpg",
+                  "title": "Playtime Fun",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-8",
+                  "thumbnail": "/gallery/g8.jpg",
+                  "title": "Cat Playtime",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-9",
+                  "thumbnail": "/gallery/g9.jpg",
+                  "title": "Road Trip Adventure",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-10",
+                  "thumbnail": "/gallery/g10.jpg",
+                  "title": "Sleepy Time Stories",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-11",
+                  "thumbnail": "/gallery/g11.jpg",
+                  "title": "Puppy Squad Goals",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
+                },
+                {
+                  "id": "vid-12",
+                  "thumbnail": "/gallery/g12.jpg",
+                  "title": "Happy & Healthy Pets",
+                  "videoUrl": "https://www.youtube.com/embed/ByH9LuSILxU?autoplay=1"
                 }
               ]
             }

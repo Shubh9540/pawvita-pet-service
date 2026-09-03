@@ -441,6 +441,93 @@ export interface AboutMissionData {
   };
 }
 
+export interface BookAppointmentLeftFeature {
+  id: string;
+  icon: string;
+  title: string;
+  subtitle: string;
+}
+
+export interface BookAppointmentBottomFeature {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface BookAppointmentData {
+  leftSide: {
+    image: string;
+    boxTitle: string;
+    boxDescription: string;
+    features: BookAppointmentLeftFeature[];
+  };
+  rightSide: {
+    headingIcon: string;
+    headingTitle: string;
+    title: string;
+    description: string;
+    form: {
+      namePlaceholder: string;
+      emailPlaceholder: string;
+      phonePlaceholder: string;
+      servicePlaceholder: string;
+      services: string[];
+      datePlaceholder: string;
+      timePlaceholder: string;
+      messagePlaceholder: string;
+      submitButton: string;
+    };
+  };
+  bottomBanner: BookAppointmentBottomFeature[];
+}
+
+export interface TestimonialItem {
+  id: string;
+  quote: string;
+  rating: number;
+  userName: string;
+  petName: string;
+  userImage: string;
+}
+
+export interface TestimonialsData {
+  headingIcon: string;
+  headingTitle: string;
+  title: string;
+  description: string;
+  items: TestimonialItem[];
+}
+
+export interface GalleryItem {
+  id: string;
+  image: string;
+  alt: string;
+}
+
+export interface GalleryData {
+  headingIcon: string;
+  headingTitle: string;
+  title: string;
+  description: string;
+  items: GalleryItem[];
+}
+
+export interface GalleryVideoItem {
+  id: string;
+  thumbnail: string;
+  title: string;
+  videoUrl: string;
+}
+
+export interface GalleryVideosData {
+  headingIcon: string;
+  headingTitle: string;
+  title: string;
+  description: string;
+  items: GalleryVideoItem[];
+}
+
 export interface PawVitaTemplateData {
   common: {
     globalUI: {
@@ -456,6 +543,10 @@ export interface PawVitaTemplateData {
     teamDetailBreadcrumb?: BreadcrumbData;
     pricingBreadcrumb?: BreadcrumbData;
     locationDetailBreadcrumb?: BreadcrumbData;
+    bookAppointmentBreadcrumb?: BreadcrumbData;
+    faqsBreadcrumb?: BreadcrumbData;
+    testimonialsBreadcrumb?: BreadcrumbData;
+    galleryBreadcrumb?: BreadcrumbData;
   };
   categories: {
     PawVita: {
@@ -523,9 +614,29 @@ export interface PawVitaTemplateData {
             };
           };
         };
+        BookAppointment?: {
+          variants: {
+            PawVitaBookAppointment1: BookAppointmentData;
+          };
+        };
         WhyChooseUs?: {
           variants: {
             PawVitaWhyChooseUs1: WhyChooseUsData;
+          };
+        };
+        Testimonials?: {
+          variants: {
+            PawVitaTestimonials1?: TestimonialsData;
+          };
+        };
+        GalleryImages?: {
+          variants: {
+            PawVitaGalleryImages1?: GalleryData;
+          };
+        };
+        GalleryVideos?: {
+          variants: {
+            PawVitaGalleryVideos1?: GalleryVideosData;
           };
         };
         Counter?: {

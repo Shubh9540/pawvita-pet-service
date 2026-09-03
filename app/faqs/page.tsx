@@ -1,0 +1,43 @@
+import { PawVitaTemplateData } from '@/types/templates.types';
+import rawData from '@/data/templates.json';
+import { TopBar } from '@/components/common/TopBar';
+import { Header } from '@/components/common/Header';
+import { Breadcrumb } from '@/components/common/Breadcrumb';
+import { Footer } from '@/components/common/Footer';
+import { Faqs } from '@/components/sections/Faqs';
+
+export const dynamic = 'force-dynamic';
+
+export const metadata = {
+  title: 'Frequently Asked Questions - PawVita Pet Services',
+  description: 'Find answers to common questions about our pet services at PawVita.',
+};
+
+export default function FaqsPage() {
+  const templateData: PawVitaTemplateData = rawData as PawVitaTemplateData;
+  const sectionData = templateData?.categories?.PawVita?.sections;
+  const commonData = templateData?.common;
+
+  if (!sectionData) return <div className="min-h-screen flex items-center justify-center">{templateData?.common?.globalUI?.loading || 'Loading...'}</div>;
+
+  return (
+    <main className="bg-white min-h-screen font-primary">
+      {/* 1. TopBar */}
+      <TopBar data={sectionData.TopBar?.variants?.PawVitaTopBar1} />
+
+      {/* 2. Header */}
+      <Header data={sectionData.Header?.variants?.PawVitaHeader1} />
+
+      {/* 3. Breadcrumb */}
+      {commonData?.faqsBreadcrumb && (
+        <Breadcrumb data={commonData.faqsBreadcrumb} />
+      )}
+
+      {/* 4. Faqs Section */}
+      <Faqs data={sectionData.Faqs?.variants?.PawVitaFaqs1} />
+
+      {/* 5. Footer */}
+      <Footer data={sectionData.Footer?.variants?.PawVitaFooter1} />
+    </main>
+  );
+}
