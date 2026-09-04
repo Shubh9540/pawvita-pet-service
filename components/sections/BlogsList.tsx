@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { BlogsListData } from '@/types/templates.types';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FaPaw, FaCalendarAlt, FaArrowRight } from 'react-icons/fa';
 
 interface Props {
@@ -16,12 +17,7 @@ export const BlogsList = ({ data }: Props) => {
         
         {/* Heading Section */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="flex items-center justify-center gap-3 text-[#00695c] font-bold text-sm tracking-widest uppercase mb-4">
-            <span className="w-8 h-[1px] bg-[#00695c]/30"></span>
-            <FaPaw />
-            <span>{data.headingTitle}</span>
-            <span className="w-8 h-[1px] bg-[#00695c]/30"></span>
-          </div>
+          <SectionHeading data={{ title: data.headingTitle, icon: data.headingIcon, variant: 'decorated' }} />
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#051024] mb-6 leading-tight">
             {data.title.split('Tips').map((part, index, array) => (

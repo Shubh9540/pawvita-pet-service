@@ -1,7 +1,8 @@
 import React from 'react';
 import { AboutMissionData } from '@/types/templates.types';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import Image from 'next/image';
-import { FaPaw, FaBullseye, FaEye, FaCheck, FaHeart } from 'react-icons/fa';
+import { FaPaw, FaBullseye, FaEye, FaCheck, FaHeart, FaCheckCircle, FaUsers, FaHeartbeat } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
   switch (iconName) {
@@ -31,12 +32,7 @@ export const AboutMissionLight = ({ data }: { data?: AboutMissionData }) => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
-          <div className="flex items-center justify-center gap-4 text-[#0f9c9b] font-bold tracking-widest text-sm mb-4 uppercase">
-            {data.heading.variant === 'decorated' && <span className="h-px w-8 bg-[#0f9c9b]"></span>}
-            {data.heading.icon && <span className="text-lg">{renderIcon(data.heading.icon)}</span>}
-            <span className="text-[#051024]">{data.heading.title}</span>
-            {data.heading.variant === 'decorated' && <span className="h-px w-8 bg-[#0f9c9b]"></span>}
-          </div>
+          <SectionHeading data={data.heading} />
           <h2 
             className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-[#051024]"
             dangerouslySetInnerHTML={{ __html: data.title }}

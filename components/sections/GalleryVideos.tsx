@@ -1,7 +1,8 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { GalleryVideosData } from '@/types/templates.types';
-import { FaPaw, FaTimes, FaPlay } from 'react-icons/fa';
+import { GalleryVideosData, GalleryVideoItem } from '@/types/templates.types';
+import { SectionHeading } from '@/components/ui/SectionHeading';
+import { FaPaw, FaPlay, FaTimes } from 'react-icons/fa';
 
 interface Props {
   data?: GalleryVideosData;
@@ -41,12 +42,7 @@ export const GalleryVideos = ({ data }: Props) => {
         
         {/* Heading Section */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="flex items-center justify-center gap-3 text-[#00695c] font-bold text-sm tracking-widest uppercase mb-4">
-            <span className="w-8 h-[1px] bg-[#00695c]/30"></span>
-            <FaPaw />
-            <span>{data.headingTitle}</span>
-            <span className="w-8 h-[1px] bg-[#00695c]/30"></span>
-          </div>
+          <SectionHeading data={{ title: data.headingTitle, icon: data.headingIcon, variant: 'decorated' }} />
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#051024] mb-6 leading-tight">
             {data.title.split('Gallery').map((part, index, array) => (

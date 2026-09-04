@@ -333,32 +333,36 @@
             "home": {
               "components": [
                 {
-                  "key": "Hero",
-                  "component": "PawVitaHero1"
+                  "key": "HeroBanner",
+                  "component": "PawVitaHeroBanner1"
                 },
                 {
                   "key": "AboutUs",
                   "component": "PawVitaAboutUs1"
                 },
                 {
-                  "key": "WhyChooseUs",
-                  "component": "PawVitaWhyChooseUs1"
-                },
-                {
                   "key": "Services",
                   "component": "PawVitaServices1"
                 },
                 {
-                  "key": "OurValues",
-                  "component": "PawVitaOurValues1"
+                  "key": "ServiceAreas",
+                  "component": "PawVitaServiceAreas1"
                 },
                 {
-                  "key": "Testimonials",
-                  "component": "PawVitaTestimonials1"
+                  "key": "WhyChooseUs",
+                  "component": "PawVitaWhyChooseUs1"
                 },
                 {
-                  "key": "CTA",
-                  "component": "PawVitaCTA1"
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                },
+                {
+                  "key": "Team",
+                  "component": "PawVitaTeam1"
+                },
+                {
+                  "key": "Faqs",
+                  "component": "PawVitaFaqs1"
                 },
                 {
                   "key": "Blogs",
@@ -371,6 +375,238 @@
                 {
                   "key": "AboutUs",
                   "component": "PawVitaAboutUs1"
+                },
+                {
+                  "key": "AboutMission",
+                  "component": "PawVitaAboutMission1"
+                },
+                {
+                  "key": "WhyChooseUs",
+                  "component": "PawVitaWhyChooseUs1"
+                },
+                {
+                  "key": "Team",
+                  "component": "PawVitaTeam1"
+                }
+              ]
+            },
+            "blog": {
+              "components": [
+                {
+                  "key": "BlogsList",
+                  "component": "PawVitaBlogsList1"
+                }
+              ]
+            },
+            "blog-detail": {
+              "components": [
+                {
+                  "key": "BlogDetailContent",
+                  "component": "PawVitaBlogDetailContent1"
+                }
+              ]
+            },
+            "book-appointment": {
+              "components": [
+                {
+                  "key": "BookAppointmentSection",
+                  "component": "PawVitaBookAppointmentSection1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                }
+              ]
+            },
+            "contact": {
+              "components": [
+                {
+                  "key": "ContactUs",
+                  "component": "PawVitaContactUs1"
+                }
+              ]
+            },
+            "cookie-policy": {
+              "components": [
+                {
+                  "key": "LegalContent",
+                  "component": "PawVitaLegalContent1"
+                }
+              ]
+            },
+            "disclaimer": {
+              "components": [
+                {
+                  "key": "LegalContent",
+                  "component": "PawVitaLegalContent1"
+                }
+              ]
+            },
+            "faqs": {
+              "components": [
+                {
+                  "key": "Faqs",
+                  "component": "PawVitaFaqs1"
+                }
+              ]
+            },
+            "gallery": {
+              "components": [
+                {
+                  "key": "GalleryImages",
+                  "component": "PawVitaGalleryImages1"
+                },
+                {
+                  "key": "GalleryVideos",
+                  "component": "PawVitaGalleryVideos1"
+                }
+              ]
+            },
+            "locations": {
+              "components": [
+                {
+                  "key": "ServiceAreasGrid",
+                  "component": "PawVitaServiceAreasGrid1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                }
+              ]
+            },
+            "location-detail": {
+              "components": [
+                {
+                  "key": "LocationDetailContent",
+                  "component": "PawVitaLocationDetailContent1"
+                }
+              ]
+            },
+            "mission-vision": {
+              "components": [
+                {
+                  "key": "AboutMissionLight",
+                  "component": "PawVitaAboutMissionLight1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                },
+                {
+                  "key": "Faqs",
+                  "component": "PawVitaFaqs1"
+                }
+              ]
+            },
+            "partners": {
+              "components": [
+                {
+                  "key": "Partners",
+                  "component": "PawVitaPartners1"
+                }
+              ]
+            },
+            "pricing": {
+              "components": [
+                {
+                  "key": "PricingSection",
+                  "component": "PawVitaPricingSection1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                }
+              ]
+            },
+            "privacy-policy": {
+              "components": [
+                {
+                  "key": "LegalContent",
+                  "component": "PawVitaLegalContent1"
+                }
+              ]
+            },
+            "services": {
+              "components": [
+                {
+                  "key": "ServicesTabs",
+                  "component": "PawVitaServicesTabs1"
+                },
+                {
+                  "key": "ServicesGridSection",
+                  "component": "PawVitaServicesGridSection1"
+                },
+                {
+                  "key": "Faqs",
+                  "component": "PawVitaFaqs1"
+                }
+              ]
+            },
+            "service-detail": {
+              "components": [
+                {
+                  "key": "ServiceDetailContent",
+                  "component": "PawVitaServiceDetailContent1"
+                }
+              ]
+            },
+            "sitemap": {
+              "components": [
+                {
+                  "key": "SitemapPageContent",
+                  "component": "PawVitaSitemapPageContent1"
+                }
+              ]
+            },
+            "team": {
+              "components": [
+                {
+                  "key": "TeamGridSection",
+                  "component": "PawVitaTeamGridSection1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                }
+              ]
+            },
+            "team-detail": {
+              "components": [
+                {
+                  "key": "TeamDetailContent",
+                  "component": "PawVitaTeamDetailContent1"
+                }
+              ]
+            },
+            "terms-conditions": {
+              "components": [
+                {
+                  "key": "LegalContent",
+                  "component": "PawVitaLegalContent1"
+                }
+              ]
+            },
+            "testimonials": {
+              "components": [
+                {
+                  "key": "Testimonials",
+                  "component": "PawVitaTestimonials1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "PawVitaCounter1"
+                }
+              ]
+            },
+            "why-choose-us": {
+              "components": [
+                {
+                  "key": "WhyChooseUs",
+                  "component": "PawVitaWhyChooseUs1"
+                },
+                {
+                  "key": "Faqs",
+                  "component": "PawVitaFaqs1"
                 }
               ]
             }
@@ -1939,36 +2175,36 @@
               "description": "Helpful tips, grooming advice, and pet care stories to keep your furry friends happy, healthy, and looking their best.",
               "featuredPost": {
                 "id": "blog-feat-1",
-                "image": "/blog/blog-1.jpg",
-                "date": "16 May 2025",
-                "title": "10 Essential Tips for a Happy & Healthy Pet",
-                "excerpt": "Simple tips to keep your furry friend active, healthy and full of joy every day.",
-                "url": "/blog/10-essential-tips"
+                "image": "/gallery/g1.jpg",
+                "date": "18 May 2025",
+                "title": "How to Keep Your Dog Cool in Summer",
+                "excerpt": "Practical tips to help your dog stay safe, hydrated, and comfortable during hot weather.",
+                "url": "/blog/how-to-keep-your-dog-cool"
               },
               "posts": [
                 {
                   "id": "blog-2",
-                  "image": "/blog/blog-2.jpg",
-                  "date": "14 May 2025",
-                  "title": "How Often Should You Groom Your Pet?",
-                  "excerpt": "Discover the ideal grooming routine for dogs and cats to keep them clean, fresh and comfortable.",
-                  "url": "/blog/how-often-groom"
+                  "image": "/gallery/g2.jpg",
+                  "date": "16 May 2025",
+                  "title": "Cat Grooming 101: Easy Tips at Home",
+                  "excerpt": "Simple grooming tips to keep your cat's coat healthy, shiny, and tangle-free at home.",
+                  "url": "/blog/cat-grooming-101"
                 },
                 {
                   "id": "blog-3",
-                  "image": "/blog/blog-3.jpg",
-                  "date": "12 May 2025",
-                  "title": "Best Foods for Your Pet's Strong Immunity",
-                  "excerpt": "Explore the best nutrition options that boost your pet's immunity and support overall well-being.",
-                  "url": "/blog/best-foods"
+                  "image": "/gallery/g3.jpg",
+                  "date": "14 May 2025",
+                  "title": "Best Foods for a Healthy and Happy Pet",
+                  "excerpt": "Discover nutritious food options that support your pet's growth, energy, and overall well-being.",
+                  "url": "/blog/best-foods-healthy-happy-pet"
                 },
                 {
                   "id": "blog-4",
-                  "image": "/blog/blog-4.jpg",
-                  "date": "10 May 2025",
-                  "title": "Signs Your Pet Might Need a Vet Visit",
-                  "excerpt": "Learn the key signs that indicate it's time to consult a vet and ensure your pet stays healthy.",
-                  "url": "/blog/signs-vet-visit"
+                  "image": "/gallery/g4.jpg",
+                  "date": "12 May 2025",
+                  "title": "Puppy Training Basics Every Owner Should Know",
+                  "excerpt": "Essential training tips to build good habits and a strong bond with your puppy from the start.",
+                  "url": "/blog/puppy-training-basics"
                 }
               ],
               "viewAllButton": {
@@ -2889,7 +3125,7 @@
               "heading": {
                 "title": "PRICING & PACKAGES",
                 "icon": "FaPaw",
-                "variant": "simple"
+                "variant": "decorated"
               },
               "title": "Simple, Transparent & Affordable <br/><span class='text-[#00695c]'>Pricing For Every Pet</span>",
               "description": "Choose the perfect grooming or care package for your furry friend. No hidden charges, just lots of love and the best care.",
@@ -3134,7 +3370,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Delhi center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3191,7 +3427,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Noida center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3248,7 +3484,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Gurugram center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3305,7 +3541,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Ghaziabad center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3362,7 +3598,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Faridabad center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3419,7 +3655,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Indirapuram center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3476,7 +3712,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Lucknow center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 },
@@ -3533,7 +3769,7 @@
                     "title": "Give Your Pet The Best Care",
                     "description": "Visit our Kanpur center or book an appointment today.",
                     "buttonText": "Book Appointment →",
-                    "buttonUrl": "/contact",
+                    "buttonUrl": "/book-appointment",
                     "image": "/service/grooming.jpg"
                   }
                 }

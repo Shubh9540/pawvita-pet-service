@@ -1,5 +1,6 @@
 import React from 'react';
 import { ContactData } from '@/types/templates.types';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaPaw, FaRegClock } from 'react-icons/fa';
 
 interface Props {
@@ -24,11 +25,7 @@ export const ContactUs = ({ data }: Props) => {
         
         {/* Top Header Section */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <div className="flex items-center justify-center gap-4 text-[#00695c] font-bold tracking-widest text-sm mb-4 uppercase">
-            <span className="w-6 h-[2px] bg-[#00695c]"></span>
-            <span>{data.headingTitle}</span>
-            <span className="w-6 h-[2px] bg-[#00695c]"></span>
-          </div>
+          <SectionHeading data={{ title: data.headingTitle || '', icon: 'FaPaw', variant: 'decorated' }} />
           
           <h1 
             className="text-4xl md:text-5xl font-bold text-[#051024] mb-6"

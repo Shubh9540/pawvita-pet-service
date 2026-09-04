@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { TeamData } from '@/types/templates.types';
 import { PawMark } from '@/components/ui/PawMark';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FaPaw, FaCheckCircle, FaAward } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
@@ -28,14 +29,7 @@ export const Team = ({ data }: { data?: TeamData }) => {
         
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <div className="h-[2px] w-12 bg-primary"></div>
-            <div className="flex items-center gap-2 text-primary font-bold tracking-wider text-sm sm:text-base uppercase">
-              {data.heading.icon && <span className="text-xl">{renderIcon(data.heading.icon)}</span>}
-              {data.heading.title}
-            </div>
-            <div className="h-[2px] w-12 bg-primary"></div>
-          </div>
+          <SectionHeading data={data.heading} />
           
           <h2 
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6"

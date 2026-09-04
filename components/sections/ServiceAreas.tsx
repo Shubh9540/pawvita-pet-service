@@ -14,19 +14,55 @@ const renderIcon = (iconName: string) => {
 export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [totalDots, setTotalDots] = useState(0);
 
   if (!data) return null;
 
-  // Handle scroll to update dots
+  // Calculate actual number of dots needed based on screen size
+  useEffect(() => {
+    const updateDots = () => {
+      if (containerRef.current) {
+        const scrollWidth = containerRef.current.scrollWidth;
+        const clientWidth = containerRef.current.clientWidth;
+        const cardWidth = containerRef.current.children[0]?.clientWidth || 0;
+        const gap = 24;
+        
+        if (cardWidth > 0 && scrollWidth > clientWidth) {
+          const maxScroll = scrollWidth - clientWidth;
+          const maxIndex = Math.round(maxScroll / (cardWidth + gap));
+          setTotalDots(Math.max(1, maxIndex + 1));
+        } else {
+          setTotalDots(0);
+        }
+      }
+    };
+    
+    updateDots();
+    window.addEventListener('resize', updateDots);
+    const timeout = setTimeout(updateDots, 300); // Wait for fonts/layout
+    
+    return () => {
+      window.removeEventListener('resize', updateDots);
+      clearTimeout(timeout);
+    };
+  }, [data.locations]);
+
+  // Handle scroll to update active dot
   useEffect(() => {
     const handleScroll = () => {
       if (containerRef.current) {
         const scrollLeft = containerRef.current.scrollLeft;
+        const scrollWidth = containerRef.current.scrollWidth;
+        const clientWidth = containerRef.current.clientWidth;
         const cardWidth = containerRef.current.children[0]?.clientWidth || 0;
         const gap = 24; // 1.5rem (gap-6)
         const totalWidth = cardWidth + gap;
         const index = Math.round(scrollLeft / totalWidth);
-        setActiveIndex(index);
+        
+        const maxScroll = scrollWidth - clientWidth;
+        const maxIndex = maxScroll > 0 ? Math.round(maxScroll / totalWidth) : 0;
+        
+        setActiveIndex(Math.min(index, maxIndex));
       }
     };
 
@@ -161,16 +197,18 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
         </div>
 
         {/* Pagination Dots */}
-        <div className="flex justify-center items-center gap-3 mt-8">
-          {data.locations.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => scrollToDot(i)}
-              className={`w-3 h-3 rounded-full transition-all ${activeIndex === i ? 'bg-primary w-4 h-4' : 'bg-gray-300 hover:bg-gray-400'}`}
-              aria-label={`Go to slide ${i + 1}`}
-            />
-          ))}
-        </div>
+        {totalDots > 1 && (
+          <div className="flex justify-center items-center gap-3 mt-8">
+            {[...Array(totalDots)].map((_, i) => (
+              <button
+                key={i}
+                onClick={() => scrollToDot(i)}
+                className={`w-3 h-3 rounded-full transition-all ${activeIndex === i ? 'bg-primary w-4 h-4' : 'bg-gray-300 hover:bg-gray-400'}`}
+                aria-label={`Go to slide ${i + 1}`}
+              />
+            ))}
+          </div>
+        )}
 
       </div>
     </section>

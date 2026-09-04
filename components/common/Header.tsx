@@ -24,7 +24,7 @@ export const Header = ({ data }: { data?: HeaderData }) => {
 
   return (
     <>
-      <header className="bg-white shadow-sm fixed top-0 w-full z-50 transition-all">
+    <header className="bg-white shadow-sm sticky top-0 w-full z-50 transition-all">
         <div className="w-full px-4 lg:px-12 py-3 lg:py-5 flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
@@ -177,8 +177,6 @@ export const Header = ({ data }: { data?: HeaderData }) => {
           </div>
         )}
       </header>
-      {/* Spacer to replace sticky flow */}
-      <div className="h-[72px] lg:h-[104px] w-full shrink-0"></div>
     </>
   );
 };

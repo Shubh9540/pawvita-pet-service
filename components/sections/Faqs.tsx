@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { FaqsData } from '@/types/templates.types';
 import { PawMark } from '@/components/ui/PawMark';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FaPaw, FaShieldAlt, FaAward, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
@@ -32,17 +33,7 @@ export const Faqs = ({ data }: { data?: FaqsData }) => {
       <div className="w-full max-w-6xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
         {/* Heading Section */}
         <div className="text-center mb-10 lg:mb-16">
-          {data.heading && (
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <span className="text-[#00695c] text-xl">
-                {renderIcon(data.heading.icon || 'FaPaw')}
-              </span>
-              <h4 className="text-[#00695c] font-semibold tracking-wider uppercase">
-                {data.heading.title}
-              </h4>
-              <span className="w-10 h-[1px] bg-[#00695c] opacity-30"></span>
-            </div>
-          )}
+          <SectionHeading data={data.heading} />
           
           <h2 
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#051024] mb-6"

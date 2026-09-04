@@ -80,7 +80,6 @@ export const Footer = ({ data }: { data?: FooterData }) => {
                 {col.links.map((link) => (
                   <li key={link.id}>
                     <Link href={link.url} className="text-white hover:text-[#00c9a7] flex items-center gap-2 transition-colors text-[15px]">
-                      {link.icon && <span className="text-[#00c9a7] text-[10px]">{renderIcon(link.icon)}</span>}
                       {link.label}
                     </Link>
                   </li>

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { PricingData } from '@/types/templates.types';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 import { FaPaw, FaCheckCircle, FaTimesCircle, FaDog, FaSearchDollar, FaShoppingBag, FaHeart } from 'react-icons/fa';
 
 const renderIcon = (iconName: string, isCardIcon = false) => {
@@ -40,13 +41,7 @@ export const PricingSection = ({ data }: { data?: PricingData }) => {
 
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="w-12 h-px bg-[#00695c]"></div>
-            <div className="flex items-center gap-2 text-[#00695c] font-bold uppercase tracking-wider text-sm">
-              <FaPaw /> {data.heading.title}
-            </div>
-            <div className="w-12 h-px bg-[#00695c]"></div>
-          </div>
+          <SectionHeading data={data.heading} />
 
           <h2
             className="text-3xl md:text-5xl font-bold text-[#051024] mb-6 leading-tight"
