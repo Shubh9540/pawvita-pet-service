@@ -30,7 +30,7 @@ export default function AboutPage() {
       <Breadcrumb data={commonData?.aboutBreadcrumb} />
       
       {/* 4. About Us */}
-      <AboutUs data={sectionData.AboutUs?.variants?.PawVitaAboutUs1} />
+      <AboutUs data={sectionData.AboutUs?.variants?.PawVitaAboutUs1} hideButton={true} />
 
       {/* 5. Mission & Vision */}
       <AboutMission data={sectionData.AboutMission?.variants?.PawVitaAboutMission1} />
