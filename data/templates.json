@@ -1010,37 +1010,37 @@
                     {
                       "id": "fc1-0",
                       "label": "Pet Health Checkups",
-                      "url": "/services/grid-srv-1",
+                      "url": "/services/pet-health-checkups",
                       "icon": "FaPaw"
                     },
                     {
                       "id": "fc1-1",
                       "label": "Grooming & Hygiene",
-                      "url": "/services/grid-srv-2",
+                      "url": "/services/grooming-hygiene",
                       "icon": "FaPaw"
                     },
                     {
                       "id": "fc1-2",
                       "label": "Diagnostics & Lab Testing",
-                      "url": "/services/grid-srv-3",
+                      "url": "/services/diagnostics-lab-testing",
                       "icon": "FaPaw"
                     },
                     {
                       "id": "fc1-3",
                       "label": "General Health Checkups",
-                      "url": "/services/grid-srv-4",
+                      "url": "/services/general-health-checkups",
                       "icon": "FaPaw"
                     },
                     {
                       "id": "fc1-4",
                       "label": "Emergency & After-Hours Care",
-                      "url": "/services/grid-srv-5",
+                      "url": "/services/emergency-after-hours-care",
                       "icon": "FaPaw"
                     },
                     {
                       "id": "fc1-5",
                       "label": "Veterinary Assistance",
-                      "url": "/services/grid-srv-6",
+                      "url": "/services/veterinary-assistance",
                       "icon": "FaPaw"
                     }
                   ]
