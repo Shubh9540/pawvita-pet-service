@@ -100,16 +100,6 @@ export const SitemapPageContent = ({ data }: Props) => {
                 ))}
               </ul>
 
-              {/* View All Button */}
-              <div className="mt-auto pt-4 border-t border-gray-50">
-                <Link 
-                  href={category.links[0]?.url || '/'} 
-                  className="text-[#00695c] text-sm font-bold hover:text-[#c49250] flex items-center gap-2 transition-colors duration-200 w-fit"
-                >
-                  View All Pages <FaArrowRight className="text-xs" />
-                </Link>
-              </div>
-
             </div>
           ))}
         </div>

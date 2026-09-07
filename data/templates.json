@@ -1122,7 +1122,7 @@
               "description": "Discover trusted care, expert guidance, and quality pet essentials designed to keep your furry friends healthy, happy, and full of love every day.",
               "button": {
                 "text": "Book An Appointment",
-                "url": "/book",
+                "url": "/book-appointment",
                 "icon": "FaRegCalendarAlt"
               },
               "features": [
