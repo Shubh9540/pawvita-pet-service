@@ -29,7 +29,7 @@ export const BookAppointmentSection = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-white relative">
+    <section className="py-8 lg:py-12 bg-white relative">
       <div className="w-full max-w-screen-2xl mx-auto px-4 lg:px-12 space-y-12">
         
         {/* Top Content: Left & Right */}

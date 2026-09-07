@@ -24,7 +24,7 @@ export const Services = ({ data }: { data?: ServicesData }) => {
   if (!data) return null;
 
   return (
-    <section className="relative py-16 lg:py-24 bg-[var(--color-bg-alt)] overflow-hidden">
+    <section className="relative py-8 lg:py-12 bg-[var(--color-bg-alt)] overflow-hidden">
       {/* Background Decorators */}
       <PawMark className="top-24 left-10 xl:left-20 text-8xl xl:text-9xl -rotate-12" />
       <PawMark className="top-16 right-20 xl:right-40 text-7xl xl:text-8xl rotate-12" />

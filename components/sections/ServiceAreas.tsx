@@ -26,7 +26,7 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
         const clientWidth = containerRef.current.clientWidth;
         const cardWidth = containerRef.current.children[0]?.clientWidth || 0;
         const gap = 24;
-        
+
         if (cardWidth > 0 && scrollWidth > clientWidth) {
           const maxScroll = scrollWidth - clientWidth;
           const maxIndex = Math.round(maxScroll / (cardWidth + gap));
@@ -36,11 +36,11 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
         }
       }
     };
-    
+
     updateDots();
     window.addEventListener('resize', updateDots);
     const timeout = setTimeout(updateDots, 300); // Wait for fonts/layout
-    
+
     return () => {
       window.removeEventListener('resize', updateDots);
       clearTimeout(timeout);
@@ -58,10 +58,10 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
         const gap = 24; // 1.5rem (gap-6)
         const totalWidth = cardWidth + gap;
         const index = Math.round(scrollLeft / totalWidth);
-        
+
         const maxScroll = scrollWidth - clientWidth;
         const maxIndex = maxScroll > 0 ? Math.round(maxScroll / totalWidth) : 0;
-        
+
         setActiveIndex(Math.min(index, maxIndex));
       }
     };
@@ -90,7 +90,7 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
       const cardWidth = containerRef.current.children[0]?.clientWidth || 0;
       const gap = 24;
       const maxScroll = containerRef.current.scrollWidth - containerRef.current.clientWidth;
-      
+
       if (containerRef.current.scrollLeft >= maxScroll - 10) {
         containerRef.current.scrollTo({ left: 0, behavior: 'smooth' });
       } else {
@@ -116,8 +116,8 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
   };
 
   return (
-    <section 
-      className="py-16 lg:py-24 w-full relative overflow-hidden bg-[#f8f9f9]"
+    <section
+      className="py-8 lg:py-12 w-full relative overflow-hidden bg-[#f8f9f9]"
       style={data.bgImage ? { backgroundImage: `url('${data.bgImage}')`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}
     >
       {/* Background Decorators */}
@@ -126,7 +126,7 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
       <PawMark className="top-40 right-4 xl:right-16 text-6xl xl:text-7xl rotate-45" />
 
       <div className="w-full max-w-screen-2xl mx-auto px-4 lg:px-12 relative z-10">
-        
+
         {/* Heading Component */}
         <SectionHeading data={data.heading} />
 
@@ -144,9 +144,9 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
 
         {/* Slider Container Wrapper */}
         <div className="relative w-full mx-auto flex items-center">
-          
+
           {/* Left Arrow Button */}
-          <button 
+          <button
             onClick={scrollLeft}
             className="hidden md:flex absolute -left-2 lg:-left-6 xl:-left-10 z-20 w-10 h-10 lg:w-12 lg:h-12 bg-primary rounded-full items-center justify-center text-white shadow-lg hover:bg-primary/90 transition-colors"
             aria-label="Scroll left"
@@ -155,22 +155,22 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
           </button>
 
           {/* Scrollable Cards Container */}
-          <div 
+          <div
             ref={containerRef}
             className="flex w-full overflow-x-auto gap-4 lg:gap-5 snap-x snap-mandatory pb-8 pt-4 px-2"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {data.locations.map((loc) => (
-              <Link 
+              <Link
                 href={`/locations/${loc.id}`}
-                key={loc.id} 
+                key={loc.id}
                 className="w-[85vw] sm:w-64 md:w-56 lg:w-[calc(16.666%-1.25rem)] bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex-shrink-0 snap-start border border-gray-100 flex flex-col"
               >
                 {/* Card Image */}
                 <div className="w-full h-56 md:h-48 lg:h-60 relative">
-                  <img 
-                    src={loc.image} 
-                    alt={loc.title} 
+                  <img
+                    src={loc.image}
+                    alt={loc.title}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -187,7 +187,7 @@ export const ServiceAreas = ({ data }: { data?: ServiceAreasData }) => {
           </div>
 
           {/* Right Arrow Button */}
-          <button 
+          <button
             onClick={scrollRight}
             className="hidden md:flex absolute -right-2 lg:-right-6 xl:-right-10 z-20 w-10 h-10 lg:w-12 lg:h-12 bg-primary rounded-full items-center justify-center text-white shadow-lg hover:bg-primary/90 transition-colors"
             aria-label="Scroll right"

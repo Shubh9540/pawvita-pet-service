@@ -21,7 +21,7 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#fafafa] relative overflow-hidden">
+    <section className="py-8 lg:py-12 bg-[#fafafa] relative overflow-hidden">
       {/* Background Decorators */}
       <PawMark className="top-24 left-10 text-9xl rotate-12 opacity-[0.03]" />
       <PawMark className="bottom-20 right-10 text-8xl -rotate-12 opacity-[0.03]" />

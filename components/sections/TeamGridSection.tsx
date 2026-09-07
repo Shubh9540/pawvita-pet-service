@@ -18,7 +18,7 @@ export const TeamGridSection = ({ data }: { data?: TeamGridData }) => {
   if (!data) return null;
 
   return (
-    <section className="relative py-16 lg:py-24 bg-[#fafaf9] overflow-hidden">
+    <section className="relative py-8 lg:py-12 bg-[#fafaf9] overflow-hidden">
       
       {/* Background Decorators */}
       <PawMark className="top-20 left-10 text-8xl rotate-12 opacity-[0.03]" />

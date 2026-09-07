@@ -20,7 +20,7 @@ export const ContactUs = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-white relative overflow-hidden font-primary">
+    <section className="py-8 lg:py-12 bg-white relative overflow-hidden font-primary">
       <div className="w-full max-w-screen-xl mx-auto px-4 lg:px-6 relative z-10">
         
         {/* Top Header Section */}

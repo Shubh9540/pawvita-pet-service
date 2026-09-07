@@ -27,7 +27,7 @@ export const PricingSection = ({ data }: { data?: PricingData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#fafaf9] relative overflow-hidden">
+    <section className="py-8 lg:py-12 bg-[#fafaf9] relative overflow-hidden">
 
       {/* Background decorations (optional paw prints as seen in screenshot) */}
       <div className="absolute top-20 left-10 opacity-5 hidden lg:block">

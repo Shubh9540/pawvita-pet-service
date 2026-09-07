@@ -29,7 +29,7 @@ export const GalleryVideos = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#f8f9f9] relative">
+    <section className="py-8 lg:py-12 bg-[#f8f9f9] relative">
       {/* Background Decorators */}
       <div className="absolute top-20 left-10 text-white opacity-50 transform -rotate-12 pointer-events-none">
         <FaPaw className="text-8xl" />

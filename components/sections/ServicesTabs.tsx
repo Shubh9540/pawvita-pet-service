@@ -27,7 +27,7 @@ export const ServicesTabs = ({ data }: { data?: ServicesData }) => {
   const activeService = data.services.find(s => s.id === activeTab) || data.services[0];
 
   return (
-    <section className="py-16 lg:py-24 bg-[#f8fcfc]">
+    <section className="py-8 lg:py-12 bg-[#f8fcfc]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
           

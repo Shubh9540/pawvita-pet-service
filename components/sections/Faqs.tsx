@@ -25,7 +25,7 @@ export const Faqs = ({ data }: { data?: FaqsData }) => {
   };
 
   return (
-    <section className="py-10 lg:py-20 bg-[#fafafa] relative overflow-hidden">
+    <section className="py-10 lg:py-10 bg-[#fafafa] relative overflow-hidden">
       {/* Background Decorators */}
       <PawMark className="top-10 left-10 text-9xl rotate-12 opacity-[0.03]" />
       <PawMark className="bottom-20 right-10 text-8xl -rotate-12 opacity-[0.03]" />

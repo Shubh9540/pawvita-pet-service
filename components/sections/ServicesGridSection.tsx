@@ -22,7 +22,7 @@ export const ServicesGridSection = ({ data }: { data?: ServicesData }) => {
   if (!data || !data.services || data.services.length === 0) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#f8fcfc]">
+    <section className="py-8 lg:py-12 bg-[#f8fcfc]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {data.services.map((service) => (

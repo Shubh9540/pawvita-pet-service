@@ -19,7 +19,7 @@ export const HeroBanner = ({ data }: { data?: HeroData }) => {
 
   return (
     <section 
-      className="relative w-full bg-cover bg-center min-h-[32rem] lg:min-h-[36rem] flex items-center bg-[#f4f2ee] py-12 lg:py-16"
+      className="relative w-full bg-cover bg-center min-h-[32rem] lg:min-h-[36rem] flex items-center bg-[#f4f2ee] py-8 lg:py-12"
       style={{ backgroundImage: `url('${data.bgImage}')` }}
     >
       {/* Mobile/Tablet Gradient Overlay for Legibility */}

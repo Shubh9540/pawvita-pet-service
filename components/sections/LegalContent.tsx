@@ -10,7 +10,7 @@ export const LegalContent = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <article className="py-16 lg:py-24 bg-white relative">
+    <article className="py-8 lg:py-12 bg-white relative">
       <div className="w-full max-w-[1250px] mx-auto px-4 lg:px-6 relative z-10">
         
         {/* Header Section */}

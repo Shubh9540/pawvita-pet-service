@@ -19,7 +19,7 @@ export const AboutMissionLight = ({ data }: { data?: AboutMissionData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-12 lg:py-24 bg-white relative overflow-hidden text-gray-900">
+    <section className="py-8 lg:py-12 bg-white relative overflow-hidden text-gray-900">
       {/* Background watermark */}
       <div className="absolute top-10 left-10 text-[#0f9c9b]/10 text-[15rem] -rotate-12 pointer-events-none">
         <FaPaw />

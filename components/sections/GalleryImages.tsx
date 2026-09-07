@@ -41,7 +41,7 @@ export const GalleryImages = ({ data }: Props) => {
   };
 
   return (
-    <section className="py-16 lg:py-24 bg-white relative">
+    <section className="py-8 lg:py-12 bg-white relative">
       {/* Background Decorators */}
       <div className="absolute top-20 left-10 text-gray-50 opacity-50 transform -rotate-12 pointer-events-none">
         <FaPaw className="text-8xl" />

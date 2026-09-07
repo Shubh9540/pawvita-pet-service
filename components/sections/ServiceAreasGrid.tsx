@@ -15,7 +15,7 @@ export const ServiceAreasGrid = ({ data }: { data?: ServiceAreasData }) => {
 
   return (
     <section 
-      className="py-16 lg:py-24 w-full relative overflow-hidden bg-[#f8f9f9]"
+      className="py-8 lg:py-12 w-full relative overflow-hidden bg-[#f8f9f9]"
       style={data.bgImage ? { backgroundImage: `url('${data.bgImage}')`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}
     >
       {/* Background Decorators */}

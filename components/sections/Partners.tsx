@@ -11,7 +11,7 @@ export const Partners = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#f8f9f9] relative">
+    <section className="py-8 lg:py-12 bg-[#f8f9f9] relative">
       <div className="w-full max-w-screen-xl mx-auto px-4 lg:px-6 relative z-10">
         
         {/* Heading Section */}

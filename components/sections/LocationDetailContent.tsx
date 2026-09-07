@@ -24,7 +24,7 @@ export const LocationDetailContent = ({ currentLocation, allLocations }: Props) 
   if (!currentLocation || !allLocations) return null;
 
   return (
-    <section className="py-16 lg:py-24 w-full bg-white">
+    <section className="py-8 lg:py-12 w-full bg-white">
       <div className="w-full max-w-screen-2xl mx-auto px-4 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           

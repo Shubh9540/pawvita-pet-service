@@ -12,7 +12,7 @@ export const NotFoundContent = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="bg-white py-16 lg:py-24 relative overflow-hidden">
+    <section className="bg-white py-8 lg:py-12 relative overflow-hidden">
       <div className="w-full max-w-screen-xl mx-auto px-4 lg:px-6 relative z-10 flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20">
         
         {/* Left Side: Image with decorative background */}

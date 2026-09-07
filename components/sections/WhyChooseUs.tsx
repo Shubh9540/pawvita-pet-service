@@ -20,7 +20,7 @@ export const WhyChooseUs = ({ data }: { data?: WhyChooseUsData }) => {
   if (!data) return null;
 
   return (
-    <section className="relative py-16 lg:py-24 bg-white overflow-hidden">
+    <section className="relative py-8 lg:py-12 bg-white overflow-hidden">
       {/* Background Decorators */}
       <PawMark className="top-12 left-8 text-7xl rotate-12" />
       <PawMark className="bottom-20 right-10 text-9xl -rotate-12" />

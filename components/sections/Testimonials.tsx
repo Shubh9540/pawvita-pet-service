@@ -12,7 +12,7 @@ export const Testimonials = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#fdfcfb] relative overflow-hidden">
+    <section className="py-8 lg:py-12 bg-[#fdfcfb] relative overflow-hidden">
       {/* Background Decorators (Optional faint paws) */}
       <div className="absolute top-10 left-10 text-gray-100 opacity-50 transform -rotate-12 pointer-events-none">
         <FaPaw className="text-8xl" />

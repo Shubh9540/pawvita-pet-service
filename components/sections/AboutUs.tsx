@@ -19,22 +19,22 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-12 lg:py-24 bg-[#f4f7f6]">
+    <section className="py-8 lg:py-12 bg-[#f4f7f6]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column - Image with Badges */}
           <div className="w-full lg:w-5/12 relative rounded-3xl overflow-hidden">
             <div className="relative aspect-[3/4] w-full">
-              <Image 
-                src={data.image} 
-                alt={data.imageAlt} 
-                fill 
+              <Image
+                src={data.image}
+                alt={data.imageAlt}
+                fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
                 className="object-cover rounded-3xl"
               />
             </div>
-            
+
             {/* Trusted Badge */}
             <div className="absolute top-4 left-4 sm:top-6 sm:left-6 lg:top-8 lg:left-6 bg-[#00695c] text-white rounded-xl lg:rounded-2xl p-3 lg:p-4 shadow-lg w-28 sm:w-32 lg:w-40 z-10">
               <div className="flex -space-x-2 mb-2 lg:mb-3 justify-center">
@@ -72,12 +72,12 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
               {data.heading.icon && renderIcon(data.heading.icon)}
               {data.heading.title}
             </div>
-            
-            <h2 
+
+            <h2
               className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight"
               dangerouslySetInnerHTML={{ __html: data.title }}
             />
-            
+
             <p className="text-gray-600 text-base mb-10 leading-relaxed pr-4">
               {data.description}
             </p>
@@ -97,7 +97,7 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
             </div>
 
             {data.button && (
-              <Link 
+              <Link
                 href={data.button.url}
                 className="inline-flex items-center gap-3 bg-[#00695c] text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-[#004d40] transition-colors"
               >

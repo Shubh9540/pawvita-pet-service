@@ -34,7 +34,7 @@ export const ServiceDetailContent = ({ data, allItems = [], sidebarData }: Servi
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-white">
+    <section className="py-8 lg:py-12 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           

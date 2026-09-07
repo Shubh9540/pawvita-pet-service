@@ -42,7 +42,7 @@ export const SitemapPageContent = ({ data }: Props) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-24 bg-[#fcfdfd] relative overflow-hidden font-primary">
+    <section className="py-8 lg:py-12 bg-[#fcfdfd] relative overflow-hidden font-primary">
       {/* Decorative Paws in background */}
       <FaPaw className="absolute top-10 left-10 text-[#00695c]/5 text-6xl -rotate-12" />
       <FaPaw className="absolute top-20 right-20 text-[#00695c]/5 text-5xl rotate-45" />
