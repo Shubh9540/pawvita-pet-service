@@ -1,7 +1,52 @@
-import React from 'react';
+'use client';
+import React, { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { LocationDetailItem, LocationItem } from '@/types/templates.types';
 import { FaPaw, FaMapMarkerAlt, FaUsers, FaHospital, FaCertificate, FaUserMd, FaArrowRight } from 'react-icons/fa';
+
+// Parses "10K+" → { number: 10, suffix: "K+" }, "24/7" → null (static)
+const parseValue = (value: string): { number: number; suffix: string } | null => {
+  const match = value.match(/^(\d+\.?\d*)(.*)/);
+  if (!match) return null;
+  return { number: parseFloat(match[1]), suffix: match[2] };
+};
+
+const AnimatedStat = ({ value }: { value: string }) => {
+  const parsed = parseValue(value);
+  const [count, setCount] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const ref = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    if (!parsed) return;
+    const el = ref.current;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !hasAnimated) {
+          setHasAnimated(true);
+          const target = parsed.number;
+          const duration = 2000;
+          let startTimestamp: number | null = null;
+          const step = (timestamp: number) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            const ease = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+            setCount(Math.floor(ease * target));
+            if (progress < 1) window.requestAnimationFrame(step);
+            else setCount(target);
+          };
+          window.requestAnimationFrame(step);
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (el) observer.observe(el);
+    return () => { if (el) observer.unobserve(el); };
+  }, [hasAnimated, parsed]);
+
+  if (!parsed) return <span>{value}</span>;
+  return <span ref={ref}>{count}{parsed.suffix}</span>;
+};
 
 const renderIcon = (iconName: string, className?: string) => {
   switch (iconName) {
@@ -98,7 +143,7 @@ export const LocationDetailContent = ({ currentLocation, allLocations }: Props) 
                   </div>
                   <div>
                     <div className="text-gray-500 text-xs font-medium uppercase tracking-wider mb-1">{stat.title}</div>
-                    <div className="text-xl md:text-2xl font-bold text-[#051024]">{stat.value}</div>
+                    <div className="text-xl md:text-2xl font-bold text-[#051024]"><AnimatedStat value={stat.value} /></div>
                   </div>
                 </div>
               ))}

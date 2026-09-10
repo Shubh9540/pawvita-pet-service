@@ -30,14 +30,7 @@ export default function LocationsPage() {
       <Header data={sectionData.Header?.variants?.PawVitaHeader1} />
 
       {/* 3. Breadcrumb */}
-      <Breadcrumb data={{
-        title: 'Our Locations',
-        paths: [
-          { label: 'Home', url: '/' },
-          { label: 'Locations' }
-        ],
-        bgImage: '/banner/ban1.jpg'
-      }} />
+      <Breadcrumb data={commonData?.locationsBreadcrumb} />
 
       {/* 4. Service Areas Grid */}
       <ServiceAreasGrid data={sectionData.ServiceAreas?.variants?.PawVitaServiceAreas1} />

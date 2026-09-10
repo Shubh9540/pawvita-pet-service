@@ -116,6 +116,19 @@
       ],
       "bgImage": "/main logo/breadcrumb.webp"
     },
+    "locationsBreadcrumb": {
+      "title": "Service Areas",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Service Areas"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
+    },
     "locationDetailBreadcrumb": {
       "title": "Service Location",
       "paths": [
@@ -131,7 +144,7 @@
           "label": "Location"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "bookAppointmentBreadcrumb": {
       "title": "Book Appointment",
@@ -144,7 +157,7 @@
           "label": "Book Appointment"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "faqBreadcrumb": {
       "title": "Frequently Asked Questions",
@@ -157,7 +170,7 @@
           "label": "FAQ"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "faqsBreadcrumb": {
       "title": "Frequently Asked Questions",
@@ -170,7 +183,7 @@
           "label": "FAQs"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "testimonialsBreadcrumb": {
       "title": "Testimonials",
@@ -183,7 +196,7 @@
           "label": "Testimonials"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "galleryBreadcrumb": {
       "title": "Gallery",
@@ -196,7 +209,7 @@
           "label": "Gallery"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "partnersBreadcrumb": {
       "title": "Partners",
@@ -209,7 +222,7 @@
           "label": "Partners"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "blogBreadcrumb": {
       "title": "Our Blog",
@@ -222,7 +235,7 @@
           "label": "Blog"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "blogDetailBreadcrumb": {
       "title": "Blog Details",
@@ -239,7 +252,7 @@
           "label": "Blog Details"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "privacyPolicyBreadcrumb": {
       "title": "Privacy Policy",
@@ -252,7 +265,7 @@
           "label": "Privacy Policy"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "termsConditionsBreadcrumb": {
       "title": "Terms & Conditions",
@@ -265,7 +278,7 @@
           "label": "Terms & Conditions"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "disclaimerBreadcrumb": {
       "title": "Disclaimer",
@@ -278,7 +291,7 @@
           "label": "Disclaimer"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "cookiePolicyBreadcrumb": {
       "title": "Cookie Policy",
@@ -291,7 +304,7 @@
           "label": "Cookie Policy"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "sitemapBreadcrumb": {
       "title": "Sitemap",
@@ -304,7 +317,7 @@
           "label": "Sitemap"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
     },
     "contactBreadcrumb": {
       "title": "Contact Us",
@@ -317,7 +330,20 @@
           "label": "Contact Us"
         }
       ],
-      "bgImage": "/banner/ban1.jpg"
+      "bgImage": "/main logo/breadcrumb.webp"
+    },
+    "locationsBreadcrumb": {
+      "title": "Our Locations",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Locations"
+        }
+      ],
+      "bgImage": "/main logo/breadcrumb.webp"
     }
   },
   "categories": {
@@ -963,7 +989,7 @@
                     {
                       "id": "ul-faq",
                       "label": "Faq",
-                      "url": "/faq"
+                      "url": "/faqs"
                     }
                   ]
                 },

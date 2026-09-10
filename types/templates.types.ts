@@ -667,6 +667,7 @@ export interface PawVitaTemplateData {
     teamBreadcrumb?: BreadcrumbData;
     teamDetailBreadcrumb?: BreadcrumbData;
     pricingBreadcrumb?: BreadcrumbData;
+    locationsBreadcrumb?: BreadcrumbData;
     locationDetailBreadcrumb?: BreadcrumbData;
     bookAppointmentBreadcrumb?: BreadcrumbData;
     faqsBreadcrumb?: BreadcrumbData;

@@ -19,7 +19,9 @@ const renderIcon = (iconName: string) => {
 };
 
 export const Services = ({ data }: { data?: ServicesData }) => {
-  const [activeIndex, setActiveIndex] = useState<number | null>(0);
+  const [activeIndex, setActiveIndex] = useState<number | null>(
+    typeof window !== 'undefined' && window.innerWidth >= 1024 ? 0 : null
+  );
 
   if (!data) return null;
 
